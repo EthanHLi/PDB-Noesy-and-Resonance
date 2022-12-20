@@ -1,0 +1,13 @@
+read
+repre 5-14,35-53,62-76,81-84
+quit
+read
+help medoid
+repre 5-14,35-53,62-76,81-84 n,ca,co
+write
+ls
+quir
+read
+repre 5-14,35-53,62-76,81-84 n,ca,co
+write
+quit

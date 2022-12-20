@@ -1,0 +1,23 @@
+read coords pdb 
+help mediod
+help medoid
+repre 14-19,35-40,50-60,67 n,ca
+repre 14-19,35-40,50-60,67 n,ca,co
+quit
+read coords pdb 
+repr
+help medoid
+repre 14-19,35-40,50-60,67 n,ca,co
+quit
+read
+repre 14-19,35-40,50-60,67 n,ca,co
+repre 14-19,35-40,50-60,67 n,ca
+quit
+read coords pdb 
+repre 14-19,35-40,50-60,67 n,ca,co
+write
+quit
+read coords pdb AFall_2HEQ.pdb
+repre 14-19,35-40,50-60,67 n,ca,co
+write 
+quit

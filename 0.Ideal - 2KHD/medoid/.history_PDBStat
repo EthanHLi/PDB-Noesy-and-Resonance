@@ -1,0 +1,11 @@
+read
+write
+quit
+read
+repre 31-38,40-58,62,76-81,84-95 n,ca,co
+write
+quit
+read
+repre 31-38,40-58,62,76-81,84-95 n,ca,co
+write
+quit

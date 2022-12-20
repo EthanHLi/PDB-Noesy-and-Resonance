@@ -1,0 +1,9 @@
+read
+repre 12-54 n,ca,co
+write
+quit
+read
+repre 12-54 n,ca,co
+medoid
+write
+quit

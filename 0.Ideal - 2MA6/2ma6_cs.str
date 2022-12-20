@@ -1,0 +1,835 @@
+data_2ma6
+
+save_entry_information
+# 
+_Entry.Sf_category        entry_information 
+_Entry.ID                 2MA6 
+_Entry.Assigned_BMRB_ID   19329 
+# 
+loop_
+_Audit.Revision_ID 
+_Audit.Creation_date 
+_Audit.Update_record 
+_Audit.Creation_method 
+_Audit.Entry_ID 
+1 2013-07-17 'Nomenclature checked and updated'    . 2MA6 
+2 2013-07-17 'Preliminary version'                 . 2MA6 
+3 2013-07-18 'Chemical shifts checked and updated' . 2MA6 
+4 2013-07-31 'Initial release'                     . 2MA6 
+5 2013-08-05 'Nomenclature checked'                . 2MA6 
+6 2013-08-14 re-release                            . 2MA6 
+stop_
+save_
+save_chemical_shift_reference_1
+# 
+_Chem_shift_reference.Sf_category    chem_shift_reference 
+_Chem_shift_reference.Sf_framecode   chemical_shift_reference_1 
+_Chem_shift_reference.Entry_ID       2MA6 
+_Chem_shift_reference.ID             1 
+# 
+loop_
+_Chem_shift_ref.Atom_type 
+_Chem_shift_ref.Atom_isotope_number 
+_Chem_shift_ref.Mol_common_name 
+_Chem_shift_ref.Atom_group 
+_Chem_shift_ref.Concentration_val 
+_Chem_shift_ref.Concentration_units 
+_Chem_shift_ref.Solvent 
+_Chem_shift_ref.Rank 
+_Chem_shift_ref.Chem_shift_units 
+_Chem_shift_ref.Chem_shift_val 
+_Chem_shift_ref.Ref_method 
+_Chem_shift_ref.Ref_type 
+_Chem_shift_ref.Indirect_shift_ratio 
+_Chem_shift_ref.Entry_ID 
+_Chem_shift_ref.Chem_shift_reference_ID 
+H 1  DSS 'methyl protons' ? ? ? ? ppm 0.00 internal direct   1.000000000 2MA6 1 
+C 13 DSS 'methyl protons' ? ? ? ? ppm 0.00 na       indirect 0.251449530 2MA6 1 
+N 15 DSS 'methyl protons' ? ? ? ? ppm 0.00 na       indirect 0.101329118 2MA6 1 
+stop_
+save_
+save_assigned_chem_shift_list_1
+# 
+_Assigned_chem_shift_list.Sf_category                assigned_chemical_shifts 
+_Assigned_chem_shift_list.Sf_framecode               assigned_chem_shift_list_1 
+_Assigned_chem_shift_list.Entry_ID                   2MA6 
+_Assigned_chem_shift_list.ID                         1 
+_Assigned_chem_shift_list.Data_file_name             bmrb_3.1.txt 
+_Assigned_chem_shift_list.Sample_condition_list_ID   1 
+_Assigned_chem_shift_list.Chem_shift_reference_ID    1 
+# 
+loop_
+_Atom_chem_shift.ID 
+_Atom_chem_shift.Entity_assembly_ID 
+_Atom_chem_shift.Entity_ID 
+_Atom_chem_shift.Comp_index_ID 
+_Atom_chem_shift.Seq_ID 
+_Atom_chem_shift.Comp_ID 
+_Atom_chem_shift.Atom_ID 
+_Atom_chem_shift.Atom_type 
+_Atom_chem_shift.Atom_isotope_number 
+_Atom_chem_shift.Val 
+_Atom_chem_shift.Val_err 
+_Atom_chem_shift.Assign_fig_of_merit 
+_Atom_chem_shift.Ambiguity_code 
+_Atom_chem_shift.Occupancy 
+_Atom_chem_shift.Resonance_ID 
+_Atom_chem_shift.Auth_entity_assembly_ID 
+_Atom_chem_shift.Auth_asym_ID 
+_Atom_chem_shift.Auth_seq_ID 
+_Atom_chem_shift.Auth_comp_ID 
+_Atom_chem_shift.Auth_atom_ID 
+_Atom_chem_shift.Original_PDB_strand_ID 
+_Atom_chem_shift.Original_PDB_residue_no 
+_Atom_chem_shift.Original_PDB_residue_name 
+_Atom_chem_shift.Original_PDB_atom_name 
+_Atom_chem_shift.Details 
+_Atom_chem_shift.Entry_ID 
+_Atom_chem_shift.Assigned_chem_shift_list_ID 
+1   1 1 2  2  HIS HA   H 1  4.69  0.02 ? 1 ? ? . A 2  HIS HA   A 2  HIS HA   . 2MA6 ? 
+2   1 1 2  2  HIS HB2  H 1  3.11  0.02 ? 2 ? ? . A 2  HIS HB2  A 2  HIS HB2  . 2MA6 ? 
+3   1 1 2  2  HIS HB3  H 1  3.15  0.02 ? 2 ? ? . A 2  HIS HB3  A ?  ?   ?    . 2MA6 ? 
+4   1 1 2  2  HIS HD2  H 1  7.09  0.02 ? 1 ? ? . A 2  HIS HD2  A 2  HIS HD2  . 2MA6 ? 
+5   1 1 2  2  HIS HE1  H 1  8.09  0.02 ? 1 ? ? . A 2  HIS HE1  A 2  HIS HE1  . 2MA6 ? 
+6   1 1 2  2  HIS C    C 13 174.6 0.2  ? 1 ? ? . A 2  HIS C    A 2  HIS C    . 2MA6 ? 
+7   1 1 2  2  HIS CA   C 13 56.1  0.2  ? 1 ? ? . A 2  HIS CA   A 2  HIS CA   . 2MA6 ? 
+8   1 1 2  2  HIS CB   C 13 30.4  0.2  ? 1 ? ? . A 2  HIS CB   A 2  HIS CB   . 2MA6 ? 
+9   1 1 2  2  HIS CD2  C 13 119.9 0.2  ? 1 ? ? . A 2  HIS CD2  A 2  HIS CD2  . 2MA6 ? 
+10  1 1 2  2  HIS CE1  C 13 137.9 0.2  ? 1 ? ? . A 2  HIS CE1  A 2  HIS CE1  . 2MA6 ? 
+11  1 1 2  2  HIS ND1  N 15 206.7 0.2  ? 1 ? ? . A 2  HIS ND1  A 2  HIS ND1  . 2MA6 ? 
+12  1 1 2  2  HIS NE2  N 15 177.8 0.2  ? 1 ? ? . A 2  HIS NE2  A 2  HIS NE2  . 2MA6 ? 
+13  1 1 3  3  MET H    H 1  8.42  0.02 ? 1 ? ? . A 3  MET H    A ?  ?   ?    . 2MA6 ? 
+14  1 1 3  3  MET HA   H 1  4.78  0.02 ? 1 ? ? . A 3  MET HA   A 3  MET HA   . 2MA6 ? 
+15  1 1 3  3  MET HB2  H 1  1.92  0.02 ? 2 ? ? . A 3  MET HB2  A 3  MET HB2  . 2MA6 ? 
+16  1 1 3  3  MET HB3  H 1  2.04  0.02 ? 2 ? ? . A 3  MET HB3  A ?  ?   ?    . 2MA6 ? 
+17  1 1 3  3  MET HG2  H 1  2.50  0.02 ? 2 ? ? . A 3  MET HG2  A 3  MET HG2  . 2MA6 ? 
+18  1 1 3  3  MET HG3  H 1  2.59  0.02 ? 2 ? ? . A 3  MET HG3  A ?  ?   ?    . 2MA6 ? 
+19  1 1 3  3  MET CA   C 13 53.1  0.2  ? 1 ? ? . A 3  MET CA   A 3  MET CA   . 2MA6 ? 
+20  1 1 3  3  MET CB   C 13 32.1  0.2  ? 1 ? ? . A 3  MET CB   A 3  MET CB   . 2MA6 ? 
+21  1 1 3  3  MET CG   C 13 32.1  0.2  ? 1 ? ? . A 3  MET CG   A 3  MET CG   . 2MA6 ? 
+22  1 1 3  3  MET N    N 15 123.8 0.2  ? 1 ? ? . A 3  MET N    A 3  MET N    . 2MA6 ? 
+23  1 1 4  4  PRO HA   H 1  4.50  0.02 ? 1 ? ? . A 4  PRO HA   A 4  PRO HA   . 2MA6 ? 
+24  1 1 4  4  PRO HB2  H 1  1.96  0.02 ? 2 ? ? . A 4  PRO HB2  A 4  PRO HB2  . 2MA6 ? 
+25  1 1 4  4  PRO HB3  H 1  2.31  0.02 ? 2 ? ? . A 4  PRO HB3  A ?  ?   ?    . 2MA6 ? 
+26  1 1 4  4  PRO HG2  H 1  1.99  0.02 ? 2 ? ? . A 4  PRO HG2  A 4  PRO HG2  . 2MA6 ? 
+27  1 1 4  4  PRO HG3  H 1  2.02  0.02 ? 2 ? ? . A 4  PRO HG3  A ?  ?   ?    . 2MA6 ? 
+28  1 1 4  4  PRO HD2  H 1  3.69  0.02 ? 2 ? ? . A 4  PRO HD2  A 4  PRO HD2  . 2MA6 ? 
+29  1 1 4  4  PRO HD3  H 1  3.79  0.02 ? 2 ? ? . A 4  PRO HD3  A ?  ?   ?    . 2MA6 ? 
+30  1 1 4  4  PRO C    C 13 177.0 0.2  ? 1 ? ? . A 4  PRO C    A 4  PRO C    . 2MA6 ? 
+31  1 1 4  4  PRO CA   C 13 63.2  0.2  ? 1 ? ? . A 4  PRO CA   A 4  PRO CA   . 2MA6 ? 
+32  1 1 4  4  PRO CB   C 13 32.1  0.2  ? 1 ? ? . A 4  PRO CB   A 4  PRO CB   . 2MA6 ? 
+33  1 1 4  4  PRO CG   C 13 27.4  0.2  ? 1 ? ? . A 4  PRO CG   A 4  PRO CG   . 2MA6 ? 
+34  1 1 4  4  PRO CD   C 13 50.7  0.2  ? 1 ? ? . A 4  PRO CD   A 4  PRO CD   . 2MA6 ? 
+35  1 1 5  5  THR H    H 1  8.27  0.02 ? 1 ? ? . A 5  THR H    A ?  ?   ?    . 2MA6 ? 
+36  1 1 5  5  THR HA   H 1  4.38  0.02 ? 1 ? ? . A 5  THR HA   A 5  THR HA   . 2MA6 ? 
+37  1 1 5  5  THR HB   H 1  4.25  0.02 ? 1 ? ? . A 5  THR HB   A 5  THR HB   . 2MA6 ? 
+38  1 1 5  5  THR HG21 H 1  1.23  0.02 ? 1 ? ? . A 5  THR HG21 A 5  THR HG21 . 2MA6 ? 
+39  1 1 5  5  THR HG22 H 1  1.23  0.02 ? 1 ? ? . A 5  THR HG22 A 5  THR HG22 . 2MA6 ? 
+40  1 1 5  5  THR HG23 H 1  1.23  0.02 ? 1 ? ? . A 5  THR HG23 A 5  THR HG23 . 2MA6 ? 
+41  1 1 5  5  THR C    C 13 174.6 0.2  ? 1 ? ? . A 5  THR C    A 5  THR C    . 2MA6 ? 
+42  1 1 5  5  THR CA   C 13 61.6  0.2  ? 1 ? ? . A 5  THR CA   A 5  THR CA   . 2MA6 ? 
+43  1 1 5  5  THR CB   C 13 69.9  0.2  ? 1 ? ? . A 5  THR CB   A 5  THR CB   . 2MA6 ? 
+44  1 1 5  5  THR CG2  C 13 21.7  0.2  ? 1 ? ? . A 5  THR CG2  A 5  THR CG2  . 2MA6 ? 
+45  1 1 5  5  THR N    N 15 114.5 0.2  ? 1 ? ? . A 5  THR N    A 5  THR N    . 2MA6 ? 
+46  1 1 6  6  SER H    H 1  8.47  0.02 ? 1 ? ? . A 6  SER H    A ?  ?   ?    . 2MA6 ? 
+47  1 1 6  6  SER HA   H 1  4.50  0.02 ? 1 ? ? . A 6  SER HA   A 6  SER HA   . 2MA6 ? 
+48  1 1 6  6  SER HB2  H 1  3.89  0.02 ? 2 ? ? . A 6  SER HB2  A 6  SER HB2  . 2MA6 ? 
+49  1 1 6  6  SER HB3  H 1  3.94  0.02 ? 2 ? ? . A 6  SER HB3  A ?  ?   ?    . 2MA6 ? 
+50  1 1 6  6  SER C    C 13 174.9 0.2  ? 1 ? ? . A 6  SER C    A 6  SER C    . 2MA6 ? 
+51  1 1 6  6  SER CA   C 13 58.3  0.2  ? 1 ? ? . A 6  SER CA   A 6  SER CA   . 2MA6 ? 
+52  1 1 6  6  SER CB   C 13 63.9  0.2  ? 1 ? ? . A 6  SER CB   A 6  SER CB   . 2MA6 ? 
+53  1 1 6  6  SER N    N 15 118.2 0.2  ? 1 ? ? . A 6  SER N    A 6  SER N    . 2MA6 ? 
+54  1 1 7  7  GLU H    H 1  8.61  0.02 ? 1 ? ? . A 7  GLU H    A ?  ?   ?    . 2MA6 ? 
+55  1 1 7  7  GLU HA   H 1  4.25  0.02 ? 1 ? ? . A 7  GLU HA   A 7  GLU HA   . 2MA6 ? 
+56  1 1 7  7  GLU HB2  H 1  1.95  0.02 ? 2 ? ? . A 7  GLU HB2  A 7  GLU HB2  . 2MA6 ? 
+57  1 1 7  7  GLU HB3  H 1  2.10  0.02 ? 2 ? ? . A 7  GLU HB3  A ?  ?   ?    . 2MA6 ? 
+58  1 1 7  7  GLU HG2  H 1  2.28  0.02 ? 2 ? ? . A 7  GLU HG2  A 7  GLU HG2  . 2MA6 ? 
+59  1 1 7  7  GLU HG3  H 1  2.28  0.02 ? 2 ? ? . A 7  GLU HG3  A ?  ?   ?    . 2MA6 ? 
+60  1 1 7  7  GLU C    C 13 176.9 0.2  ? 1 ? ? . A 7  GLU C    A 7  GLU C    . 2MA6 ? 
+61  1 1 7  7  GLU CA   C 13 57.4  0.2  ? 1 ? ? . A 7  GLU CA   A 7  GLU CA   . 2MA6 ? 
+62  1 1 7  7  GLU CB   C 13 30.0  0.2  ? 1 ? ? . A 7  GLU CB   A 7  GLU CB   . 2MA6 ? 
+63  1 1 7  7  GLU CG   C 13 36.3  0.2  ? 1 ? ? . A 7  GLU CG   A 7  GLU CG   . 2MA6 ? 
+64  1 1 7  7  GLU N    N 15 123.1 0.2  ? 1 ? ? . A 7  GLU N    A 7  GLU N    . 2MA6 ? 
+65  1 1 8  8  GLU H    H 1  8.39  0.02 ? 1 ? ? . A 8  GLU H    A ?  ?   ?    . 2MA6 ? 
+66  1 1 8  8  GLU HA   H 1  4.25  0.02 ? 1 ? ? . A 8  GLU HA   A 8  GLU HA   . 2MA6 ? 
+67  1 1 8  8  GLU HB2  H 1  1.95  0.02 ? 2 ? ? . A 8  GLU HB2  A 8  GLU HB2  . 2MA6 ? 
+68  1 1 8  8  GLU HB3  H 1  2.06  0.02 ? 2 ? ? . A 8  GLU HB3  A ?  ?   ?    . 2MA6 ? 
+69  1 1 8  8  GLU HG2  H 1  2.27  0.02 ? 2 ? ? . A 8  GLU HG2  A 8  GLU HG2  . 2MA6 ? 
+70  1 1 8  8  GLU HG3  H 1  2.27  0.02 ? 2 ? ? . A 8  GLU HG3  A ?  ?   ?    . 2MA6 ? 
+71  1 1 8  8  GLU C    C 13 176.1 0.2  ? 1 ? ? . A 8  GLU C    A 8  GLU C    . 2MA6 ? 
+72  1 1 8  8  GLU CA   C 13 57.2  0.2  ? 1 ? ? . A 8  GLU CA   A 8  GLU CA   . 2MA6 ? 
+73  1 1 8  8  GLU CB   C 13 30.2  0.2  ? 1 ? ? . A 8  GLU CB   A 8  GLU CB   . 2MA6 ? 
+74  1 1 8  8  GLU CG   C 13 36.3  0.2  ? 1 ? ? . A 8  GLU CG   A 8  GLU CG   . 2MA6 ? 
+75  1 1 8  8  GLU N    N 15 120.2 0.2  ? 1 ? ? . A 8  GLU N    A 8  GLU N    . 2MA6 ? 
+76  1 1 9  9  ASP H    H 1  8.31  0.02 ? 1 ? ? . A 9  ASP H    A ?  ?   ?    . 2MA6 ? 
+77  1 1 9  9  ASP HA   H 1  4.69  0.02 ? 1 ? ? . A 9  ASP HA   A 9  ASP HA   . 2MA6 ? 
+78  1 1 9  9  ASP HB2  H 1  2.65  0.02 ? 2 ? ? . A 9  ASP HB2  A 9  ASP HB2  . 2MA6 ? 
+79  1 1 9  9  ASP HB3  H 1  2.84  0.02 ? 2 ? ? . A 9  ASP HB3  A ?  ?   ?    . 2MA6 ? 
+80  1 1 9  9  ASP C    C 13 175.3 0.2  ? 1 ? ? . A 9  ASP C    A 9  ASP C    . 2MA6 ? 
+81  1 1 9  9  ASP CA   C 13 54.2  0.2  ? 1 ? ? . A 9  ASP CA   A 9  ASP CA   . 2MA6 ? 
+82  1 1 9  9  ASP CB   C 13 41.3  0.2  ? 1 ? ? . A 9  ASP CB   A 9  ASP CB   . 2MA6 ? 
+83  1 1 9  9  ASP N    N 15 120.3 0.2  ? 1 ? ? . A 9  ASP N    A 9  ASP N    . 2MA6 ? 
+84  1 1 10 10 LEU H    H 1  7.75  0.02 ? 1 ? ? . A 10 LEU H    A ?  ?   ?    . 2MA6 ? 
+85  1 1 10 10 LEU HA   H 1  4.25  0.02 ? 1 ? ? . A 10 LEU HA   A 10 LEU HA   . 2MA6 ? 
+86  1 1 10 10 LEU HB2  H 1  1.14  0.02 ? 2 ? ? . A 10 LEU HB2  A 10 LEU HB2  . 2MA6 ? 
+87  1 1 10 10 LEU HB3  H 1  1.64  0.02 ? 2 ? ? . A 10 LEU HB3  A ?  ?   ?    . 2MA6 ? 
+88  1 1 10 10 LEU HG   H 1  1.55  0.02 ? 1 ? ? . A 10 LEU HG   A 10 LEU HG   . 2MA6 ? 
+89  1 1 10 10 LEU HD11 H 1  0.74  0.02 ? 1 ? ? . A 10 LEU HD11 A 10 LEU HD11 . 2MA6 ? 
+90  1 1 10 10 LEU HD12 H 1  0.74  0.02 ? 1 ? ? . A 10 LEU HD12 A 10 LEU HD12 . 2MA6 ? 
+91  1 1 10 10 LEU HD13 H 1  0.74  0.02 ? 1 ? ? . A 10 LEU HD13 A 10 LEU HD13 . 2MA6 ? 
+92  1 1 10 10 LEU HD21 H 1  0.60  0.02 ? 1 ? ? . A 10 LEU HD21 A 10 LEU HD21 . 2MA6 ? 
+93  1 1 10 10 LEU HD22 H 1  0.60  0.02 ? 1 ? ? . A 10 LEU HD22 A 10 LEU HD22 . 2MA6 ? 
+94  1 1 10 10 LEU HD23 H 1  0.60  0.02 ? 1 ? ? . A 10 LEU HD23 A 10 LEU HD23 . 2MA6 ? 
+95  1 1 10 10 LEU C    C 13 175.9 0.2  ? 1 ? ? . A 10 LEU C    A 10 LEU C    . 2MA6 ? 
+96  1 1 10 10 LEU CA   C 13 54.4  0.2  ? 1 ? ? . A 10 LEU CA   A 10 LEU CA   . 2MA6 ? 
+97  1 1 10 10 LEU CB   C 13 44.3  0.2  ? 1 ? ? . A 10 LEU CB   A 10 LEU CB   . 2MA6 ? 
+98  1 1 10 10 LEU CG   C 13 26.5  0.2  ? 1 ? ? . A 10 LEU CG   A 10 LEU CG   . 2MA6 ? 
+99  1 1 10 10 LEU CD1  C 13 24.8  0.2  ? 1 ? ? . A 10 LEU CD1  A 10 LEU CD1  . 2MA6 ? 
+100 1 1 10 10 LEU CD2  C 13 23.1  0.2  ? 1 ? ? . A 10 LEU CD2  A 10 LEU CD2  . 2MA6 ? 
+101 1 1 10 10 LEU N    N 15 120.8 0.2  ? 1 ? ? . A 10 LEU N    A 10 LEU N    . 2MA6 ? 
+102 1 1 11 11 CYS H    H 1  8.66  0.02 ? 1 ? ? . A 11 CYS H    A ?  ?   ?    . 2MA6 ? 
+103 1 1 11 11 CYS HA   H 1  4.18  0.02 ? 1 ? ? . A 11 CYS HA   A 11 CYS HA   . 2MA6 ? 
+104 1 1 11 11 CYS HB2  H 1  2.81  0.02 ? 2 ? ? . A 11 CYS HB2  A 11 CYS HB2  . 2MA6 ? 
+105 1 1 11 11 CYS HB3  H 1  3.55  0.02 ? 2 ? ? . A 11 CYS HB3  A ?  ?   ?    . 2MA6 ? 
+106 1 1 11 11 CYS CA   C 13 57.3  0.2  ? 1 ? ? . A 11 CYS CA   A 11 CYS CA   . 2MA6 ? 
+107 1 1 11 11 CYS CB   C 13 32.1  0.2  ? 1 ? ? . A 11 CYS CB   A 11 CYS CB   . 2MA6 ? 
+108 1 1 11 11 CYS N    N 15 123.9 0.2  ? 1 ? ? . A 11 CYS N    A 11 CYS N    . 2MA6 ? 
+109 1 1 12 12 PRO HA   H 1  4.06  0.02 ? 1 ? ? . A 12 PRO HA   A 12 PRO HA   . 2MA6 ? 
+110 1 1 12 12 PRO HB2  H 1  2.13  0.02 ? 2 ? ? . A 12 PRO HB2  A 12 PRO HB2  . 2MA6 ? 
+111 1 1 12 12 PRO HB3  H 1  2.24  0.02 ? 2 ? ? . A 12 PRO HB3  A ?  ?   ?    . 2MA6 ? 
+112 1 1 12 12 PRO HG2  H 1  1.97  0.02 ? 2 ? ? . A 12 PRO HG2  A 12 PRO HG2  . 2MA6 ? 
+113 1 1 12 12 PRO HG3  H 1  2.09  0.02 ? 2 ? ? . A 12 PRO HG3  A ?  ?   ?    . 2MA6 ? 
+114 1 1 12 12 PRO HD2  H 1  3.92  0.02 ? 2 ? ? . A 12 PRO HD2  A 12 PRO HD2  . 2MA6 ? 
+115 1 1 12 12 PRO HD3  H 1  3.87  0.02 ? 2 ? ? . A 12 PRO HD3  A ?  ?   ?    . 2MA6 ? 
+116 1 1 12 12 PRO C    C 13 174.9 0.2  ? 1 ? ? . A 12 PRO C    A 12 PRO C    . 2MA6 ? 
+117 1 1 12 12 PRO CA   C 13 63.0  0.2  ? 1 ? ? . A 12 PRO CA   A 12 PRO CA   . 2MA6 ? 
+118 1 1 12 12 PRO CB   C 13 31.3  0.2  ? 1 ? ? . A 12 PRO CB   A 12 PRO CB   . 2MA6 ? 
+119 1 1 12 12 PRO CG   C 13 27.5  0.2  ? 1 ? ? . A 12 PRO CG   A 12 PRO CG   . 2MA6 ? 
+120 1 1 12 12 PRO CD   C 13 51.0  0.2  ? 1 ? ? . A 12 PRO CD   A 12 PRO CD   . 2MA6 ? 
+121 1 1 13 13 ILE H    H 1  8.74  0.02 ? 1 ? ? . A 13 ILE H    A ?  ?   ?    . 2MA6 ? 
+122 1 1 13 13 ILE HA   H 1  3.93  0.02 ? 1 ? ? . A 13 ILE HA   A 13 ILE HA   . 2MA6 ? 
+123 1 1 13 13 ILE HB   H 1  2.32  0.02 ? 1 ? ? . A 13 ILE HB   A 13 ILE HB   . 2MA6 ? 
+124 1 1 13 13 ILE HG12 H 1  0.62  0.02 ? 2 ? ? . A 13 ILE HG12 A 13 ILE HG12 . 2MA6 ? 
+125 1 1 13 13 ILE HG13 H 1  0.69  0.02 ? 2 ? ? . A 13 ILE HG13 A ?  ?   ?    . 2MA6 ? 
+126 1 1 13 13 ILE HG21 H 1  0.48  0.02 ? 1 ? ? . A 13 ILE HG21 A 13 ILE HG21 . 2MA6 ? 
+127 1 1 13 13 ILE HG22 H 1  0.48  0.02 ? 1 ? ? . A 13 ILE HG22 A 13 ILE HG22 . 2MA6 ? 
+128 1 1 13 13 ILE HG23 H 1  0.48  0.02 ? 1 ? ? . A 13 ILE HG23 A 13 ILE HG23 . 2MA6 ? 
+129 1 1 13 13 ILE HD11 H 1  -0.05 0.02 ? 1 ? ? . A 13 ILE HD11 A 13 ILE HD11 . 2MA6 ? 
+130 1 1 13 13 ILE HD12 H 1  -0.05 0.02 ? 1 ? ? . A 13 ILE HD12 A 13 ILE HD12 . 2MA6 ? 
+131 1 1 13 13 ILE HD13 H 1  -0.05 0.02 ? 1 ? ? . A 13 ILE HD13 A 13 ILE HD13 . 2MA6 ? 
+132 1 1 13 13 ILE C    C 13 176.8 0.2  ? 1 ? ? . A 13 ILE C    A 13 ILE C    . 2MA6 ? 
+133 1 1 13 13 ILE CA   C 13 62.2  0.2  ? 1 ? ? . A 13 ILE CA   A 13 ILE CA   . 2MA6 ? 
+134 1 1 13 13 ILE CB   C 13 35.5  0.2  ? 1 ? ? . A 13 ILE CB   A 13 ILE CB   . 2MA6 ? 
+135 1 1 13 13 ILE CG1  C 13 26.7  0.2  ? 1 ? ? . A 13 ILE CG1  A 13 ILE CG1  . 2MA6 ? 
+136 1 1 13 13 ILE CG2  C 13 17.3  0.2  ? 1 ? ? . A 13 ILE CG2  A 13 ILE CG2  . 2MA6 ? 
+137 1 1 13 13 ILE CD1  C 13 10.1  0.2  ? 1 ? ? . A 13 ILE CD1  A 13 ILE CD1  . 2MA6 ? 
+138 1 1 13 13 ILE N    N 15 121.3 0.2  ? 1 ? ? . A 13 ILE N    A 13 ILE N    . 2MA6 ? 
+139 1 1 14 14 CYS H    H 1  7.74  0.02 ? 1 ? ? . A 14 CYS H    A ?  ?   ?    . 2MA6 ? 
+140 1 1 14 14 CYS HA   H 1  4.69  0.02 ? 1 ? ? . A 14 CYS HA   A 14 CYS HA   . 2MA6 ? 
+141 1 1 14 14 CYS HB2  H 1  2.72  0.02 ? 2 ? ? . A 14 CYS HB2  A 14 CYS HB2  . 2MA6 ? 
+142 1 1 14 14 CYS HB3  H 1  3.10  0.02 ? 2 ? ? . A 14 CYS HB3  A ?  ?   ?    . 2MA6 ? 
+143 1 1 14 14 CYS C    C 13 175.7 0.2  ? 1 ? ? . A 14 CYS C    A 14 CYS C    . 2MA6 ? 
+144 1 1 14 14 CYS CA   C 13 58.0  0.2  ? 1 ? ? . A 14 CYS CA   A 14 CYS CA   . 2MA6 ? 
+145 1 1 14 14 CYS CB   C 13 32.7  0.2  ? 1 ? ? . A 14 CYS CB   A 14 CYS CB   . 2MA6 ? 
+146 1 1 14 14 CYS N    N 15 116.2 0.2  ? 1 ? ? . A 14 CYS N    A 14 CYS N    . 2MA6 ? 
+147 1 1 15 15 TYR H    H 1  8.28  0.02 ? 1 ? ? . A 15 TYR H    A ?  ?   ?    . 2MA6 ? 
+148 1 1 15 15 TYR HA   H 1  4.18  0.02 ? 1 ? ? . A 15 TYR HA   A 15 TYR HA   . 2MA6 ? 
+149 1 1 15 15 TYR HB2  H 1  2.92  0.02 ? 2 ? ? . A 15 TYR HB2  A 15 TYR HB2  . 2MA6 ? 
+150 1 1 15 15 TYR HB3  H 1  3.37  0.02 ? 2 ? ? . A 15 TYR HB3  A ?  ?   ?    . 2MA6 ? 
+151 1 1 15 15 TYR HD1  H 1  6.93  0.02 ? 3 ? ? . A 15 TYR HD1  A 15 TYR HD1  . 2MA6 ? 
+152 1 1 15 15 TYR HD2  H 1  6.93  0.02 ? 3 ? ? . A 15 TYR HD2  A 15 TYR HD2  . 2MA6 ? 
+153 1 1 15 15 TYR HE1  H 1  6.78  0.02 ? 3 ? ? . A 15 TYR HE1  A 15 TYR HE1  . 2MA6 ? 
+154 1 1 15 15 TYR HE2  H 1  6.78  0.02 ? 3 ? ? . A 15 TYR HE2  A 15 TYR HE2  . 2MA6 ? 
+155 1 1 15 15 TYR C    C 13 175.3 0.2  ? 1 ? ? . A 15 TYR C    A 15 TYR C    . 2MA6 ? 
+156 1 1 15 15 TYR CA   C 13 60.5  0.2  ? 1 ? ? . A 15 TYR CA   A 15 TYR CA   . 2MA6 ? 
+157 1 1 15 15 TYR CB   C 13 36.4  0.2  ? 1 ? ? . A 15 TYR CB   A 15 TYR CB   . 2MA6 ? 
+158 1 1 15 15 TYR CD1  C 13 133.1 0.2  ? 3 ? ? . A 15 TYR CD1  A 15 TYR CD1  . 2MA6 ? 
+159 1 1 15 15 TYR CD2  C 13 133.1 0.2  ? 3 ? ? . A 15 TYR CD2  A 15 TYR CD2  . 2MA6 ? 
+160 1 1 15 15 TYR CE1  C 13 118.3 0.2  ? 3 ? ? . A 15 TYR CE1  A 15 TYR CE1  . 2MA6 ? 
+161 1 1 15 15 TYR CE2  C 13 118.3 0.2  ? 3 ? ? . A 15 TYR CE2  A 15 TYR CE2  . 2MA6 ? 
+162 1 1 15 15 TYR N    N 15 121.7 0.2  ? 1 ? ? . A 15 TYR N    A 15 TYR N    . 2MA6 ? 
+163 1 1 16 16 ALA H    H 1  8.82  0.02 ? 1 ? ? . A 16 ALA H    A ?  ?   ?    . 2MA6 ? 
+164 1 1 16 16 ALA HA   H 1  4.64  0.02 ? 1 ? ? . A 16 ALA HA   A 16 ALA HA   . 2MA6 ? 
+165 1 1 16 16 ALA HB1  H 1  1.22  0.02 ? 1 ? ? . A 16 ALA HB1  A 16 ALA HB1  . 2MA6 ? 
+166 1 1 16 16 ALA HB2  H 1  1.22  0.02 ? 1 ? ? . A 16 ALA HB2  A 16 ALA HB2  . 2MA6 ? 
+167 1 1 16 16 ALA HB3  H 1  1.22  0.02 ? 1 ? ? . A 16 ALA HB3  A 16 ALA HB3  . 2MA6 ? 
+168 1 1 16 16 ALA C    C 13 176.1 0.2  ? 1 ? ? . A 16 ALA C    A 16 ALA C    . 2MA6 ? 
+169 1 1 16 16 ALA CA   C 13 52.5  0.2  ? 1 ? ? . A 16 ALA CA   A 16 ALA CA   . 2MA6 ? 
+170 1 1 16 16 ALA CB   C 13 21.0  0.2  ? 1 ? ? . A 16 ALA CB   A 16 ALA CB   . 2MA6 ? 
+171 1 1 16 16 ALA N    N 15 120.3 0.2  ? 1 ? ? . A 16 ALA N    A 16 ALA N    . 2MA6 ? 
+172 1 1 17 17 HIS H    H 1  7.29  0.02 ? 1 ? ? . A 17 HIS H    A ?  ?   ?    . 2MA6 ? 
+173 1 1 17 17 HIS HA   H 1  5.22  0.02 ? 1 ? ? . A 17 HIS HA   A 17 HIS HA   . 2MA6 ? 
+174 1 1 17 17 HIS HB2  H 1  3.15  0.02 ? 2 ? ? . A 17 HIS HB2  A 17 HIS HB2  . 2MA6 ? 
+175 1 1 17 17 HIS HB3  H 1  3.39  0.02 ? 2 ? ? . A 17 HIS HB3  A ?  ?   ?    . 2MA6 ? 
+176 1 1 17 17 HIS HD2  H 1  7.74  0.02 ? 1 ? ? . A 17 HIS HD2  A 17 HIS HD2  . 2MA6 ? 
+177 1 1 17 17 HIS HE1  H 1  8.39  0.02 ? 1 ? ? . A 17 HIS HE1  A 17 HIS HE1  . 2MA6 ? 
+178 1 1 17 17 HIS CA   C 13 52.7  0.2  ? 1 ? ? . A 17 HIS CA   A 17 HIS CA   . 2MA6 ? 
+179 1 1 17 17 HIS CB   C 13 32.0  0.2  ? 1 ? ? . A 17 HIS CB   A 17 HIS CB   . 2MA6 ? 
+180 1 1 17 17 HIS CD2  C 13 121.9 0.2  ? 1 ? ? . A 17 HIS CD2  A 17 HIS CD2  . 2MA6 ? 
+181 1 1 17 17 HIS CE1  C 13 136.7 0.2  ? 1 ? ? . A 17 HIS CE1  A 17 HIS CE1  . 2MA6 ? 
+182 1 1 17 17 HIS N    N 15 116.7 0.2  ? 1 ? ? . A 17 HIS N    A 17 HIS N    . 2MA6 ? 
+183 1 1 17 17 HIS ND1  N 15 190.5 0.2  ? 1 ? ? . A 17 HIS ND1  A 17 HIS ND1  . 2MA6 ? 
+184 1 1 17 17 HIS NE2  N 15 178.4 0.2  ? 1 ? ? . A 17 HIS NE2  A 17 HIS NE2  . 2MA6 ? 
+185 1 1 18 18 PRO HA   H 1  4.83  0.02 ? 1 ? ? . A 18 PRO HA   A 18 PRO HA   . 2MA6 ? 
+186 1 1 18 18 PRO HB2  H 1  1.97  0.02 ? 2 ? ? . A 18 PRO HB2  A 18 PRO HB2  . 2MA6 ? 
+187 1 1 18 18 PRO HB3  H 1  2.46  0.02 ? 2 ? ? . A 18 PRO HB3  A ?  ?   ?    . 2MA6 ? 
+188 1 1 18 18 PRO HG2  H 1  2.09  0.02 ? 2 ? ? . A 18 PRO HG2  A 18 PRO HG2  . 2MA6 ? 
+189 1 1 18 18 PRO HG3  H 1  2.15  0.02 ? 2 ? ? . A 18 PRO HG3  A ?  ?   ?    . 2MA6 ? 
+190 1 1 18 18 PRO HD2  H 1  3.79  0.02 ? 2 ? ? . A 18 PRO HD2  A 18 PRO HD2  . 2MA6 ? 
+191 1 1 18 18 PRO HD3  H 1  3.99  0.02 ? 2 ? ? . A 18 PRO HD3  A ?  ?   ?    . 2MA6 ? 
+192 1 1 18 18 PRO C    C 13 176.8 0.2  ? 1 ? ? . A 18 PRO C    A 18 PRO C    . 2MA6 ? 
+193 1 1 18 18 PRO CA   C 13 62.3  0.2  ? 1 ? ? . A 18 PRO CA   A 18 PRO CA   . 2MA6 ? 
+194 1 1 18 18 PRO CB   C 13 32.4  0.2  ? 1 ? ? . A 18 PRO CB   A 18 PRO CB   . 2MA6 ? 
+195 1 1 18 18 PRO CG   C 13 27.6  0.2  ? 1 ? ? . A 18 PRO CG   A 18 PRO CG   . 2MA6 ? 
+196 1 1 18 18 PRO CD   C 13 50.8  0.2  ? 1 ? ? . A 18 PRO CD   A 18 PRO CD   . 2MA6 ? 
+197 1 1 19 19 ILE H    H 1  8.50  0.02 ? 1 ? ? . A 19 ILE H    A ?  ?   ?    . 2MA6 ? 
+198 1 1 19 19 ILE HA   H 1  3.27  0.02 ? 1 ? ? . A 19 ILE HA   A 19 ILE HA   . 2MA6 ? 
+199 1 1 19 19 ILE HB   H 1  1.58  0.02 ? 1 ? ? . A 19 ILE HB   A 19 ILE HB   . 2MA6 ? 
+200 1 1 19 19 ILE HG12 H 1  0.72  0.02 ? 2 ? ? . A 19 ILE HG12 A 19 ILE HG12 . 2MA6 ? 
+201 1 1 19 19 ILE HG13 H 1  1.50  0.02 ? 2 ? ? . A 19 ILE HG13 A ?  ?   ?    . 2MA6 ? 
+202 1 1 19 19 ILE HG21 H 1  0.62  0.02 ? 1 ? ? . A 19 ILE HG21 A 19 ILE HG21 . 2MA6 ? 
+203 1 1 19 19 ILE HG22 H 1  0.62  0.02 ? 1 ? ? . A 19 ILE HG22 A 19 ILE HG22 . 2MA6 ? 
+204 1 1 19 19 ILE HG23 H 1  0.62  0.02 ? 1 ? ? . A 19 ILE HG23 A 19 ILE HG23 . 2MA6 ? 
+205 1 1 19 19 ILE HD11 H 1  0.60  0.02 ? 1 ? ? . A 19 ILE HD11 A 19 ILE HD11 . 2MA6 ? 
+206 1 1 19 19 ILE HD12 H 1  0.60  0.02 ? 1 ? ? . A 19 ILE HD12 A 19 ILE HD12 . 2MA6 ? 
+207 1 1 19 19 ILE HD13 H 1  0.60  0.02 ? 1 ? ? . A 19 ILE HD13 A 19 ILE HD13 . 2MA6 ? 
+208 1 1 19 19 ILE C    C 13 176.2 0.2  ? 1 ? ? . A 19 ILE C    A 19 ILE C    . 2MA6 ? 
+209 1 1 19 19 ILE CA   C 13 64.1  0.2  ? 1 ? ? . A 19 ILE CA   A 19 ILE CA   . 2MA6 ? 
+210 1 1 19 19 ILE CB   C 13 38.2  0.2  ? 1 ? ? . A 19 ILE CB   A 19 ILE CB   . 2MA6 ? 
+211 1 1 19 19 ILE CG1  C 13 28.9  0.2  ? 1 ? ? . A 19 ILE CG1  A 19 ILE CG1  . 2MA6 ? 
+212 1 1 19 19 ILE CG2  C 13 19.3  0.2  ? 1 ? ? . A 19 ILE CG2  A 19 ILE CG2  . 2MA6 ? 
+213 1 1 19 19 ILE CD1  C 13 13.3  0.2  ? 1 ? ? . A 19 ILE CD1  A 19 ILE CD1  . 2MA6 ? 
+214 1 1 19 19 ILE N    N 15 120.8 0.2  ? 1 ? ? . A 19 ILE N    A 19 ILE N    . 2MA6 ? 
+215 1 1 20 20 SER H    H 1  8.10  0.02 ? 1 ? ? . A 20 SER H    A ?  ?   ?    . 2MA6 ? 
+216 1 1 20 20 SER HA   H 1  5.18  0.02 ? 1 ? ? . A 20 SER HA   A 20 SER HA   . 2MA6 ? 
+217 1 1 20 20 SER HB2  H 1  3.95  0.02 ? 2 ? ? . A 20 SER HB2  A 20 SER HB2  . 2MA6 ? 
+218 1 1 20 20 SER HB3  H 1  4.41  0.02 ? 2 ? ? . A 20 SER HB3  A ?  ?   ?    . 2MA6 ? 
+219 1 1 20 20 SER C    C 13 172.6 0.2  ? 1 ? ? . A 20 SER C    A 20 SER C    . 2MA6 ? 
+220 1 1 20 20 SER CA   C 13 58.1  0.2  ? 1 ? ? . A 20 SER CA   A 20 SER CA   . 2MA6 ? 
+221 1 1 20 20 SER CB   C 13 64.3  0.2  ? 1 ? ? . A 20 SER CB   A 20 SER CB   . 2MA6 ? 
+222 1 1 20 20 SER N    N 15 117.0 0.2  ? 1 ? ? . A 20 SER N    A 20 SER N    . 2MA6 ? 
+223 1 1 21 21 ALA H    H 1  8.61  0.02 ? 1 ? ? . A 21 ALA H    A ?  ?   ?    . 2MA6 ? 
+224 1 1 21 21 ALA HA   H 1  5.54  0.02 ? 1 ? ? . A 21 ALA HA   A 21 ALA HA   . 2MA6 ? 
+225 1 1 21 21 ALA HB1  H 1  1.34  0.02 ? 1 ? ? . A 21 ALA HB1  A 21 ALA HB1  . 2MA6 ? 
+226 1 1 21 21 ALA HB2  H 1  1.34  0.02 ? 1 ? ? . A 21 ALA HB2  A 21 ALA HB2  . 2MA6 ? 
+227 1 1 21 21 ALA HB3  H 1  1.34  0.02 ? 1 ? ? . A 21 ALA HB3  A 21 ALA HB3  . 2MA6 ? 
+228 1 1 21 21 ALA C    C 13 174.0 0.2  ? 1 ? ? . A 21 ALA C    A 21 ALA C    . 2MA6 ? 
+229 1 1 21 21 ALA CA   C 13 51.3  0.2  ? 1 ? ? . A 21 ALA CA   A 21 ALA CA   . 2MA6 ? 
+230 1 1 21 21 ALA CB   C 13 22.9  0.2  ? 1 ? ? . A 21 ALA CB   A 21 ALA CB   . 2MA6 ? 
+231 1 1 21 21 ALA N    N 15 128.1 0.2  ? 1 ? ? . A 21 ALA N    A 21 ALA N    . 2MA6 ? 
+232 1 1 22 22 VAL H    H 1  9.04  0.02 ? 1 ? ? . A 22 VAL H    A ?  ?   ?    . 2MA6 ? 
+233 1 1 22 22 VAL HA   H 1  4.68  0.02 ? 1 ? ? . A 22 VAL HA   A 22 VAL HA   . 2MA6 ? 
+234 1 1 22 22 VAL HB   H 1  1.66  0.02 ? 1 ? ? . A 22 VAL HB   A 22 VAL HB   . 2MA6 ? 
+235 1 1 22 22 VAL HG11 H 1  0.96  0.02 ? 1 ? ? . A 22 VAL HG11 A 22 VAL HG11 . 2MA6 ? 
+236 1 1 22 22 VAL HG12 H 1  0.96  0.02 ? 1 ? ? . A 22 VAL HG12 A 22 VAL HG12 . 2MA6 ? 
+237 1 1 22 22 VAL HG13 H 1  0.96  0.02 ? 1 ? ? . A 22 VAL HG13 A 22 VAL HG13 . 2MA6 ? 
+238 1 1 22 22 VAL HG21 H 1  0.75  0.02 ? 1 ? ? . A 22 VAL HG21 A 22 VAL HG21 . 2MA6 ? 
+239 1 1 22 22 VAL HG22 H 1  0.75  0.02 ? 1 ? ? . A 22 VAL HG22 A 22 VAL HG22 . 2MA6 ? 
+240 1 1 22 22 VAL HG23 H 1  0.75  0.02 ? 1 ? ? . A 22 VAL HG23 A 22 VAL HG23 . 2MA6 ? 
+241 1 1 22 22 VAL C    C 13 173.6 0.2  ? 1 ? ? . A 22 VAL C    A 22 VAL C    . 2MA6 ? 
+242 1 1 22 22 VAL CA   C 13 58.7  0.2  ? 1 ? ? . A 22 VAL CA   A 22 VAL CA   . 2MA6 ? 
+243 1 1 22 22 VAL CB   C 13 35.0  0.2  ? 1 ? ? . A 22 VAL CB   A 22 VAL CB   . 2MA6 ? 
+244 1 1 22 22 VAL CG1  C 13 20.2  0.2  ? 1 ? ? . A 22 VAL CG1  A 22 VAL CG1  . 2MA6 ? 
+245 1 1 22 22 VAL CG2  C 13 21.2  0.2  ? 1 ? ? . A 22 VAL CG2  A 22 VAL CG2  . 2MA6 ? 
+246 1 1 22 22 VAL N    N 15 118.4 0.2  ? 1 ? ? . A 22 VAL N    A 22 VAL N    . 2MA6 ? 
+247 1 1 23 23 PHE H    H 1  8.66  0.02 ? 1 ? ? . A 23 PHE H    A ?  ?   ?    . 2MA6 ? 
+248 1 1 23 23 PHE HA   H 1  5.39  0.02 ? 1 ? ? . A 23 PHE HA   A 23 PHE HA   . 2MA6 ? 
+249 1 1 23 23 PHE HB2  H 1  3.43  0.02 ? 2 ? ? . A 23 PHE HB2  A 23 PHE HB2  . 2MA6 ? 
+250 1 1 23 23 PHE HB3  H 1  3.49  0.02 ? 2 ? ? . A 23 PHE HB3  A ?  ?   ?    . 2MA6 ? 
+251 1 1 23 23 PHE HD1  H 1  7.22  0.02 ? 3 ? ? . A 23 PHE HD1  A 23 PHE HD1  . 2MA6 ? 
+252 1 1 23 23 PHE HD2  H 1  7.22  0.02 ? 3 ? ? . A 23 PHE HD2  A 23 PHE HD2  . 2MA6 ? 
+253 1 1 23 23 PHE HE1  H 1  7.37  0.02 ? 3 ? ? . A 23 PHE HE1  A 23 PHE HE1  . 2MA6 ? 
+254 1 1 23 23 PHE HE2  H 1  7.37  0.02 ? 3 ? ? . A 23 PHE HE2  A 23 PHE HE2  . 2MA6 ? 
+255 1 1 23 23 PHE HZ   H 1  7.24  0.02 ? 1 ? ? . A 23 PHE HZ   A 23 PHE HZ   . 2MA6 ? 
+256 1 1 23 23 PHE C    C 13 176.3 0.2  ? 1 ? ? . A 23 PHE C    A 23 PHE C    . 2MA6 ? 
+257 1 1 23 23 PHE CA   C 13 52.9  0.2  ? 1 ? ? . A 23 PHE CA   A 23 PHE CA   . 2MA6 ? 
+258 1 1 23 23 PHE CB   C 13 38.6  0.2  ? 1 ? ? . A 23 PHE CB   A 23 PHE CB   . 2MA6 ? 
+259 1 1 23 23 PHE CD1  C 13 131.9 0.2  ? 3 ? ? . A 23 PHE CD1  A 23 PHE CD1  . 2MA6 ? 
+260 1 1 23 23 PHE CD2  C 13 131.9 0.2  ? 3 ? ? . A 23 PHE CD2  A 23 PHE CD2  . 2MA6 ? 
+261 1 1 23 23 PHE CE1  C 13 130.6 0.2  ? 3 ? ? . A 23 PHE CE1  A 23 PHE CE1  . 2MA6 ? 
+262 1 1 23 23 PHE CE2  C 13 130.6 0.2  ? 3 ? ? . A 23 PHE CE2  A 23 PHE CE2  . 2MA6 ? 
+263 1 1 23 23 PHE CZ   C 13 129.1 0.2  ? 1 ? ? . A 23 PHE CZ   A 23 PHE CZ   . 2MA6 ? 
+264 1 1 23 23 PHE N    N 15 128.3 0.2  ? 1 ? ? . A 23 PHE N    A 23 PHE N    . 2MA6 ? 
+265 1 1 24 24 GLN H    H 1  9.24  0.02 ? 1 ? ? . A 24 GLN H    A ?  ?   ?    . 2MA6 ? 
+266 1 1 24 24 GLN HA   H 1  5.05  0.02 ? 1 ? ? . A 24 GLN HA   A 24 GLN HA   . 2MA6 ? 
+267 1 1 24 24 GLN HB2  H 1  2.05  0.02 ? 2 ? ? . A 24 GLN HB2  A 24 GLN HB2  . 2MA6 ? 
+268 1 1 24 24 GLN HB3  H 1  2.05  0.02 ? 2 ? ? . A 24 GLN HB3  A ?  ?   ?    . 2MA6 ? 
+269 1 1 24 24 GLN HG2  H 1  2.21  0.02 ? 2 ? ? . A 24 GLN HG2  A 24 GLN HG2  . 2MA6 ? 
+270 1 1 24 24 GLN HG3  H 1  2.38  0.02 ? 2 ? ? . A 24 GLN HG3  A ?  ?   ?    . 2MA6 ? 
+271 1 1 24 24 GLN HE21 H 1  7.01  0.02 ? 1 ? ? . A 24 GLN HE21 A 24 GLN HE21 . 2MA6 ? 
+272 1 1 24 24 GLN HE22 H 1  6.67  0.02 ? 1 ? ? . A 24 GLN HE22 A 24 GLN HE22 . 2MA6 ? 
+273 1 1 24 24 GLN CA   C 13 52.4  0.2  ? 1 ? ? . A 24 GLN CA   A 24 GLN CA   . 2MA6 ? 
+274 1 1 24 24 GLN CB   C 13 28.5  0.2  ? 1 ? ? . A 24 GLN CB   A 24 GLN CB   . 2MA6 ? 
+275 1 1 24 24 GLN CG   C 13 31.9  0.2  ? 1 ? ? . A 24 GLN CG   A 24 GLN CG   . 2MA6 ? 
+276 1 1 24 24 GLN CD   C 13 179.7 0.2  ? 1 ? ? . A 24 GLN CD   A 24 GLN CD   . 2MA6 ? 
+277 1 1 24 24 GLN N    N 15 120.6 0.2  ? 1 ? ? . A 24 GLN N    A 24 GLN N    . 2MA6 ? 
+278 1 1 24 24 GLN NE2  N 15 110.2 0.2  ? 1 ? ? . A 24 GLN NE2  A 24 GLN NE2  . 2MA6 ? 
+279 1 1 25 25 PRO HA   H 1  4.90  0.02 ? 1 ? ? . A 25 PRO HA   A 25 PRO HA   . 2MA6 ? 
+280 1 1 25 25 PRO HB2  H 1  2.24  0.02 ? 2 ? ? . A 25 PRO HB2  A 25 PRO HB2  . 2MA6 ? 
+281 1 1 25 25 PRO HB3  H 1  2.37  0.02 ? 2 ? ? . A 25 PRO HB3  A ?  ?   ?    . 2MA6 ? 
+282 1 1 25 25 PRO HG2  H 1  1.84  0.02 ? 2 ? ? . A 25 PRO HG2  A 25 PRO HG2  . 2MA6 ? 
+283 1 1 25 25 PRO HG3  H 1  2.09  0.02 ? 2 ? ? . A 25 PRO HG3  A ?  ?   ?    . 2MA6 ? 
+284 1 1 25 25 PRO HD2  H 1  3.52  0.02 ? 2 ? ? . A 25 PRO HD2  A 25 PRO HD2  . 2MA6 ? 
+285 1 1 25 25 PRO HD3  H 1  4.14  0.02 ? 2 ? ? . A 25 PRO HD3  A ?  ?   ?    . 2MA6 ? 
+286 1 1 25 25 PRO C    C 13 178.8 0.2  ? 1 ? ? . A 25 PRO C    A 25 PRO C    . 2MA6 ? 
+287 1 1 25 25 PRO CA   C 13 64.3  0.2  ? 1 ? ? . A 25 PRO CA   A 25 PRO CA   . 2MA6 ? 
+288 1 1 25 25 PRO CB   C 13 35.3  0.2  ? 1 ? ? . A 25 PRO CB   A 25 PRO CB   . 2MA6 ? 
+289 1 1 25 25 PRO CG   C 13 24.9  0.2  ? 1 ? ? . A 25 PRO CG   A 25 PRO CG   . 2MA6 ? 
+290 1 1 25 25 PRO CD   C 13 50.5  0.2  ? 1 ? ? . A 25 PRO CD   A 25 PRO CD   . 2MA6 ? 
+291 1 1 26 26 CYS H    H 1  8.28  0.02 ? 1 ? ? . A 26 CYS H    A ?  ?   ?    . 2MA6 ? 
+292 1 1 26 26 CYS HA   H 1  4.41  0.02 ? 1 ? ? . A 26 CYS HA   A 26 CYS HA   . 2MA6 ? 
+293 1 1 26 26 CYS HB2  H 1  2.79  0.02 ? 2 ? ? . A 26 CYS HB2  A 26 CYS HB2  . 2MA6 ? 
+294 1 1 26 26 CYS HB3  H 1  3.04  0.02 ? 2 ? ? . A 26 CYS HB3  A ?  ?   ?    . 2MA6 ? 
+295 1 1 26 26 CYS C    C 13 176.4 0.2  ? 1 ? ? . A 26 CYS C    A 26 CYS C    . 2MA6 ? 
+296 1 1 26 26 CYS CA   C 13 61.9  0.2  ? 1 ? ? . A 26 CYS CA   A 26 CYS CA   . 2MA6 ? 
+297 1 1 26 26 CYS CB   C 13 31.4  0.2  ? 1 ? ? . A 26 CYS CB   A 26 CYS CB   . 2MA6 ? 
+298 1 1 26 26 CYS N    N 15 121.3 0.2  ? 1 ? ? . A 26 CYS N    A 26 CYS N    . 2MA6 ? 
+299 1 1 27 27 GLY H    H 1  8.73  0.02 ? 1 ? ? . A 27 GLY H    A ?  ?   ?    . 2MA6 ? 
+300 1 1 27 27 GLY HA2  H 1  3.65  0.02 ? 2 ? ? . A 27 GLY HA2  A 27 GLY HA2  . 2MA6 ? 
+301 1 1 27 27 GLY HA3  H 1  3.92  0.02 ? 2 ? ? . A 27 GLY HA3  A ?  ?   ?    . 2MA6 ? 
+302 1 1 27 27 GLY C    C 13 174.8 0.2  ? 1 ? ? . A 27 GLY C    A 27 GLY C    . 2MA6 ? 
+303 1 1 27 27 GLY CA   C 13 46.1  0.2  ? 1 ? ? . A 27 GLY CA   A 27 GLY CA   . 2MA6 ? 
+304 1 1 27 27 GLY N    N 15 111.6 0.2  ? 1 ? ? . A 27 GLY N    A 27 GLY N    . 2MA6 ? 
+305 1 1 28 28 HIS H    H 1  8.19  0.02 ? 1 ? ? . A 28 HIS H    A ?  ?   ?    . 2MA6 ? 
+306 1 1 28 28 HIS HA   H 1  4.35  0.02 ? 1 ? ? . A 28 HIS HA   A 28 HIS HA   . 2MA6 ? 
+307 1 1 28 28 HIS HB2  H 1  3.23  0.02 ? 2 ? ? . A 28 HIS HB2  A 28 HIS HB2  . 2MA6 ? 
+308 1 1 28 28 HIS HB3  H 1  3.59  0.02 ? 2 ? ? . A 28 HIS HB3  A ?  ?   ?    . 2MA6 ? 
+309 1 1 28 28 HIS HD2  H 1  7.07  0.02 ? 1 ? ? . A 28 HIS HD2  A 28 HIS HD2  . 2MA6 ? 
+310 1 1 28 28 HIS HE1  H 1  7.91  0.02 ? 1 ? ? . A 28 HIS HE1  A 28 HIS HE1  . 2MA6 ? 
+311 1 1 28 28 HIS C    C 13 171.1 0.2  ? 1 ? ? . A 28 HIS C    A 28 HIS C    . 2MA6 ? 
+312 1 1 28 28 HIS CA   C 13 60.1  0.2  ? 1 ? ? . A 28 HIS CA   A 28 HIS CA   . 2MA6 ? 
+313 1 1 28 28 HIS CB   C 13 31.6  0.2  ? 1 ? ? . A 28 HIS CB   A 28 HIS CB   . 2MA6 ? 
+314 1 1 28 28 HIS CD2  C 13 118.9 0.2  ? 1 ? ? . A 28 HIS CD2  A 28 HIS CD2  . 2MA6 ? 
+315 1 1 28 28 HIS CE1  C 13 138.2 0.2  ? 1 ? ? . A 28 HIS CE1  A 28 HIS CE1  . 2MA6 ? 
+316 1 1 28 28 HIS N    N 15 120.7 0.2  ? 1 ? ? . A 28 HIS N    A 28 HIS N    . 2MA6 ? 
+317 1 1 28 28 HIS ND1  N 15 217.3 0.2  ? 1 ? ? . A 28 HIS ND1  A 28 HIS ND1  . 2MA6 ? 
+318 1 1 28 28 HIS NE2  N 15 170.1 0.2  ? 1 ? ? . A 28 HIS NE2  A 28 HIS NE2  . 2MA6 ? 
+319 1 1 29 29 LYS H    H 1  7.36  0.02 ? 1 ? ? . A 29 LYS H    A ?  ?   ?    . 2MA6 ? 
+320 1 1 29 29 LYS HA   H 1  4.76  0.02 ? 1 ? ? . A 29 LYS HA   A 29 LYS HA   . 2MA6 ? 
+321 1 1 29 29 LYS HB2  H 1  1.19  0.02 ? 2 ? ? . A 29 LYS HB2  A 29 LYS HB2  . 2MA6 ? 
+322 1 1 29 29 LYS HB3  H 1  1.69  0.02 ? 2 ? ? . A 29 LYS HB3  A ?  ?   ?    . 2MA6 ? 
+323 1 1 29 29 LYS HG2  H 1  0.90  0.02 ? 2 ? ? . A 29 LYS HG2  A 29 LYS HG2  . 2MA6 ? 
+324 1 1 29 29 LYS HG3  H 1  1.06  0.02 ? 2 ? ? . A 29 LYS HG3  A ?  ?   ?    . 2MA6 ? 
+325 1 1 29 29 LYS HD2  H 1  0.63  0.02 ? 2 ? ? . A 29 LYS HD2  A 29 LYS HD2  . 2MA6 ? 
+326 1 1 29 29 LYS HD3  H 1  0.74  0.02 ? 2 ? ? . A 29 LYS HD3  A ?  ?   ?    . 2MA6 ? 
+327 1 1 29 29 LYS HE2  H 1  2.14  0.02 ? 2 ? ? . A 29 LYS HE2  A 29 LYS HE2  . 2MA6 ? 
+328 1 1 29 29 LYS HE3  H 1  2.14  0.02 ? 2 ? ? . A 29 LYS HE3  A ?  ?   ?    . 2MA6 ? 
+329 1 1 29 29 LYS C    C 13 175.5 0.2  ? 1 ? ? . A 29 LYS C    A 29 LYS C    . 2MA6 ? 
+330 1 1 29 29 LYS CA   C 13 55.3  0.2  ? 1 ? ? . A 29 LYS CA   A 29 LYS CA   . 2MA6 ? 
+331 1 1 29 29 LYS CB   C 13 37.6  0.2  ? 1 ? ? . A 29 LYS CB   A 29 LYS CB   . 2MA6 ? 
+332 1 1 29 29 LYS CG   C 13 24.5  0.2  ? 1 ? ? . A 29 LYS CG   A 29 LYS CG   . 2MA6 ? 
+333 1 1 29 29 LYS CD   C 13 28.8  0.2  ? 1 ? ? . A 29 LYS CD   A 29 LYS CD   . 2MA6 ? 
+334 1 1 29 29 LYS CE   C 13 41.5  0.2  ? 1 ? ? . A 29 LYS CE   A 29 LYS CE   . 2MA6 ? 
+335 1 1 29 29 LYS N    N 15 113.2 0.2  ? 1 ? ? . A 29 LYS N    A 29 LYS N    . 2MA6 ? 
+336 1 1 30 30 SER H    H 1  8.15  0.02 ? 1 ? ? . A 30 SER H    A ?  ?   ?    . 2MA6 ? 
+337 1 1 30 30 SER HA   H 1  4.93  0.02 ? 1 ? ? . A 30 SER HA   A 30 SER HA   . 2MA6 ? 
+338 1 1 30 30 SER HB2  H 1  4.20  0.02 ? 2 ? ? . A 30 SER HB2  A 30 SER HB2  . 2MA6 ? 
+339 1 1 30 30 SER HB3  H 1  4.84  0.02 ? 2 ? ? . A 30 SER HB3  A ?  ?   ?    . 2MA6 ? 
+340 1 1 30 30 SER HG   H 1  4.66  0.02 ? 1 ? ? . A 30 SER HG   A 30 SER HG   . 2MA6 ? 
+341 1 1 30 30 SER C    C 13 174.9 0.2  ? 1 ? ? . A 30 SER C    A 30 SER C    . 2MA6 ? 
+342 1 1 30 30 SER CA   C 13 58.9  0.2  ? 1 ? ? . A 30 SER CA   A 30 SER CA   . 2MA6 ? 
+343 1 1 30 30 SER CB   C 13 67.5  0.2  ? 1 ? ? . A 30 SER CB   A 30 SER CB   . 2MA6 ? 
+344 1 1 30 30 SER N    N 15 110.4 0.2  ? 1 ? ? . A 30 SER N    A 30 SER N    . 2MA6 ? 
+345 1 1 31 31 CYS H    H 1  10.21 0.02 ? 1 ? ? . A 31 CYS H    A ?  ?   ?    . 2MA6 ? 
+346 1 1 31 31 CYS HA   H 1  5.41  0.02 ? 1 ? ? . A 31 CYS HA   A 31 CYS HA   . 2MA6 ? 
+347 1 1 31 31 CYS HB2  H 1  2.97  0.02 ? 2 ? ? . A 31 CYS HB2  A 31 CYS HB2  . 2MA6 ? 
+348 1 1 31 31 CYS HB3  H 1  3.48  0.02 ? 2 ? ? . A 31 CYS HB3  A ?  ?   ?    . 2MA6 ? 
+349 1 1 31 31 CYS C    C 13 177.5 0.2  ? 1 ? ? . A 31 CYS C    A 31 CYS C    . 2MA6 ? 
+350 1 1 31 31 CYS CA   C 13 59.1  0.2  ? 1 ? ? . A 31 CYS CA   A 31 CYS CA   . 2MA6 ? 
+351 1 1 31 31 CYS CB   C 13 31.9  0.2  ? 1 ? ? . A 31 CYS CB   A 31 CYS CB   . 2MA6 ? 
+352 1 1 31 31 CYS N    N 15 121.0 0.2  ? 1 ? ? . A 31 CYS N    A 31 CYS N    . 2MA6 ? 
+353 1 1 32 32 LYS H    H 1  7.95  0.02 ? 1 ? ? . A 32 LYS H    A ?  ?   ?    . 2MA6 ? 
+354 1 1 32 32 LYS HA   H 1  3.89  0.02 ? 1 ? ? . A 32 LYS HA   A 32 LYS HA   . 2MA6 ? 
+355 1 1 32 32 LYS HB2  H 1  1.83  0.02 ? 2 ? ? . A 32 LYS HB2  A 32 LYS HB2  . 2MA6 ? 
+356 1 1 32 32 LYS HB3  H 1  1.83  0.02 ? 2 ? ? . A 32 LYS HB3  A ?  ?   ?    . 2MA6 ? 
+357 1 1 32 32 LYS HG2  H 1  1.46  0.02 ? 2 ? ? . A 32 LYS HG2  A 32 LYS HG2  . 2MA6 ? 
+358 1 1 32 32 LYS HG3  H 1  1.56  0.02 ? 2 ? ? . A 32 LYS HG3  A ?  ?   ?    . 2MA6 ? 
+359 1 1 32 32 LYS HD2  H 1  1.70  0.02 ? 2 ? ? . A 32 LYS HD2  A 32 LYS HD2  . 2MA6 ? 
+360 1 1 32 32 LYS HD3  H 1  1.70  0.02 ? 2 ? ? . A 32 LYS HD3  A ?  ?   ?    . 2MA6 ? 
+361 1 1 32 32 LYS HE2  H 1  3.05  0.02 ? 2 ? ? . A 32 LYS HE2  A 32 LYS HE2  . 2MA6 ? 
+362 1 1 32 32 LYS HE3  H 1  3.05  0.02 ? 2 ? ? . A 32 LYS HE3  A ?  ?   ?    . 2MA6 ? 
+363 1 1 32 32 LYS C    C 13 176.9 0.2  ? 1 ? ? . A 32 LYS C    A 32 LYS C    . 2MA6 ? 
+364 1 1 32 32 LYS CA   C 13 59.1  0.2  ? 1 ? ? . A 32 LYS CA   A 32 LYS CA   . 2MA6 ? 
+365 1 1 32 32 LYS CB   C 13 32.5  0.2  ? 1 ? ? . A 32 LYS CB   A 32 LYS CB   . 2MA6 ? 
+366 1 1 32 32 LYS CG   C 13 25.4  0.2  ? 1 ? ? . A 32 LYS CG   A 32 LYS CG   . 2MA6 ? 
+367 1 1 32 32 LYS CD   C 13 29.0  0.2  ? 1 ? ? . A 32 LYS CD   A 32 LYS CD   . 2MA6 ? 
+368 1 1 32 32 LYS CE   C 13 42.0  0.2  ? 1 ? ? . A 32 LYS CE   A 32 LYS CE   . 2MA6 ? 
+369 1 1 32 32 LYS N    N 15 122.8 0.2  ? 1 ? ? . A 32 LYS N    A 32 LYS N    . 2MA6 ? 
+370 1 1 33 33 ALA H    H 1  8.17  0.02 ? 1 ? ? . A 33 ALA H    A ?  ?   ?    . 2MA6 ? 
+371 1 1 33 33 ALA HA   H 1  4.13  0.02 ? 1 ? ? . A 33 ALA HA   A 33 ALA HA   . 2MA6 ? 
+372 1 1 33 33 ALA HB1  H 1  1.49  0.02 ? 1 ? ? . A 33 ALA HB1  A 33 ALA HB1  . 2MA6 ? 
+373 1 1 33 33 ALA HB2  H 1  1.49  0.02 ? 1 ? ? . A 33 ALA HB2  A 33 ALA HB2  . 2MA6 ? 
+374 1 1 33 33 ALA HB3  H 1  1.49  0.02 ? 1 ? ? . A 33 ALA HB3  A 33 ALA HB3  . 2MA6 ? 
+375 1 1 33 33 ALA C    C 13 181.5 0.2  ? 1 ? ? . A 33 ALA C    A 33 ALA C    . 2MA6 ? 
+376 1 1 33 33 ALA CA   C 13 55.9  0.2  ? 1 ? ? . A 33 ALA CA   A 33 ALA CA   . 2MA6 ? 
+377 1 1 33 33 ALA CB   C 13 18.1  0.2  ? 1 ? ? . A 33 ALA CB   A 33 ALA CB   . 2MA6 ? 
+378 1 1 33 33 ALA N    N 15 122.1 0.2  ? 1 ? ? . A 33 ALA N    A 33 ALA N    . 2MA6 ? 
+379 1 1 34 34 CYS H    H 1  9.17  0.02 ? 1 ? ? . A 34 CYS H    A ?  ?   ?    . 2MA6 ? 
+380 1 1 34 34 CYS HA   H 1  3.97  0.02 ? 1 ? ? . A 34 CYS HA   A 34 CYS HA   . 2MA6 ? 
+381 1 1 34 34 CYS HB2  H 1  2.76  0.02 ? 2 ? ? . A 34 CYS HB2  A 34 CYS HB2  . 2MA6 ? 
+382 1 1 34 34 CYS HB3  H 1  2.92  0.02 ? 2 ? ? . A 34 CYS HB3  A ?  ?   ?    . 2MA6 ? 
+383 1 1 34 34 CYS C    C 13 179.7 0.2  ? 1 ? ? . A 34 CYS C    A 34 CYS C    . 2MA6 ? 
+384 1 1 34 34 CYS CA   C 13 66.2  0.2  ? 1 ? ? . A 34 CYS CA   A 34 CYS CA   . 2MA6 ? 
+385 1 1 34 34 CYS CB   C 13 29.0  0.2  ? 1 ? ? . A 34 CYS CB   A 34 CYS CB   . 2MA6 ? 
+386 1 1 34 34 CYS N    N 15 120.2 0.2  ? 1 ? ? . A 34 CYS N    A 34 CYS N    . 2MA6 ? 
+387 1 1 35 35 ILE H    H 1  7.39  0.02 ? 1 ? ? . A 35 ILE H    A ?  ?   ?    . 2MA6 ? 
+388 1 1 35 35 ILE HA   H 1  4.46  0.02 ? 1 ? ? . A 35 ILE HA   A 35 ILE HA   . 2MA6 ? 
+389 1 1 35 35 ILE HB   H 1  2.15  0.02 ? 1 ? ? . A 35 ILE HB   A 35 ILE HB   . 2MA6 ? 
+390 1 1 35 35 ILE HG12 H 1  0.80  0.02 ? 2 ? ? . A 35 ILE HG12 A 35 ILE HG12 . 2MA6 ? 
+391 1 1 35 35 ILE HG13 H 1  1.01  0.02 ? 2 ? ? . A 35 ILE HG13 A ?  ?   ?    . 2MA6 ? 
+392 1 1 35 35 ILE HG21 H 1  1.10  0.02 ? 1 ? ? . A 35 ILE HG21 A 35 ILE HG21 . 2MA6 ? 
+393 1 1 35 35 ILE HG22 H 1  1.10  0.02 ? 1 ? ? . A 35 ILE HG22 A 35 ILE HG22 . 2MA6 ? 
+394 1 1 35 35 ILE HG23 H 1  1.10  0.02 ? 1 ? ? . A 35 ILE HG23 A 35 ILE HG23 . 2MA6 ? 
+395 1 1 35 35 ILE HD11 H 1  0.06  0.02 ? 1 ? ? . A 35 ILE HD11 A 35 ILE HD11 . 2MA6 ? 
+396 1 1 35 35 ILE HD12 H 1  0.06  0.02 ? 1 ? ? . A 35 ILE HD12 A 35 ILE HD12 . 2MA6 ? 
+397 1 1 35 35 ILE HD13 H 1  0.06  0.02 ? 1 ? ? . A 35 ILE HD13 A 35 ILE HD13 . 2MA6 ? 
+398 1 1 35 35 ILE C    C 13 175.9 0.2  ? 1 ? ? . A 35 ILE C    A 35 ILE C    . 2MA6 ? 
+399 1 1 35 35 ILE CA   C 13 60.2  0.2  ? 1 ? ? . A 35 ILE CA   A 35 ILE CA   . 2MA6 ? 
+400 1 1 35 35 ILE CB   C 13 36.5  0.2  ? 1 ? ? . A 35 ILE CB   A 35 ILE CB   . 2MA6 ? 
+401 1 1 35 35 ILE CG1  C 13 29.2  0.2  ? 1 ? ? . A 35 ILE CG1  A 35 ILE CG1  . 2MA6 ? 
+402 1 1 35 35 ILE CG2  C 13 19.3  0.2  ? 1 ? ? . A 35 ILE CG2  A 35 ILE CG2  . 2MA6 ? 
+403 1 1 35 35 ILE CD1  C 13 13.2  0.2  ? 1 ? ? . A 35 ILE CD1  A 35 ILE CD1  . 2MA6 ? 
+404 1 1 35 35 ILE N    N 15 118.1 0.2  ? 1 ? ? . A 35 ILE N    A 35 ILE N    . 2MA6 ? 
+405 1 1 36 36 ASN H    H 1  8.41  0.02 ? 1 ? ? . A 36 ASN H    A ?  ?   ?    . 2MA6 ? 
+406 1 1 36 36 ASN HA   H 1  4.39  0.02 ? 1 ? ? . A 36 ASN HA   A 36 ASN HA   . 2MA6 ? 
+407 1 1 36 36 ASN HB2  H 1  2.70  0.02 ? 2 ? ? . A 36 ASN HB2  A 36 ASN HB2  . 2MA6 ? 
+408 1 1 36 36 ASN HB3  H 1  2.91  0.02 ? 2 ? ? . A 36 ASN HB3  A ?  ?   ?    . 2MA6 ? 
+409 1 1 36 36 ASN HD21 H 1  7.44  0.02 ? 1 ? ? . A 36 ASN HD21 A 36 ASN HD21 . 2MA6 ? 
+410 1 1 36 36 ASN HD22 H 1  6.77  0.02 ? 1 ? ? . A 36 ASN HD22 A 36 ASN HD22 . 2MA6 ? 
+411 1 1 36 36 ASN C    C 13 178.4 0.2  ? 1 ? ? . A 36 ASN C    A 36 ASN C    . 2MA6 ? 
+412 1 1 36 36 ASN CA   C 13 56.2  0.2  ? 1 ? ? . A 36 ASN CA   A 36 ASN CA   . 2MA6 ? 
+413 1 1 36 36 ASN CB   C 13 37.5  0.2  ? 1 ? ? . A 36 ASN CB   A 36 ASN CB   . 2MA6 ? 
+414 1 1 36 36 ASN CG   C 13 175.7 0.2  ? 1 ? ? . A 36 ASN CG   A 36 ASN CG   . 2MA6 ? 
+415 1 1 36 36 ASN N    N 15 122.9 0.2  ? 1 ? ? . A 36 ASN N    A 36 ASN N    . 2MA6 ? 
+416 1 1 36 36 ASN ND2  N 15 109.9 0.2  ? 1 ? ? . A 36 ASN ND2  A 36 ASN ND2  . 2MA6 ? 
+417 1 1 37 37 GLN H    H 1  7.84  0.02 ? 1 ? ? . A 37 GLN H    A ?  ?   ?    . 2MA6 ? 
+418 1 1 37 37 GLN HA   H 1  4.12  0.02 ? 1 ? ? . A 37 GLN HA   A 37 GLN HA   . 2MA6 ? 
+419 1 1 37 37 GLN HB2  H 1  2.18  0.02 ? 2 ? ? . A 37 GLN HB2  A 37 GLN HB2  . 2MA6 ? 
+420 1 1 37 37 GLN HB3  H 1  2.22  0.02 ? 2 ? ? . A 37 GLN HB3  A ?  ?   ?    . 2MA6 ? 
+421 1 1 37 37 GLN HG2  H 1  2.46  0.02 ? 2 ? ? . A 37 GLN HG2  A 37 GLN HG2  . 2MA6 ? 
+422 1 1 37 37 GLN HG3  H 1  2.46  0.02 ? 2 ? ? . A 37 GLN HG3  A ?  ?   ?    . 2MA6 ? 
+423 1 1 37 37 GLN HE21 H 1  7.45  0.02 ? 1 ? ? . A 37 GLN HE21 A 37 GLN HE21 . 2MA6 ? 
+424 1 1 37 37 GLN HE22 H 1  6.86  0.02 ? 1 ? ? . A 37 GLN HE22 A 37 GLN HE22 . 2MA6 ? 
+425 1 1 37 37 GLN C    C 13 178.9 0.2  ? 1 ? ? . A 37 GLN C    A 37 GLN C    . 2MA6 ? 
+426 1 1 37 37 GLN CA   C 13 58.6  0.2  ? 1 ? ? . A 37 GLN CA   A 37 GLN CA   . 2MA6 ? 
+427 1 1 37 37 GLN CB   C 13 28.5  0.2  ? 1 ? ? . A 37 GLN CB   A 37 GLN CB   . 2MA6 ? 
+428 1 1 37 37 GLN CG   C 13 33.8  0.2  ? 1 ? ? . A 37 GLN CG   A 37 GLN CG   . 2MA6 ? 
+429 1 1 37 37 GLN CD   C 13 180.0 0.2  ? 1 ? ? . A 37 GLN CD   A 37 GLN CD   . 2MA6 ? 
+430 1 1 37 37 GLN N    N 15 117.6 0.2  ? 1 ? ? . A 37 GLN N    A 37 GLN N    . 2MA6 ? 
+431 1 1 37 37 GLN NE2  N 15 111.8 0.2  ? 1 ? ? . A 37 GLN NE2  A 37 GLN NE2  . 2MA6 ? 
+432 1 1 38 38 HIS H    H 1  8.02  0.02 ? 1 ? ? . A 38 HIS H    A ?  ?   ?    . 2MA6 ? 
+433 1 1 38 38 HIS HA   H 1  4.39  0.02 ? 1 ? ? . A 38 HIS HA   A 38 HIS HA   . 2MA6 ? 
+434 1 1 38 38 HIS HB2  H 1  3.18  0.02 ? 2 ? ? . A 38 HIS HB2  A 38 HIS HB2  . 2MA6 ? 
+435 1 1 38 38 HIS HB3  H 1  3.25  0.02 ? 2 ? ? . A 38 HIS HB3  A ?  ?   ?    . 2MA6 ? 
+436 1 1 38 38 HIS HD2  H 1  6.37  0.02 ? 1 ? ? . A 38 HIS HD2  A 38 HIS HD2  . 2MA6 ? 
+437 1 1 38 38 HIS HE1  H 1  7.81  0.02 ? 1 ? ? . A 38 HIS HE1  A 38 HIS HE1  . 2MA6 ? 
+438 1 1 38 38 HIS C    C 13 177.9 0.2  ? 1 ? ? . A 38 HIS C    A 38 HIS C    . 2MA6 ? 
+439 1 1 38 38 HIS CA   C 13 60.2  0.2  ? 1 ? ? . A 38 HIS CA   A 38 HIS CA   . 2MA6 ? 
+440 1 1 38 38 HIS CB   C 13 32.2  0.2  ? 1 ? ? . A 38 HIS CB   A 38 HIS CB   . 2MA6 ? 
+441 1 1 38 38 HIS CD2  C 13 118.0 0.2  ? 1 ? ? . A 38 HIS CD2  A 38 HIS CD2  . 2MA6 ? 
+442 1 1 38 38 HIS CE1  C 13 138.4 0.2  ? 1 ? ? . A 38 HIS CE1  A 38 HIS CE1  . 2MA6 ? 
+443 1 1 38 38 HIS N    N 15 121.5 0.2  ? 1 ? ? . A 38 HIS N    A 38 HIS N    . 2MA6 ? 
+444 1 1 38 38 HIS NE2  N 15 168.2 0.2  ? 1 ? ? . A 38 HIS NE2  A 38 HIS NE2  . 2MA6 ? 
+445 1 1 39 39 LEU H    H 1  8.33  0.02 ? 1 ? ? . A 39 LEU H    A ?  ?   ?    . 2MA6 ? 
+446 1 1 39 39 LEU HA   H 1  4.68  0.02 ? 1 ? ? . A 39 LEU HA   A 39 LEU HA   . 2MA6 ? 
+447 1 1 39 39 LEU HB2  H 1  1.59  0.02 ? 2 ? ? . A 39 LEU HB2  A 39 LEU HB2  . 2MA6 ? 
+448 1 1 39 39 LEU HB3  H 1  1.76  0.02 ? 2 ? ? . A 39 LEU HB3  A ?  ?   ?    . 2MA6 ? 
+449 1 1 39 39 LEU HG   H 1  1.73  0.02 ? 1 ? ? . A 39 LEU HG   A 39 LEU HG   . 2MA6 ? 
+450 1 1 39 39 LEU HD11 H 1  0.72  0.02 ? 1 ? ? . A 39 LEU HD11 A 39 LEU HD11 . 2MA6 ? 
+451 1 1 39 39 LEU HD12 H 1  0.72  0.02 ? 1 ? ? . A 39 LEU HD12 A 39 LEU HD12 . 2MA6 ? 
+452 1 1 39 39 LEU HD13 H 1  0.72  0.02 ? 1 ? ? . A 39 LEU HD13 A 39 LEU HD13 . 2MA6 ? 
+453 1 1 39 39 LEU HD21 H 1  0.66  0.02 ? 1 ? ? . A 39 LEU HD21 A 39 LEU HD21 . 2MA6 ? 
+454 1 1 39 39 LEU HD22 H 1  0.66  0.02 ? 1 ? ? . A 39 LEU HD22 A 39 LEU HD22 . 2MA6 ? 
+455 1 1 39 39 LEU HD23 H 1  0.66  0.02 ? 1 ? ? . A 39 LEU HD23 A 39 LEU HD23 . 2MA6 ? 
+456 1 1 39 39 LEU C    C 13 177.7 0.2  ? 1 ? ? . A 39 LEU C    A 39 LEU C    . 2MA6 ? 
+457 1 1 39 39 LEU CA   C 13 55.4  0.2  ? 1 ? ? . A 39 LEU CA   A 39 LEU CA   . 2MA6 ? 
+458 1 1 39 39 LEU CB   C 13 41.1  0.2  ? 1 ? ? . A 39 LEU CB   A 39 LEU CB   . 2MA6 ? 
+459 1 1 39 39 LEU CG   C 13 26.5  0.2  ? 1 ? ? . A 39 LEU CG   A 39 LEU CG   . 2MA6 ? 
+460 1 1 39 39 LEU CD1  C 13 26.3  0.2  ? 1 ? ? . A 39 LEU CD1  A 39 LEU CD1  . 2MA6 ? 
+461 1 1 39 39 LEU CD2  C 13 22.0  0.2  ? 1 ? ? . A 39 LEU CD2  A 39 LEU CD2  . 2MA6 ? 
+462 1 1 39 39 LEU N    N 15 116.1 0.2  ? 1 ? ? . A 39 LEU N    A 39 LEU N    . 2MA6 ? 
+463 1 1 40 40 MET H    H 1  7.31  0.02 ? 1 ? ? . A 40 MET H    A ?  ?   ?    . 2MA6 ? 
+464 1 1 40 40 MET HA   H 1  4.20  0.02 ? 1 ? ? . A 40 MET HA   A 40 MET HA   . 2MA6 ? 
+465 1 1 40 40 MET HB2  H 1  2.06  0.02 ? 2 ? ? . A 40 MET HB2  A 40 MET HB2  . 2MA6 ? 
+466 1 1 40 40 MET HB3  H 1  2.14  0.02 ? 2 ? ? . A 40 MET HB3  A ?  ?   ?    . 2MA6 ? 
+467 1 1 40 40 MET HG2  H 1  2.65  0.02 ? 2 ? ? . A 40 MET HG2  A 40 MET HG2  . 2MA6 ? 
+468 1 1 40 40 MET HG3  H 1  2.91  0.02 ? 2 ? ? . A 40 MET HG3  A ?  ?   ?    . 2MA6 ? 
+469 1 1 40 40 MET HE1  H 1  2.09  0.02 ? 1 ? ? . A 40 MET HE1  A 40 MET HE1  . 2MA6 ? 
+470 1 1 40 40 MET HE2  H 1  2.09  0.02 ? 1 ? ? . A 40 MET HE2  A 40 MET HE2  . 2MA6 ? 
+471 1 1 40 40 MET HE3  H 1  2.09  0.02 ? 1 ? ? . A 40 MET HE3  A 40 MET HE3  . 2MA6 ? 
+472 1 1 40 40 MET C    C 13 177.5 0.2  ? 1 ? ? . A 40 MET C    A 40 MET C    . 2MA6 ? 
+473 1 1 40 40 MET CA   C 13 58.4  0.2  ? 1 ? ? . A 40 MET CA   A 40 MET CA   . 2MA6 ? 
+474 1 1 40 40 MET CB   C 13 32.2  0.2  ? 1 ? ? . A 40 MET CB   A 40 MET CB   . 2MA6 ? 
+475 1 1 40 40 MET CG   C 13 31.9  0.2  ? 1 ? ? . A 40 MET CG   A 40 MET CG   . 2MA6 ? 
+476 1 1 40 40 MET N    N 15 117.4 0.2  ? 1 ? ? . A 40 MET N    A 40 MET N    . 2MA6 ? 
+477 1 1 41 41 ASN H    H 1  7.27  0.02 ? 1 ? ? . A 41 ASN H    A ?  ?   ?    . 2MA6 ? 
+478 1 1 41 41 ASN HA   H 1  4.96  0.02 ? 1 ? ? . A 41 ASN HA   A 41 ASN HA   . 2MA6 ? 
+479 1 1 41 41 ASN HB2  H 1  2.55  0.02 ? 2 ? ? . A 41 ASN HB2  A 41 ASN HB2  . 2MA6 ? 
+480 1 1 41 41 ASN HB3  H 1  2.80  0.02 ? 2 ? ? . A 41 ASN HB3  A ?  ?   ?    . 2MA6 ? 
+481 1 1 41 41 ASN HD21 H 1  7.73  0.02 ? 1 ? ? . A 41 ASN HD21 A 41 ASN HD21 . 2MA6 ? 
+482 1 1 41 41 ASN HD22 H 1  6.92  0.02 ? 1 ? ? . A 41 ASN HD22 A 41 ASN HD22 . 2MA6 ? 
+483 1 1 41 41 ASN C    C 13 173.3 0.2  ? 1 ? ? . A 41 ASN C    A 41 ASN C    . 2MA6 ? 
+484 1 1 41 41 ASN CA   C 13 53.0  0.2  ? 1 ? ? . A 41 ASN CA   A 41 ASN CA   . 2MA6 ? 
+485 1 1 41 41 ASN CB   C 13 41.4  0.2  ? 1 ? ? . A 41 ASN CB   A 41 ASN CB   . 2MA6 ? 
+486 1 1 41 41 ASN CG   C 13 177.2 0.2  ? 1 ? ? . A 41 ASN CG   A 41 ASN CG   . 2MA6 ? 
+487 1 1 41 41 ASN N    N 15 111.6 0.2  ? 1 ? ? . A 41 ASN N    A 41 ASN N    . 2MA6 ? 
+488 1 1 41 41 ASN ND2  N 15 114.3 0.2  ? 1 ? ? . A 41 ASN ND2  A 41 ASN ND2  . 2MA6 ? 
+489 1 1 42 42 ASN H    H 1  7.63  0.02 ? 1 ? ? . A 42 ASN H    A ?  ?   ?    . 2MA6 ? 
+490 1 1 42 42 ASN HA   H 1  4.79  0.02 ? 1 ? ? . A 42 ASN HA   A 42 ASN HA   . 2MA6 ? 
+491 1 1 42 42 ASN HB2  H 1  1.55  0.02 ? 2 ? ? . A 42 ASN HB2  A 42 ASN HB2  . 2MA6 ? 
+492 1 1 42 42 ASN HB3  H 1  2.21  0.02 ? 2 ? ? . A 42 ASN HB3  A ?  ?   ?    . 2MA6 ? 
+493 1 1 42 42 ASN HD21 H 1  7.37  0.02 ? 1 ? ? . A 42 ASN HD21 A 42 ASN HD21 . 2MA6 ? 
+494 1 1 42 42 ASN HD22 H 1  7.02  0.02 ? 1 ? ? . A 42 ASN HD22 A 42 ASN HD22 . 2MA6 ? 
+495 1 1 42 42 ASN C    C 13 173.2 0.2  ? 1 ? ? . A 42 ASN C    A 42 ASN C    . 2MA6 ? 
+496 1 1 42 42 ASN CA   C 13 52.4  0.2  ? 1 ? ? . A 42 ASN CA   A 42 ASN CA   . 2MA6 ? 
+497 1 1 42 42 ASN CB   C 13 41.9  0.2  ? 1 ? ? . A 42 ASN CB   A 42 ASN CB   . 2MA6 ? 
+498 1 1 42 42 ASN CG   C 13 176.8 0.2  ? 1 ? ? . A 42 ASN CG   A 42 ASN CG   . 2MA6 ? 
+499 1 1 42 42 ASN N    N 15 117.8 0.2  ? 1 ? ? . A 42 ASN N    A 42 ASN N    . 2MA6 ? 
+500 1 1 42 42 ASN ND2  N 15 117.3 0.2  ? 1 ? ? . A 42 ASN ND2  A 42 ASN ND2  . 2MA6 ? 
+501 1 1 43 43 LYS H    H 1  8.51  0.02 ? 1 ? ? . A 43 LYS H    A ?  ?   ?    . 2MA6 ? 
+502 1 1 43 43 LYS HA   H 1  4.49  0.02 ? 1 ? ? . A 43 LYS HA   A 43 LYS HA   . 2MA6 ? 
+503 1 1 43 43 LYS HB2  H 1  1.68  0.02 ? 2 ? ? . A 43 LYS HB2  A 43 LYS HB2  . 2MA6 ? 
+504 1 1 43 43 LYS HB3  H 1  1.95  0.02 ? 2 ? ? . A 43 LYS HB3  A ?  ?   ?    . 2MA6 ? 
+505 1 1 43 43 LYS HG2  H 1  1.35  0.02 ? 2 ? ? . A 43 LYS HG2  A 43 LYS HG2  . 2MA6 ? 
+506 1 1 43 43 LYS HG3  H 1  1.35  0.02 ? 2 ? ? . A 43 LYS HG3  A ?  ?   ?    . 2MA6 ? 
+507 1 1 43 43 LYS HD2  H 1  1.60  0.02 ? 2 ? ? . A 43 LYS HD2  A 43 LYS HD2  . 2MA6 ? 
+508 1 1 43 43 LYS HD3  H 1  1.66  0.02 ? 2 ? ? . A 43 LYS HD3  A ?  ?   ?    . 2MA6 ? 
+509 1 1 43 43 LYS HE2  H 1  2.99  0.02 ? 2 ? ? . A 43 LYS HE2  A 43 LYS HE2  . 2MA6 ? 
+510 1 1 43 43 LYS HE3  H 1  2.99  0.02 ? 2 ? ? . A 43 LYS HE3  A ?  ?   ?    . 2MA6 ? 
+511 1 1 43 43 LYS C    C 13 175.3 0.2  ? 1 ? ? . A 43 LYS C    A 43 LYS C    . 2MA6 ? 
+512 1 1 43 43 LYS CA   C 13 55.0  0.2  ? 1 ? ? . A 43 LYS CA   A 43 LYS CA   . 2MA6 ? 
+513 1 1 43 43 LYS CB   C 13 34.0  0.2  ? 1 ? ? . A 43 LYS CB   A 43 LYS CB   . 2MA6 ? 
+514 1 1 43 43 LYS CG   C 13 24.5  0.2  ? 1 ? ? . A 43 LYS CG   A 43 LYS CG   . 2MA6 ? 
+515 1 1 43 43 LYS CD   C 13 29.0  0.2  ? 1 ? ? . A 43 LYS CD   A 43 LYS CD   . 2MA6 ? 
+516 1 1 43 43 LYS CE   C 13 42.1  0.2  ? 1 ? ? . A 43 LYS CE   A 43 LYS CE   . 2MA6 ? 
+517 1 1 43 43 LYS N    N 15 115.4 0.2  ? 1 ? ? . A 43 LYS N    A 43 LYS N    . 2MA6 ? 
+518 1 1 44 44 ASP H    H 1  8.18  0.02 ? 1 ? ? . A 44 ASP H    A ?  ?   ?    . 2MA6 ? 
+519 1 1 44 44 ASP HA   H 1  4.87  0.02 ? 1 ? ? . A 44 ASP HA   A 44 ASP HA   . 2MA6 ? 
+520 1 1 44 44 ASP HB2  H 1  2.28  0.02 ? 2 ? ? . A 44 ASP HB2  A 44 ASP HB2  . 2MA6 ? 
+521 1 1 44 44 ASP HB3  H 1  2.36  0.02 ? 2 ? ? . A 44 ASP HB3  A ?  ?   ?    . 2MA6 ? 
+522 1 1 44 44 ASP C    C 13 174.0 0.2  ? 1 ? ? . A 44 ASP C    A 44 ASP C    . 2MA6 ? 
+523 1 1 44 44 ASP CA   C 13 51.7  0.2  ? 1 ? ? . A 44 ASP CA   A 44 ASP CA   . 2MA6 ? 
+524 1 1 44 44 ASP CB   C 13 42.9  0.2  ? 1 ? ? . A 44 ASP CB   A 44 ASP CB   . 2MA6 ? 
+525 1 1 44 44 ASP N    N 15 118.1 0.2  ? 1 ? ? . A 44 ASP N    A 44 ASP N    . 2MA6 ? 
+526 1 1 45 45 CYS H    H 1  8.34  0.02 ? 1 ? ? . A 45 CYS H    A ?  ?   ?    . 2MA6 ? 
+527 1 1 45 45 CYS HA   H 1  3.63  0.02 ? 1 ? ? . A 45 CYS HA   A 45 CYS HA   . 2MA6 ? 
+528 1 1 45 45 CYS HB2  H 1  3.14  0.02 ? 2 ? ? . A 45 CYS HB2  A 45 CYS HB2  . 2MA6 ? 
+529 1 1 45 45 CYS HB3  H 1  3.31  0.02 ? 2 ? ? . A 45 CYS HB3  A ?  ?   ?    . 2MA6 ? 
+530 1 1 45 45 CYS C    C 13 177.1 0.2  ? 1 ? ? . A 45 CYS C    A 45 CYS C    . 2MA6 ? 
+531 1 1 45 45 CYS CA   C 13 60.6  0.2  ? 1 ? ? . A 45 CYS CA   A 45 CYS CA   . 2MA6 ? 
+532 1 1 45 45 CYS CB   C 13 31.8  0.2  ? 1 ? ? . A 45 CYS CB   A 45 CYS CB   . 2MA6 ? 
+533 1 1 45 45 CYS N    N 15 120.3 0.2  ? 1 ? ? . A 45 CYS N    A 45 CYS N    . 2MA6 ? 
+534 1 1 46 46 PHE H    H 1  6.05  0.02 ? 1 ? ? . A 46 PHE H    A ?  ?   ?    . 2MA6 ? 
+535 1 1 46 46 PHE HA   H 1  3.92  0.02 ? 1 ? ? . A 46 PHE HA   A 46 PHE HA   . 2MA6 ? 
+536 1 1 46 46 PHE HB2  H 1  1.98  0.02 ? 2 ? ? . A 46 PHE HB2  A 46 PHE HB2  . 2MA6 ? 
+537 1 1 46 46 PHE HB3  H 1  2.11  0.02 ? 2 ? ? . A 46 PHE HB3  A ?  ?   ?    . 2MA6 ? 
+538 1 1 46 46 PHE HD1  H 1  6.25  0.02 ? 3 ? ? . A 46 PHE HD1  A 46 PHE HD2  . 2MA6 ? 
+539 1 1 46 46 PHE HD2  H 1  6.25  0.02 ? 3 ? ? . A 46 PHE HD2  A 46 PHE HD1  . 2MA6 ? 
+540 1 1 46 46 PHE HE1  H 1  7.08  0.02 ? 3 ? ? . A 46 PHE HE1  A 46 PHE HE2  . 2MA6 ? 
+541 1 1 46 46 PHE HE2  H 1  7.08  0.02 ? 3 ? ? . A 46 PHE HE2  A 46 PHE HE1  . 2MA6 ? 
+542 1 1 46 46 PHE HZ   H 1  7.10  0.02 ? 1 ? ? . A 46 PHE HZ   A 46 PHE HZ   . 2MA6 ? 
+543 1 1 46 46 PHE C    C 13 175.6 0.2  ? 1 ? ? . A 46 PHE C    A 46 PHE C    . 2MA6 ? 
+544 1 1 46 46 PHE CA   C 13 58.5  0.2  ? 1 ? ? . A 46 PHE CA   A 46 PHE CA   . 2MA6 ? 
+545 1 1 46 46 PHE CB   C 13 39.4  0.2  ? 1 ? ? . A 46 PHE CB   A 46 PHE CB   . 2MA6 ? 
+546 1 1 46 46 PHE CD1  C 13 131.3 0.2  ? 3 ? ? . A 46 PHE CD1  A 46 PHE CD2  . 2MA6 ? 
+547 1 1 46 46 PHE CD2  C 13 131.3 0.2  ? 3 ? ? . A 46 PHE CD2  A 46 PHE CD1  . 2MA6 ? 
+548 1 1 46 46 PHE CE1  C 13 131.4 0.2  ? 3 ? ? . A 46 PHE CE1  A 46 PHE CE2  . 2MA6 ? 
+549 1 1 46 46 PHE CE2  C 13 131.4 0.2  ? 3 ? ? . A 46 PHE CE2  A 46 PHE CE1  . 2MA6 ? 
+550 1 1 46 46 PHE CZ   C 13 129.5 0.2  ? 1 ? ? . A 46 PHE CZ   A 46 PHE CZ   . 2MA6 ? 
+551 1 1 46 46 PHE N    N 15 125.4 0.2  ? 1 ? ? . A 46 PHE N    A 46 PHE N    . 2MA6 ? 
+552 1 1 47 47 PHE H    H 1  9.69  0.02 ? 1 ? ? . A 47 PHE H    A ?  ?   ?    . 2MA6 ? 
+553 1 1 47 47 PHE HA   H 1  4.49  0.02 ? 1 ? ? . A 47 PHE HA   A 47 PHE HA   . 2MA6 ? 
+554 1 1 47 47 PHE HB2  H 1  2.22  0.02 ? 2 ? ? . A 47 PHE HB2  A 47 PHE HB2  . 2MA6 ? 
+555 1 1 47 47 PHE HB3  H 1  2.85  0.02 ? 2 ? ? . A 47 PHE HB3  A ?  ?   ?    . 2MA6 ? 
+556 1 1 47 47 PHE HD1  H 1  7.29  0.02 ? 3 ? ? . A 47 PHE HD1  A 47 PHE HD1  . 2MA6 ? 
+557 1 1 47 47 PHE HD2  H 1  7.29  0.02 ? 3 ? ? . A 47 PHE HD2  A 47 PHE HD2  . 2MA6 ? 
+558 1 1 47 47 PHE HE1  H 1  7.47  0.02 ? 3 ? ? . A 47 PHE HE1  A 47 PHE HE1  . 2MA6 ? 
+559 1 1 47 47 PHE HE2  H 1  7.47  0.02 ? 3 ? ? . A 47 PHE HE2  A 47 PHE HE2  . 2MA6 ? 
+560 1 1 47 47 PHE HZ   H 1  7.14  0.02 ? 1 ? ? . A 47 PHE HZ   A 47 PHE HZ   . 2MA6 ? 
+561 1 1 47 47 PHE C    C 13 177.1 0.2  ? 1 ? ? . A 47 PHE C    A 47 PHE C    . 2MA6 ? 
+562 1 1 47 47 PHE CA   C 13 59.4  0.2  ? 1 ? ? . A 47 PHE CA   A 47 PHE CA   . 2MA6 ? 
+563 1 1 47 47 PHE CB   C 13 39.3  0.2  ? 1 ? ? . A 47 PHE CB   A 47 PHE CB   . 2MA6 ? 
+564 1 1 47 47 PHE CD1  C 13 132.3 0.2  ? 3 ? ? . A 47 PHE CD1  A 47 PHE CD1  . 2MA6 ? 
+565 1 1 47 47 PHE CD2  C 13 132.3 0.2  ? 3 ? ? . A 47 PHE CD2  A 47 PHE CD2  . 2MA6 ? 
+566 1 1 47 47 PHE CE1  C 13 131.5 0.2  ? 3 ? ? . A 47 PHE CE1  A 47 PHE CE1  . 2MA6 ? 
+567 1 1 47 47 PHE CE2  C 13 131.5 0.2  ? 3 ? ? . A 47 PHE CE2  A 47 PHE CE2  . 2MA6 ? 
+568 1 1 47 47 PHE CZ   C 13 130.1 0.2  ? 1 ? ? . A 47 PHE CZ   A 47 PHE CZ   . 2MA6 ? 
+569 1 1 47 47 PHE N    N 15 119.4 0.2  ? 1 ? ? . A 47 PHE N    A 47 PHE N    . 2MA6 ? 
+570 1 1 48 48 CYS H    H 1  8.38  0.02 ? 1 ? ? . A 48 CYS H    A ?  ?   ?    . 2MA6 ? 
+571 1 1 48 48 CYS HA   H 1  5.09  0.02 ? 1 ? ? . A 48 CYS HA   A 48 CYS HA   . 2MA6 ? 
+572 1 1 48 48 CYS HB2  H 1  2.84  0.02 ? 2 ? ? . A 48 CYS HB2  A 48 CYS HB2  . 2MA6 ? 
+573 1 1 48 48 CYS HB3  H 1  3.59  0.02 ? 2 ? ? . A 48 CYS HB3  A ?  ?   ?    . 2MA6 ? 
+574 1 1 48 48 CYS C    C 13 175.6 0.2  ? 1 ? ? . A 48 CYS C    A 48 CYS C    . 2MA6 ? 
+575 1 1 48 48 CYS CA   C 13 58.1  0.2  ? 1 ? ? . A 48 CYS CA   A 48 CYS CA   . 2MA6 ? 
+576 1 1 48 48 CYS CB   C 13 32.7  0.2  ? 1 ? ? . A 48 CYS CB   A 48 CYS CB   . 2MA6 ? 
+577 1 1 48 48 CYS N    N 15 117.3 0.2  ? 1 ? ? . A 48 CYS N    A 48 CYS N    . 2MA6 ? 
+578 1 1 49 49 LYS H    H 1  8.01  0.02 ? 1 ? ? . A 49 LYS H    A ?  ?   ?    . 2MA6 ? 
+579 1 1 49 49 LYS HA   H 1  4.14  0.02 ? 1 ? ? . A 49 LYS HA   A 49 LYS HA   . 2MA6 ? 
+580 1 1 49 49 LYS HB2  H 1  2.14  0.02 ? 2 ? ? . A 49 LYS HB2  A 49 LYS HB2  . 2MA6 ? 
+581 1 1 49 49 LYS HB3  H 1  2.14  0.02 ? 2 ? ? . A 49 LYS HB3  A ?  ?   ?    . 2MA6 ? 
+582 1 1 49 49 LYS HG2  H 1  1.29  0.02 ? 2 ? ? . A 49 LYS HG2  A 49 LYS HG2  . 2MA6 ? 
+583 1 1 49 49 LYS HG3  H 1  1.39  0.02 ? 2 ? ? . A 49 LYS HG3  A ?  ?   ?    . 2MA6 ? 
+584 1 1 49 49 LYS HD2  H 1  1.63  0.02 ? 2 ? ? . A 49 LYS HD2  A 49 LYS HD2  . 2MA6 ? 
+585 1 1 49 49 LYS HD3  H 1  1.63  0.02 ? 2 ? ? . A 49 LYS HD3  A ?  ?   ?    . 2MA6 ? 
+586 1 1 49 49 LYS HE2  H 1  2.95  0.02 ? 2 ? ? . A 49 LYS HE2  A 49 LYS HE2  . 2MA6 ? 
+587 1 1 49 49 LYS HE3  H 1  2.95  0.02 ? 2 ? ? . A 49 LYS HE3  A ?  ?   ?    . 2MA6 ? 
+588 1 1 49 49 LYS C    C 13 174.9 0.2  ? 1 ? ? . A 49 LYS C    A 49 LYS C    . 2MA6 ? 
+589 1 1 49 49 LYS CA   C 13 58.1  0.2  ? 1 ? ? . A 49 LYS CA   A 49 LYS CA   . 2MA6 ? 
+590 1 1 49 49 LYS CB   C 13 28.9  0.2  ? 1 ? ? . A 49 LYS CB   A 49 LYS CB   . 2MA6 ? 
+591 1 1 49 49 LYS CG   C 13 25.1  0.2  ? 1 ? ? . A 49 LYS CG   A 49 LYS CG   . 2MA6 ? 
+592 1 1 49 49 LYS CD   C 13 28.5  0.2  ? 1 ? ? . A 49 LYS CD   A 49 LYS CD   . 2MA6 ? 
+593 1 1 49 49 LYS CE   C 13 42.1  0.2  ? 1 ? ? . A 49 LYS CE   A 49 LYS CE   . 2MA6 ? 
+594 1 1 49 49 LYS N    N 15 117.1 0.2  ? 1 ? ? . A 49 LYS N    A 49 LYS N    . 2MA6 ? 
+595 1 1 50 50 THR H    H 1  8.08  0.02 ? 1 ? ? . A 50 THR H    A ?  ?   ?    . 2MA6 ? 
+596 1 1 50 50 THR HA   H 1  4.38  0.02 ? 1 ? ? . A 50 THR HA   A 50 THR HA   . 2MA6 ? 
+597 1 1 50 50 THR HB   H 1  4.06  0.02 ? 1 ? ? . A 50 THR HB   A 50 THR HB   . 2MA6 ? 
+598 1 1 50 50 THR HG1  H 1  5.56  0.02 ? 1 ? ? . A 50 THR HG1  A 50 THR HG1  . 2MA6 ? 
+599 1 1 50 50 THR HG21 H 1  1.41  0.02 ? 1 ? ? . A 50 THR HG21 A 50 THR HG21 . 2MA6 ? 
+600 1 1 50 50 THR HG22 H 1  1.41  0.02 ? 1 ? ? . A 50 THR HG22 A 50 THR HG22 . 2MA6 ? 
+601 1 1 50 50 THR HG23 H 1  1.41  0.02 ? 1 ? ? . A 50 THR HG23 A 50 THR HG23 . 2MA6 ? 
+602 1 1 50 50 THR C    C 13 174.9 0.2  ? 1 ? ? . A 50 THR C    A 50 THR C    . 2MA6 ? 
+603 1 1 50 50 THR CA   C 13 63.7  0.2  ? 1 ? ? . A 50 THR CA   A 50 THR CA   . 2MA6 ? 
+604 1 1 50 50 THR CB   C 13 68.8  0.2  ? 1 ? ? . A 50 THR CB   A 50 THR CB   . 2MA6 ? 
+605 1 1 50 50 THR CG2  C 13 21.3  0.2  ? 1 ? ? . A 50 THR CG2  A 50 THR CG2  . 2MA6 ? 
+606 1 1 50 50 THR N    N 15 118.4 0.2  ? 1 ? ? . A 50 THR N    A 50 THR N    . 2MA6 ? 
+607 1 1 51 51 THR H    H 1  8.85  0.02 ? 1 ? ? . A 51 THR H    A ?  ?   ?    . 2MA6 ? 
+608 1 1 51 51 THR HA   H 1  4.09  0.02 ? 1 ? ? . A 51 THR HA   A 51 THR HA   . 2MA6 ? 
+609 1 1 51 51 THR HB   H 1  3.97  0.02 ? 1 ? ? . A 51 THR HB   A 51 THR HB   . 2MA6 ? 
+610 1 1 51 51 THR HG21 H 1  1.14  0.02 ? 1 ? ? . A 51 THR HG21 A 51 THR HG21 . 2MA6 ? 
+611 1 1 51 51 THR HG22 H 1  1.14  0.02 ? 1 ? ? . A 51 THR HG22 A 51 THR HG22 . 2MA6 ? 
+612 1 1 51 51 THR HG23 H 1  1.14  0.02 ? 1 ? ? . A 51 THR HG23 A 51 THR HG23 . 2MA6 ? 
+613 1 1 51 51 THR C    C 13 174.3 0.2  ? 1 ? ? . A 51 THR C    A 51 THR C    . 2MA6 ? 
+614 1 1 51 51 THR CA   C 13 65.2  0.2  ? 1 ? ? . A 51 THR CA   A 51 THR CA   . 2MA6 ? 
+615 1 1 51 51 THR CB   C 13 68.9  0.2  ? 1 ? ? . A 51 THR CB   A 51 THR CB   . 2MA6 ? 
+616 1 1 51 51 THR CG2  C 13 22.3  0.2  ? 1 ? ? . A 51 THR CG2  A 51 THR CG2  . 2MA6 ? 
+617 1 1 51 51 THR N    N 15 126.0 0.2  ? 1 ? ? . A 51 THR N    A 51 THR N    . 2MA6 ? 
+618 1 1 52 52 ILE H    H 1  8.34  0.02 ? 1 ? ? . A 52 ILE H    A ?  ?   ?    . 2MA6 ? 
+619 1 1 52 52 ILE HA   H 1  4.24  0.02 ? 1 ? ? . A 52 ILE HA   A 52 ILE HA   . 2MA6 ? 
+620 1 1 52 52 ILE HB   H 1  1.54  0.02 ? 1 ? ? . A 52 ILE HB   A 52 ILE HB   . 2MA6 ? 
+621 1 1 52 52 ILE HG12 H 1  1.02  0.02 ? 2 ? ? . A 52 ILE HG12 A 52 ILE HG12 . 2MA6 ? 
+622 1 1 52 52 ILE HG13 H 1  1.67  0.02 ? 2 ? ? . A 52 ILE HG13 A ?  ?   ?    . 2MA6 ? 
+623 1 1 52 52 ILE HG21 H 1  0.81  0.02 ? 1 ? ? . A 52 ILE HG21 A 52 ILE HG21 . 2MA6 ? 
+624 1 1 52 52 ILE HG22 H 1  0.81  0.02 ? 1 ? ? . A 52 ILE HG22 A 52 ILE HG22 . 2MA6 ? 
+625 1 1 52 52 ILE HG23 H 1  0.81  0.02 ? 1 ? ? . A 52 ILE HG23 A 52 ILE HG23 . 2MA6 ? 
+626 1 1 52 52 ILE HD11 H 1  0.27  0.02 ? 1 ? ? . A 52 ILE HD11 A 52 ILE HD11 . 2MA6 ? 
+627 1 1 52 52 ILE HD12 H 1  0.27  0.02 ? 1 ? ? . A 52 ILE HD12 A 52 ILE HD12 . 2MA6 ? 
+628 1 1 52 52 ILE HD13 H 1  0.27  0.02 ? 1 ? ? . A 52 ILE HD13 A 52 ILE HD13 . 2MA6 ? 
+629 1 1 52 52 ILE C    C 13 176.2 0.2  ? 1 ? ? . A 52 ILE C    A 52 ILE C    . 2MA6 ? 
+630 1 1 52 52 ILE CA   C 13 61.7  0.2  ? 1 ? ? . A 52 ILE CA   A 52 ILE CA   . 2MA6 ? 
+631 1 1 52 52 ILE CB   C 13 38.9  0.2  ? 1 ? ? . A 52 ILE CB   A 52 ILE CB   . 2MA6 ? 
+632 1 1 52 52 ILE CG1  C 13 28.9  0.2  ? 1 ? ? . A 52 ILE CG1  A 52 ILE CG1  . 2MA6 ? 
+633 1 1 52 52 ILE CG2  C 13 17.8  0.2  ? 1 ? ? . A 52 ILE CG2  A 52 ILE CG2  . 2MA6 ? 
+634 1 1 52 52 ILE CD1  C 13 14.3  0.2  ? 1 ? ? . A 52 ILE CD1  A 52 ILE CD1  . 2MA6 ? 
+635 1 1 52 52 ILE N    N 15 129.1 0.2  ? 1 ? ? . A 52 ILE N    A 52 ILE N    . 2MA6 ? 
+636 1 1 53 53 VAL H    H 1  9.42  0.02 ? 1 ? ? . A 53 VAL H    A ?  ?   ?    . 2MA6 ? 
+637 1 1 53 53 VAL HA   H 1  4.11  0.02 ? 1 ? ? . A 53 VAL HA   A 53 VAL HA   . 2MA6 ? 
+638 1 1 53 53 VAL HB   H 1  2.00  0.02 ? 1 ? ? . A 53 VAL HB   A 53 VAL HB   . 2MA6 ? 
+639 1 1 53 53 VAL HG11 H 1  0.95  0.02 ? 1 ? ? . A 53 VAL HG11 A 53 VAL HG11 . 2MA6 ? 
+640 1 1 53 53 VAL HG12 H 1  0.95  0.02 ? 1 ? ? . A 53 VAL HG12 A 53 VAL HG12 . 2MA6 ? 
+641 1 1 53 53 VAL HG13 H 1  0.95  0.02 ? 1 ? ? . A 53 VAL HG13 A 53 VAL HG13 . 2MA6 ? 
+642 1 1 53 53 VAL HG21 H 1  0.98  0.02 ? 1 ? ? . A 53 VAL HG21 A 53 VAL HG21 . 2MA6 ? 
+643 1 1 53 53 VAL HG22 H 1  0.98  0.02 ? 1 ? ? . A 53 VAL HG22 A 53 VAL HG22 . 2MA6 ? 
+644 1 1 53 53 VAL HG23 H 1  0.98  0.02 ? 1 ? ? . A 53 VAL HG23 A 53 VAL HG23 . 2MA6 ? 
+645 1 1 53 53 VAL C    C 13 176.4 0.2  ? 1 ? ? . A 53 VAL C    A 53 VAL C    . 2MA6 ? 
+646 1 1 53 53 VAL CA   C 13 63.9  0.2  ? 1 ? ? . A 53 VAL CA   A 53 VAL CA   . 2MA6 ? 
+647 1 1 53 53 VAL CB   C 13 32.5  0.2  ? 1 ? ? . A 53 VAL CB   A 53 VAL CB   . 2MA6 ? 
+648 1 1 53 53 VAL CG1  C 13 21.0  0.2  ? 1 ? ? . A 53 VAL CG1  A 53 VAL CG1  . 2MA6 ? 
+649 1 1 53 53 VAL CG2  C 13 21.6  0.2  ? 1 ? ? . A 53 VAL CG2  A 53 VAL CG2  . 2MA6 ? 
+650 1 1 53 53 VAL N    N 15 128.9 0.2  ? 1 ? ? . A 53 VAL N    A 53 VAL N    . 2MA6 ? 
+651 1 1 54 54 SER H    H 1  7.92  0.02 ? 1 ? ? . A 54 SER H    A ?  ?   ?    . 2MA6 ? 
+652 1 1 54 54 SER HA   H 1  4.65  0.02 ? 1 ? ? . A 54 SER HA   A 54 SER HA   . 2MA6 ? 
+653 1 1 54 54 SER HB2  H 1  3.85  0.02 ? 2 ? ? . A 54 SER HB2  A 54 SER HB2  . 2MA6 ? 
+654 1 1 54 54 SER HB3  H 1  3.89  0.02 ? 2 ? ? . A 54 SER HB3  A ?  ?   ?    . 2MA6 ? 
+655 1 1 54 54 SER C    C 13 171.2 0.2  ? 1 ? ? . A 54 SER C    A 54 SER C    . 2MA6 ? 
+656 1 1 54 54 SER CA   C 13 57.6  0.2  ? 1 ? ? . A 54 SER CA   A 54 SER CA   . 2MA6 ? 
+657 1 1 54 54 SER CB   C 13 65.2  0.2  ? 1 ? ? . A 54 SER CB   A 54 SER CB   . 2MA6 ? 
+658 1 1 54 54 SER N    N 15 113.1 0.2  ? 1 ? ? . A 54 SER N    A 54 SER N    . 2MA6 ? 
+659 1 1 55 55 VAL H    H 1  8.43  0.02 ? 1 ? ? . A 55 VAL H    A ?  ?   ?    . 2MA6 ? 
+660 1 1 55 55 VAL HA   H 1  4.79  0.02 ? 1 ? ? . A 55 VAL HA   A 55 VAL HA   . 2MA6 ? 
+661 1 1 55 55 VAL HB   H 1  1.98  0.02 ? 1 ? ? . A 55 VAL HB   A 55 VAL HB   . 2MA6 ? 
+662 1 1 55 55 VAL HG11 H 1  1.04  0.02 ? 1 ? ? . A 55 VAL HG11 A 55 VAL HG11 . 2MA6 ? 
+663 1 1 55 55 VAL HG12 H 1  1.04  0.02 ? 1 ? ? . A 55 VAL HG12 A 55 VAL HG12 . 2MA6 ? 
+664 1 1 55 55 VAL HG13 H 1  1.04  0.02 ? 1 ? ? . A 55 VAL HG13 A 55 VAL HG13 . 2MA6 ? 
+665 1 1 55 55 VAL HG21 H 1  0.89  0.02 ? 1 ? ? . A 55 VAL HG21 A 55 VAL HG21 . 2MA6 ? 
+666 1 1 55 55 VAL HG22 H 1  0.89  0.02 ? 1 ? ? . A 55 VAL HG22 A 55 VAL HG22 . 2MA6 ? 
+667 1 1 55 55 VAL HG23 H 1  0.89  0.02 ? 1 ? ? . A 55 VAL HG23 A 55 VAL HG23 . 2MA6 ? 
+668 1 1 55 55 VAL C    C 13 175.6 0.2  ? 1 ? ? . A 55 VAL C    A 55 VAL C    . 2MA6 ? 
+669 1 1 55 55 VAL CA   C 13 61.9  0.2  ? 1 ? ? . A 55 VAL CA   A 55 VAL CA   . 2MA6 ? 
+670 1 1 55 55 VAL CB   C 13 34.0  0.2  ? 1 ? ? . A 55 VAL CB   A 55 VAL CB   . 2MA6 ? 
+671 1 1 55 55 VAL CG1  C 13 22.7  0.2  ? 1 ? ? . A 55 VAL CG1  A 55 VAL CG1  . 2MA6 ? 
+672 1 1 55 55 VAL CG2  C 13 22.0  0.2  ? 1 ? ? . A 55 VAL CG2  A 55 VAL CG2  . 2MA6 ? 
+673 1 1 55 55 VAL N    N 15 121.2 0.2  ? 1 ? ? . A 55 VAL N    A 55 VAL N    . 2MA6 ? 
+674 1 1 56 56 GLU H    H 1  9.31  0.02 ? 1 ? ? . A 56 GLU H    A ?  ?   ?    . 2MA6 ? 
+675 1 1 56 56 GLU HA   H 1  4.84  0.02 ? 1 ? ? . A 56 GLU HA   A 56 GLU HA   . 2MA6 ? 
+676 1 1 56 56 GLU HB2  H 1  1.97  0.02 ? 2 ? ? . A 56 GLU HB2  A 56 GLU HB2  . 2MA6 ? 
+677 1 1 56 56 GLU HB3  H 1  2.19  0.02 ? 2 ? ? . A 56 GLU HB3  A ?  ?   ?    . 2MA6 ? 
+678 1 1 56 56 GLU HG2  H 1  2.28  0.02 ? 2 ? ? . A 56 GLU HG2  A 56 GLU HG2  . 2MA6 ? 
+679 1 1 56 56 GLU HG3  H 1  2.28  0.02 ? 2 ? ? . A 56 GLU HG3  A ?  ?   ?    . 2MA6 ? 
+680 1 1 56 56 GLU C    C 13 175.9 0.2  ? 1 ? ? . A 56 GLU C    A 56 GLU C    . 2MA6 ? 
+681 1 1 56 56 GLU CA   C 13 53.8  0.2  ? 1 ? ? . A 56 GLU CA   A 56 GLU CA   . 2MA6 ? 
+682 1 1 56 56 GLU CB   C 13 32.5  0.2  ? 1 ? ? . A 56 GLU CB   A 56 GLU CB   . 2MA6 ? 
+683 1 1 56 56 GLU CG   C 13 35.9  0.2  ? 1 ? ? . A 56 GLU CG   A 56 GLU CG   . 2MA6 ? 
+684 1 1 56 56 GLU N    N 15 126.9 0.2  ? 1 ? ? . A 56 GLU N    A 56 GLU N    . 2MA6 ? 
+685 1 1 57 57 ASP H    H 1  8.72  0.02 ? 1 ? ? . A 57 ASP H    A ?  ?   ?    . 2MA6 ? 
+686 1 1 57 57 ASP HA   H 1  4.85  0.02 ? 1 ? ? . A 57 ASP HA   A 57 ASP HA   . 2MA6 ? 
+687 1 1 57 57 ASP HB2  H 1  2.60  0.02 ? 2 ? ? . A 57 ASP HB2  A 57 ASP HB2  . 2MA6 ? 
+688 1 1 57 57 ASP HB3  H 1  2.75  0.02 ? 2 ? ? . A 57 ASP HB3  A ?  ?   ?    . 2MA6 ? 
+689 1 1 57 57 ASP C    C 13 175.7 0.2  ? 1 ? ? . A 57 ASP C    A 57 ASP C    . 2MA6 ? 
+690 1 1 57 57 ASP CA   C 13 55.3  0.2  ? 1 ? ? . A 57 ASP CA   A 57 ASP CA   . 2MA6 ? 
+691 1 1 57 57 ASP CB   C 13 41.3  0.2  ? 1 ? ? . A 57 ASP CB   A 57 ASP CB   . 2MA6 ? 
+692 1 1 57 57 ASP N    N 15 121.9 0.2  ? 1 ? ? . A 57 ASP N    A 57 ASP N    . 2MA6 ? 
+693 1 1 58 58 TRP H    H 1  7.91  0.02 ? 1 ? ? . A 58 TRP H    A ?  ?   ?    . 2MA6 ? 
+694 1 1 58 58 TRP HA   H 1  4.64  0.02 ? 1 ? ? . A 58 TRP HA   A 58 TRP HA   . 2MA6 ? 
+695 1 1 58 58 TRP HB2  H 1  2.77  0.02 ? 2 ? ? . A 58 TRP HB2  A 58 TRP HB2  . 2MA6 ? 
+696 1 1 58 58 TRP HB3  H 1  2.77  0.02 ? 2 ? ? . A 58 TRP HB3  A ?  ?   ?    . 2MA6 ? 
+697 1 1 58 58 TRP HD1  H 1  7.06  0.02 ? 1 ? ? . A 58 TRP HD1  A 58 TRP HD1  . 2MA6 ? 
+698 1 1 58 58 TRP HE1  H 1  10.13 0.02 ? 1 ? ? . A 58 TRP HE1  A 58 TRP HE1  . 2MA6 ? 
+699 1 1 58 58 TRP HE3  H 1  7.29  0.02 ? 1 ? ? . A 58 TRP HE3  A 58 TRP HE3  . 2MA6 ? 
+700 1 1 58 58 TRP HZ2  H 1  7.41  0.02 ? 1 ? ? . A 58 TRP HZ2  A 58 TRP HZ2  . 2MA6 ? 
+701 1 1 58 58 TRP HZ3  H 1  7.07  0.02 ? 1 ? ? . A 58 TRP HZ3  A 58 TRP HZ3  . 2MA6 ? 
+702 1 1 58 58 TRP HH2  H 1  7.16  0.02 ? 1 ? ? . A 58 TRP HH2  A 58 TRP HH2  . 2MA6 ? 
+703 1 1 58 58 TRP C    C 13 174.3 0.2  ? 1 ? ? . A 58 TRP C    A 58 TRP C    . 2MA6 ? 
+704 1 1 58 58 TRP CA   C 13 57.2  0.2  ? 1 ? ? . A 58 TRP CA   A 58 TRP CA   . 2MA6 ? 
+705 1 1 58 58 TRP CB   C 13 31.4  0.2  ? 1 ? ? . A 58 TRP CB   A 58 TRP CB   . 2MA6 ? 
+706 1 1 58 58 TRP CD1  C 13 126.7 0.2  ? 1 ? ? . A 58 TRP CD1  A 58 TRP CD1  . 2MA6 ? 
+707 1 1 58 58 TRP CE3  C 13 120.7 0.2  ? 1 ? ? . A 58 TRP CE3  A 58 TRP CE3  . 2MA6 ? 
+708 1 1 58 58 TRP CZ2  C 13 114.1 0.2  ? 1 ? ? . A 58 TRP CZ2  A 58 TRP CZ2  . 2MA6 ? 
+709 1 1 58 58 TRP CZ3  C 13 121.9 0.2  ? 1 ? ? . A 58 TRP CZ3  A 58 TRP CZ3  . 2MA6 ? 
+710 1 1 58 58 TRP CH2  C 13 124.3 0.2  ? 1 ? ? . A 58 TRP CH2  A 58 TRP CH2  . 2MA6 ? 
+711 1 1 58 58 TRP N    N 15 123.4 0.2  ? 1 ? ? . A 58 TRP N    A 58 TRP N    . 2MA6 ? 
+712 1 1 58 58 TRP NE1  N 15 129.3 0.2  ? 1 ? ? . A 58 TRP NE1  A 58 TRP NE1  . 2MA6 ? 
+713 1 1 59 59 GLU H    H 1  7.62  0.02 ? 1 ? ? . A 59 GLU H    A ?  ?   ?    . 2MA6 ? 
+714 1 1 59 59 GLU HA   H 1  4.11  0.02 ? 1 ? ? . A 59 GLU HA   A 59 GLU HA   . 2MA6 ? 
+715 1 1 59 59 GLU HB2  H 1  1.69  0.02 ? 2 ? ? . A 59 GLU HB2  A 59 GLU HB2  . 2MA6 ? 
+716 1 1 59 59 GLU HB3  H 1  1.82  0.02 ? 2 ? ? . A 59 GLU HB3  A ?  ?   ?    . 2MA6 ? 
+717 1 1 59 59 GLU HG2  H 1  2.00  0.02 ? 2 ? ? . A 59 GLU HG2  A 59 GLU HG2  . 2MA6 ? 
+718 1 1 59 59 GLU HG3  H 1  2.00  0.02 ? 2 ? ? . A 59 GLU HG3  A ?  ?   ?    . 2MA6 ? 
+719 1 1 59 59 GLU C    C 13 174.2 0.2  ? 1 ? ? . A 59 GLU C    A 59 GLU C    . 2MA6 ? 
+720 1 1 59 59 GLU CA   C 13 55.0  0.2  ? 1 ? ? . A 59 GLU CA   A 59 GLU CA   . 2MA6 ? 
+721 1 1 59 59 GLU CB   C 13 31.6  0.2  ? 1 ? ? . A 59 GLU CB   A 59 GLU CB   . 2MA6 ? 
+722 1 1 59 59 GLU CG   C 13 35.5  0.2  ? 1 ? ? . A 59 GLU CG   A 59 GLU CG   . 2MA6 ? 
+723 1 1 59 59 GLU N    N 15 125.3 0.2  ? 1 ? ? . A 59 GLU N    A 59 GLU N    . 2MA6 ? 
+724 1 1 60 60 LYS H    H 1  7.86  0.02 ? 1 ? ? . A 60 LYS H    A ?  ?   ?    . 2MA6 ? 
+725 1 1 60 60 LYS HA   H 1  3.71  0.02 ? 1 ? ? . A 60 LYS HA   A 60 LYS HA   . 2MA6 ? 
+726 1 1 60 60 LYS HB2  H 1  1.62  0.02 ? 2 ? ? . A 60 LYS HB2  A 60 LYS HB2  . 2MA6 ? 
+727 1 1 60 60 LYS HB3  H 1  1.69  0.02 ? 2 ? ? . A 60 LYS HB3  A ?  ?   ?    . 2MA6 ? 
+728 1 1 60 60 LYS HG2  H 1  1.36  0.02 ? 2 ? ? . A 60 LYS HG2  A 60 LYS HG2  . 2MA6 ? 
+729 1 1 60 60 LYS HG3  H 1  1.36  0.02 ? 2 ? ? . A 60 LYS HG3  A ?  ?   ?    . 2MA6 ? 
+730 1 1 60 60 LYS HD2  H 1  1.69  0.02 ? 2 ? ? . A 60 LYS HD2  A 60 LYS HD2  . 2MA6 ? 
+731 1 1 60 60 LYS HD3  H 1  1.69  0.02 ? 2 ? ? . A 60 LYS HD3  A ?  ?   ?    . 2MA6 ? 
+732 1 1 60 60 LYS HE2  H 1  2.99  0.02 ? 2 ? ? . A 60 LYS HE2  A 60 LYS HE2  . 2MA6 ? 
+733 1 1 60 60 LYS HE3  H 1  2.99  0.02 ? 2 ? ? . A 60 LYS HE3  A ?  ?   ?    . 2MA6 ? 
+734 1 1 60 60 LYS C    C 13 176.0 0.2  ? 1 ? ? . A 60 LYS C    A 60 LYS C    . 2MA6 ? 
+735 1 1 60 60 LYS CA   C 13 56.7  0.2  ? 1 ? ? . A 60 LYS CA   A 60 LYS CA   . 2MA6 ? 
+736 1 1 60 60 LYS CB   C 13 32.8  0.2  ? 1 ? ? . A 60 LYS CB   A 60 LYS CB   . 2MA6 ? 
+737 1 1 60 60 LYS CG   C 13 24.5  0.2  ? 1 ? ? . A 60 LYS CG   A 60 LYS CG   . 2MA6 ? 
+738 1 1 60 60 LYS CD   C 13 29.3  0.2  ? 1 ? ? . A 60 LYS CD   A 60 LYS CD   . 2MA6 ? 
+739 1 1 60 60 LYS CE   C 13 42.1  0.2  ? 1 ? ? . A 60 LYS CE   A 60 LYS CE   . 2MA6 ? 
+740 1 1 60 60 LYS N    N 15 122.7 0.2  ? 1 ? ? . A 60 LYS N    A 60 LYS N    . 2MA6 ? 
+741 1 1 61 61 GLY H    H 1  7.90  0.02 ? 1 ? ? . A 61 GLY H    A ?  ?   ?    . 2MA6 ? 
+742 1 1 61 61 GLY HA2  H 1  3.70  0.02 ? 2 ? ? . A 61 GLY HA2  A 61 GLY HA2  . 2MA6 ? 
+743 1 1 61 61 GLY HA3  H 1  3.70  0.02 ? 2 ? ? . A 61 GLY HA3  A ?  ?   ?    . 2MA6 ? 
+744 1 1 61 61 GLY CA   C 13 46.0  0.2  ? 1 ? ? . A 61 GLY CA   A 61 GLY CA   . 2MA6 ? 
+745 1 1 61 61 GLY N    N 15 116.7 0.2  ? 1 ? ? . A 61 GLY N    A 61 GLY N    . 2MA6 ? 
+stop_
+save_

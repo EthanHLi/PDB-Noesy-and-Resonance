@@ -1,0 +1,455 @@
+data_6svc
+
+save_entry_information
+# 
+_Entry.ID                 6SVC 
+_Entry.Assigned_BMRB_ID   34432 
+# 
+loop_
+_Audit.Revision_ID 
+_Audit.Creation_date 
+_Audit.Update_record 
+_Audit.Creation_method 
+_Audit.Entry_ID 
+1 2019-09-18 'Nomenclature checked'             . 6SVC 
+2 2019-09-18 'Nomenclature checked and updated' . 6SVC 
+3 2019-09-18 'Preliminary version'              . 6SVC 
+4 2020-09-30 'Initial release'                  . 6SVC 
+stop_
+save_
+save_chemical_shift_reference_1
+# 
+_Chem_shift_reference.Sf_category    chem_shift_reference 
+_Chem_shift_reference.Sf_framecode   chemical_shift_reference_1 
+_Chem_shift_reference.Entry_ID       6SVC 
+_Chem_shift_reference.ID             1 
+# 
+loop_
+_Chem_shift_ref.Atom_type 
+_Chem_shift_ref.Atom_isotope_number 
+_Chem_shift_ref.Mol_common_name 
+_Chem_shift_ref.Atom_group 
+_Chem_shift_ref.Concentration_val 
+_Chem_shift_ref.Concentration_units 
+_Chem_shift_ref.Solvent 
+_Chem_shift_ref.Rank 
+_Chem_shift_ref.Chem_shift_units 
+_Chem_shift_ref.Chem_shift_val 
+_Chem_shift_ref.Ref_method 
+_Chem_shift_ref.Ref_type 
+_Chem_shift_ref.Indirect_shift_ratio 
+_Chem_shift_ref.Entry_ID 
+_Chem_shift_ref.Chem_shift_reference_ID 
+H 1  DSS 'methyl protons' ? ? ? ? ppm 0.000 internal direct   1.0        6SVC 1 
+N 15 DSS 'methyl protons' ? ? ? ? ppm 0.000 internal indirect 0.10132912 6SVC 1 
+C 13 DSS 'methyl protons' ? ? ? ? ppm 0.000 internal indirect 0.25144953 6SVC 1 
+stop_
+save_
+save_assigned_chem_shift_list_1
+# 
+_Assigned_chem_shift_list.Sf_category   assigned_chemical_shifts 
+# 
+loop_
+_Atom_chem_shift.ID 
+_Atom_chem_shift.Entity_assembly_ID 
+_Atom_chem_shift.Entity_ID 
+_Atom_chem_shift.Comp_index_ID 
+_Atom_chem_shift.Seq_ID 
+_Atom_chem_shift.Comp_ID 
+_Atom_chem_shift.Atom_ID 
+_Atom_chem_shift.Atom_type 
+_Atom_chem_shift.Atom_isotope_number 
+_Atom_chem_shift.Val 
+_Atom_chem_shift.Val_err 
+_Atom_chem_shift.Assign_fig_of_merit 
+_Atom_chem_shift.Ambiguity_code 
+_Atom_chem_shift.Occupancy 
+_Atom_chem_shift.Resonance_ID 
+_Atom_chem_shift.Auth_entity_assembly_ID 
+_Atom_chem_shift.Auth_asym_ID 
+_Atom_chem_shift.Auth_seq_ID 
+_Atom_chem_shift.Auth_comp_ID 
+_Atom_chem_shift.Auth_atom_ID 
+_Atom_chem_shift.Original_PDB_strand_ID 
+_Atom_chem_shift.Original_PDB_residue_no 
+_Atom_chem_shift.Original_PDB_residue_name 
+_Atom_chem_shift.Original_PDB_atom_name 
+_Atom_chem_shift.Details 
+_Atom_chem_shift.Entry_ID 
+_Atom_chem_shift.Assigned_chem_shift_list_ID 
+1   1 . 1  ? SER CA   C 13 57.441  0.400 ? 1 ? ? . A 5  SER CA   A 5  SER CA   . 6SVC ? 
+2   1 . 1  ? SER HA   H 1  4.098   0.020 ? 1 ? ? . A 5  SER HA   A 5  SER HA   . 6SVC ? 
+3   1 . 2  ? LYS HA   H 1  4.355   0.020 ? 1 ? ? . A 6  LYS HA   A 6  LYS HA   . 6SVC ? 
+4   1 . 2  ? LYS CB   C 13 33.510  0.400 ? 1 ? ? . A 6  LYS CB   A 6  LYS CB   . 6SVC ? 
+5   1 . 2  ? LYS HB2  H 1  1.825   0.020 ? 2 ? ? . A 6  LYS HB2  A 6  LYS HB2  . 6SVC ? 
+6   1 . 2  ? LYS HB3  H 1  1.759   0.020 ? 2 ? ? . A 6  LYS HB3  A 6  LYS HB3  . 6SVC ? 
+7   1 . 2  ? LYS CG   C 13 24.657  0.400 ? 1 ? ? . A 6  LYS CG   A 6  LYS CG   . 6SVC ? 
+8   1 . 2  ? LYS HG2  H 1  1.454   0.020 ? 2 ? ? . A 6  LYS HG2  A 6  LYS HG2  . 6SVC ? 
+9   1 . 2  ? LYS HG3  H 1  1.454   0.020 ? 2 ? ? . A 6  LYS HG3  A 6  LYS HG3  . 6SVC ? 
+10  1 . 2  ? LYS CD   C 13 29.416  0.400 ? 1 ? ? . A 6  LYS CD   A 6  LYS CD   . 6SVC ? 
+11  1 . 2  ? LYS HD2  H 1  1.684   0.020 ? 1 ? ? . A 6  LYS HD2  A 6  LYS HD2  . 6SVC ? 
+12  1 . 2  ? LYS CE   C 13 42.187  0.400 ? 1 ? ? . A 6  LYS CE   A 6  LYS CE   . 6SVC ? 
+13  1 . 2  ? LYS HE2  H 1  2.996   0.020 ? 2 ? ? . A 6  LYS HE2  A 6  LYS HE2  . 6SVC ? 
+14  1 . 2  ? LYS HE3  H 1  2.996   0.020 ? 2 ? ? . A 6  LYS HE3  A 6  LYS HE3  . 6SVC ? 
+15  1 . 3  ? LEU N    N 15 125.143 0.400 ? 1 ? ? . A 7  LEU N    A 7  LEU N    . 6SVC ? 
+16  1 . 3  ? LEU H    H 1  8.696   0.020 ? 1 ? ? . A 7  LEU H    A 7  LEU H    . 6SVC ? 
+17  1 . 3  ? LEU CA   C 13 53.207  0.400 ? 1 ? ? . A 7  LEU CA   A 7  LEU CA   . 6SVC ? 
+18  1 . 3  ? LEU HA   H 1  4.466   0.020 ? 1 ? ? . A 7  LEU HA   A 7  LEU HA   . 6SVC ? 
+19  1 . 3  ? LEU CB   C 13 41.996  0.400 ? 1 ? ? . A 7  LEU CB   A 7  LEU CB   . 6SVC ? 
+20  1 . 3  ? LEU HB2  H 1  1.791   0.020 ? 1 ? ? . A 7  LEU HB2  A 7  LEU HB2  . 6SVC ? 
+21  1 . 3  ? LEU HB3  H 1  1.386   0.020 ? 1 ? ? . A 7  LEU HB3  A 7  LEU HB3  . 6SVC ? 
+22  1 . 3  ? LEU CG   C 13 27.428  0.400 ? 1 ? ? . A 7  LEU CG   A 7  LEU CG   . 6SVC ? 
+23  1 . 3  ? LEU HG   H 1  1.866   0.020 ? 1 ? ? . A 7  LEU HG   A 7  LEU HG   . 6SVC ? 
+24  1 . 3  ? LEU CD1  C 13 26.598  0.400 ? 2 ? ? . A 7  LEU CD1  A 7  LEU CD1  . 6SVC ? 
+25  1 . 3  ? LEU HD11 H 1  0.740   0.020 ? 2 ? ? . A 7  LEU HD11 A 7  LEU HD11 . 6SVC ? 
+26  1 . 3  ? LEU HD12 H 1  0.740   0.020 ? 2 ? ? . A 7  LEU HD12 A 7  LEU HD12 . 6SVC ? 
+27  1 . 3  ? LEU HD13 H 1  0.740   0.020 ? 2 ? ? . A 7  LEU HD13 A 7  LEU HD13 . 6SVC ? 
+28  1 . 3  ? LEU CD2  C 13 24.031  0.400 ? 2 ? ? . A 7  LEU CD2  A 7  LEU CD2  . 6SVC ? 
+29  1 . 3  ? LEU HD21 H 1  1.043   0.020 ? 2 ? ? . A 7  LEU HD21 A 7  LEU HD21 . 6SVC ? 
+30  1 . 3  ? LEU HD22 H 1  1.043   0.020 ? 2 ? ? . A 7  LEU HD22 A 7  LEU HD22 . 6SVC ? 
+31  1 . 3  ? LEU HD23 H 1  1.043   0.020 ? 2 ? ? . A 7  LEU HD23 A 7  LEU HD23 . 6SVC ? 
+32  1 . 4  ? PRO HA   H 1  4.818   0.020 ? 1 ? ? . A 8  PRO HA   A 8  PRO HA   . 6SVC ? 
+33  1 . 4  ? PRO CB   C 13 29.919  0.400 ? 1 ? ? . A 8  PRO CB   A 8  PRO CB   . 6SVC ? 
+34  1 . 4  ? PRO HB2  H 1  1.969   0.020 ? 1 ? ? . A 8  PRO HB2  A 8  PRO HB2  . 6SVC ? 
+35  1 . 4  ? PRO HB3  H 1  2.583   0.020 ? 1 ? ? . A 8  PRO HB3  A 8  PRO HB3  . 6SVC ? 
+36  1 . 4  ? PRO CG   C 13 27.543  0.400 ? 1 ? ? . A 8  PRO CG   A 8  PRO CG   . 6SVC ? 
+37  1 . 4  ? PRO HG2  H 1  1.744   0.020 ? 1 ? ? . A 8  PRO HG2  A 8  PRO HG2  . 6SVC ? 
+38  1 . 4  ? PRO HG3  H 1  1.617   0.020 ? 1 ? ? . A 8  PRO HG3  A 8  PRO HG3  . 6SVC ? 
+39  1 . 4  ? PRO CD   C 13 50.542  0.400 ? 1 ? ? . A 8  PRO CD   A 8  PRO CD   . 6SVC ? 
+40  1 . 4  ? PRO HD2  H 1  2.979   0.020 ? 1 ? ? . A 8  PRO HD2  A 8  PRO HD2  . 6SVC ? 
+41  1 . 4  ? PRO HD3  H 1  3.653   0.020 ? 1 ? ? . A 8  PRO HD3  A 8  PRO HD3  . 6SVC ? 
+42  1 . 5  ? PRO CA   C 13 64.420  0.400 ? 1 ? ? . A 9  PRO CA   A 9  PRO CA   . 6SVC ? 
+43  1 . 5  ? PRO HA   H 1  4.329   0.020 ? 1 ? ? . A 9  PRO HA   A 9  PRO HA   . 6SVC ? 
+44  1 . 5  ? PRO CB   C 13 32.170  0.400 ? 1 ? ? . A 9  PRO CB   A 9  PRO CB   . 6SVC ? 
+45  1 . 5  ? PRO HB2  H 1  2.324   0.020 ? 2 ? ? . A 9  PRO HB2  A 9  PRO HB2  . 6SVC ? 
+46  1 . 5  ? PRO HB3  H 1  1.843   0.020 ? 2 ? ? . A 9  PRO HB3  A 9  PRO HB3  . 6SVC ? 
+47  1 . 5  ? PRO CG   C 13 27.899  0.400 ? 1 ? ? . A 9  PRO CG   A 9  PRO CG   . 6SVC ? 
+48  1 . 5  ? PRO HG2  H 1  2.033   0.020 ? 2 ? ? . A 9  PRO HG2  A 9  PRO HG2  . 6SVC ? 
+49  1 . 5  ? PRO HG3  H 1  2.126   0.020 ? 2 ? ? . A 9  PRO HG3  A 9  PRO HG3  . 6SVC ? 
+50  1 . 5  ? PRO CD   C 13 50.683  0.400 ? 1 ? ? . A 9  PRO CD   A 9  PRO CD   . 6SVC ? 
+51  1 . 5  ? PRO HD2  H 1  3.613   0.020 ? 1 ? ? . A 9  PRO HD2  A 9  PRO HD2  . 6SVC ? 
+52  1 . 5  ? PRO HD3  H 1  3.903   0.020 ? 1 ? ? . A 9  PRO HD3  A 9  PRO HD3  . 6SVC ? 
+53  1 . 6  ? GLY N    N 15 112.094 0.400 ? 1 ? ? . A 10 GLY N    A 10 GLY N    . 6SVC ? 
+54  1 . 6  ? GLY H    H 1  8.795   0.020 ? 1 ? ? . A 10 GLY H    A 10 GLY H    . 6SVC ? 
+55  1 . 6  ? GLY CA   C 13 45.153  0.400 ? 1 ? ? . A 10 GLY CA   A 10 GLY CA   . 6SVC ? 
+56  1 . 6  ? GLY HA2  H 1  3.210   0.020 ? 1 ? ? . A 10 GLY HA2  A 10 GLY HA2  . 6SVC ? 
+57  1 . 6  ? GLY HA3  H 1  4.008   0.020 ? 1 ? ? . A 10 GLY HA3  A 10 GLY HA3  . 6SVC ? 
+58  1 . 7  ? TRP N    N 15 117.765 0.400 ? 1 ? ? . A 11 TRP N    A 11 TRP N    . 6SVC ? 
+59  1 . 7  ? TRP H    H 1  7.334   0.020 ? 1 ? ? . A 11 TRP H    A 11 TRP H    . 6SVC ? 
+60  1 . 7  ? TRP CA   C 13 57.464  0.400 ? 1 ? ? . A 11 TRP CA   A 11 TRP CA   . 6SVC ? 
+61  1 . 7  ? TRP HA   H 1  5.176   0.020 ? 1 ? ? . A 11 TRP HA   A 11 TRP HA   . 6SVC ? 
+62  1 . 7  ? TRP CB   C 13 32.611  0.400 ? 1 ? ? . A 11 TRP CB   A 11 TRP CB   . 6SVC ? 
+63  1 . 7  ? TRP HB2  H 1  3.212   0.020 ? 1 ? ? . A 11 TRP HB2  A 11 TRP HB2  . 6SVC ? 
+64  1 . 7  ? TRP HB3  H 1  2.922   0.020 ? 1 ? ? . A 11 TRP HB3  A 11 TRP HB3  . 6SVC ? 
+65  1 . 7  ? TRP CD1  C 13 127.989 0.400 ? 1 ? ? . A 11 TRP CD1  A 11 TRP CD1  . 6SVC ? 
+66  1 . 7  ? TRP CE3  C 13 120.368 0.400 ? 1 ? ? . A 11 TRP CE3  A 11 TRP CE3  . 6SVC ? 
+67  1 . 7  ? TRP NE1  N 15 130.091 0.400 ? 1 ? ? . A 11 TRP NE1  A 11 TRP NE1  . 6SVC ? 
+68  1 . 7  ? TRP HD1  H 1  6.928   0.020 ? 1 ? ? . A 11 TRP HD1  A 11 TRP HD1  . 6SVC ? 
+69  1 . 7  ? TRP HE3  H 1  7.336   0.020 ? 1 ? ? . A 11 TRP HE3  A 11 TRP HE3  . 6SVC ? 
+70  1 . 7  ? TRP CZ3  C 13 123.048 0.400 ? 1 ? ? . A 11 TRP CZ3  A 11 TRP CZ3  . 6SVC ? 
+71  1 . 7  ? TRP CZ2  C 13 115.036 0.400 ? 1 ? ? . A 11 TRP CZ2  A 11 TRP CZ2  . 6SVC ? 
+72  1 . 7  ? TRP HE1  H 1  10.655  0.020 ? 1 ? ? . A 11 TRP HE1  A 11 TRP HE1  . 6SVC ? 
+73  1 . 7  ? TRP HZ3  H 1  6.932   0.020 ? 1 ? ? . A 11 TRP HZ3  A 11 TRP HZ3  . 6SVC ? 
+74  1 . 7  ? TRP CH2  C 13 125.402 0.400 ? 1 ? ? . A 11 TRP CH2  A 11 TRP CH2  . 6SVC ? 
+75  1 . 7  ? TRP HZ2  H 1  7.411   0.020 ? 1 ? ? . A 11 TRP HZ2  A 11 TRP HZ2  . 6SVC ? 
+76  1 . 7  ? TRP HH2  H 1  6.971   0.020 ? 1 ? ? . A 11 TRP HH2  A 11 TRP HH2  . 6SVC ? 
+77  1 . 8  ? GLU N    N 15 121.053 0.400 ? 1 ? ? . A 12 GLU N    A 12 GLU N    . 6SVC ? 
+78  1 . 8  ? GLU H    H 1  9.731   0.020 ? 1 ? ? . A 12 GLU H    A 12 GLU H    . 6SVC ? 
+79  1 . 8  ? GLU CA   C 13 54.803  0.400 ? 1 ? ? . A 12 GLU CA   A 12 GLU CA   . 6SVC ? 
+80  1 . 8  ? GLU HA   H 1  4.813   0.020 ? 1 ? ? . A 12 GLU HA   A 12 GLU HA   . 6SVC ? 
+81  1 . 8  ? GLU CB   C 13 34.609  0.400 ? 1 ? ? . A 12 GLU CB   A 12 GLU CB   . 6SVC ? 
+82  1 . 8  ? GLU HB2  H 1  2.205   0.020 ? 2 ? ? . A 12 GLU HB2  A 12 GLU HB2  . 6SVC ? 
+83  1 . 8  ? GLU HB3  H 1  2.205   0.020 ? 2 ? ? . A 12 GLU HB3  A 12 GLU HB3  . 6SVC ? 
+84  1 . 8  ? GLU CG   C 13 36.499  0.400 ? 1 ? ? . A 12 GLU CG   A 12 GLU CG   . 6SVC ? 
+85  1 . 8  ? GLU HG2  H 1  2.510   0.020 ? 1 ? ? . A 12 GLU HG2  A 12 GLU HG2  . 6SVC ? 
+86  1 . 8  ? GLU HG3  H 1  2.314   0.020 ? 1 ? ? . A 12 GLU HG3  A 12 GLU HG3  . 6SVC ? 
+87  1 . 9  ? LYS N    N 15 126.271 0.400 ? 1 ? ? . A 13 LYS N    A 13 LYS N    . 6SVC ? 
+88  1 . 9  ? LYS H    H 1  9.023   0.020 ? 1 ? ? . A 13 LYS H    A 13 LYS H    . 6SVC ? 
+89  1 . 9  ? LYS CA   C 13 56.424  0.400 ? 1 ? ? . A 13 LYS CA   A 13 LYS CA   . 6SVC ? 
+90  1 . 9  ? LYS HA   H 1  4.316   0.020 ? 1 ? ? . A 13 LYS HA   A 13 LYS HA   . 6SVC ? 
+91  1 . 9  ? LYS CB   C 13 33.954  0.400 ? 1 ? ? . A 13 LYS CB   A 13 LYS CB   . 6SVC ? 
+92  1 . 9  ? LYS HB2  H 1  1.619   0.020 ? 1 ? ? . A 13 LYS HB2  A 13 LYS HB2  . 6SVC ? 
+93  1 . 9  ? LYS HB3  H 1  1.771   0.020 ? 1 ? ? . A 13 LYS HB3  A 13 LYS HB3  . 6SVC ? 
+94  1 . 9  ? LYS CG   C 13 25.198  0.400 ? 1 ? ? . A 13 LYS CG   A 13 LYS CG   . 6SVC ? 
+95  1 . 9  ? LYS HG2  H 1  1.039   0.020 ? 2 ? ? . A 13 LYS HG2  A 13 LYS HG2  . 6SVC ? 
+96  1 . 9  ? LYS HG3  H 1  0.967   0.020 ? 2 ? ? . A 13 LYS HG3  A 13 LYS HG3  . 6SVC ? 
+97  1 . 9  ? LYS CD   C 13 29.988  0.400 ? 1 ? ? . A 13 LYS CD   A 13 LYS CD   . 6SVC ? 
+98  1 . 9  ? LYS HD2  H 1  1.657   0.020 ? 2 ? ? . A 13 LYS HD2  A 13 LYS HD2  . 6SVC ? 
+99  1 . 9  ? LYS HD3  H 1  1.727   0.020 ? 2 ? ? . A 13 LYS HD3  A 13 LYS HD3  . 6SVC ? 
+100 1 . 9  ? LYS CE   C 13 42.106  0.400 ? 1 ? ? . A 13 LYS CE   A 13 LYS CE   . 6SVC ? 
+101 1 . 9  ? LYS HE2  H 1  2.908   0.020 ? 2 ? ? . A 13 LYS HE2  A 13 LYS HE2  . 6SVC ? 
+102 1 . 9  ? LYS HE3  H 1  2.908   0.020 ? 2 ? ? . A 13 LYS HE3  A 13 LYS HE3  . 6SVC ? 
+103 1 . 10 ? ARG N    N 15 128.367 0.400 ? 1 ? ? . A 14 ARG N    A 14 ARG N    . 6SVC ? 
+104 1 . 10 ? ARG H    H 1  8.937   0.020 ? 1 ? ? . A 14 ARG H    A 14 ARG H    . 6SVC ? 
+105 1 . 10 ? ARG CA   C 13 54.684  0.400 ? 1 ? ? . A 14 ARG CA   A 14 ARG CA   . 6SVC ? 
+106 1 . 10 ? ARG HA   H 1  4.431   0.020 ? 1 ? ? . A 14 ARG HA   A 14 ARG HA   . 6SVC ? 
+107 1 . 10 ? ARG CB   C 13 34.791  0.400 ? 1 ? ? . A 14 ARG CB   A 14 ARG CB   . 6SVC ? 
+108 1 . 10 ? ARG HB2  H 1  0.084   0.020 ? 1 ? ? . A 14 ARG HB2  A 14 ARG HB2  . 6SVC ? 
+109 1 . 10 ? ARG HB3  H 1  1.307   0.020 ? 1 ? ? . A 14 ARG HB3  A 14 ARG HB3  . 6SVC ? 
+110 1 . 10 ? ARG CG   C 13 28.074  0.400 ? 1 ? ? . A 14 ARG CG   A 14 ARG CG   . 6SVC ? 
+111 1 . 10 ? ARG HG2  H 1  1.370   0.020 ? 1 ? ? . A 14 ARG HG2  A 14 ARG HG2  . 6SVC ? 
+112 1 . 10 ? ARG HG3  H 1  1.216   0.020 ? 1 ? ? . A 14 ARG HG3  A 14 ARG HG3  . 6SVC ? 
+113 1 . 10 ? ARG CD   C 13 43.808  0.400 ? 1 ? ? . A 14 ARG CD   A 14 ARG CD   . 6SVC ? 
+114 1 . 10 ? ARG HD2  H 1  2.885   0.020 ? 2 ? ? . A 14 ARG HD2  A 14 ARG HD2  . 6SVC ? 
+115 1 . 10 ? ARG HD3  H 1  2.620   0.020 ? 2 ? ? . A 14 ARG HD3  A 14 ARG HD3  . 6SVC ? 
+116 1 . 10 ? ARG HE   H 1  6.972   0.020 ? 1 ? ? . A 14 ARG HE   A 14 ARG HE   . 6SVC ? 
+117 1 . 11 ? MET N    N 15 117.847 0.400 ? 1 ? ? . A 15 MET N    A 15 MET N    . 6SVC ? 
+118 1 . 11 ? MET H    H 1  8.228   0.020 ? 1 ? ? . A 15 MET H    A 15 MET H    . 6SVC ? 
+119 1 . 11 ? MET HA   H 1  4.960   0.020 ? 1 ? ? . A 15 MET HA   A 15 MET HA   . 6SVC ? 
+120 1 . 11 ? MET CB   C 13 34.645  0.400 ? 1 ? ? . A 15 MET CB   A 15 MET CB   . 6SVC ? 
+121 1 . 11 ? MET HB2  H 1  1.821   0.020 ? 2 ? ? . A 15 MET HB2  A 15 MET HB2  . 6SVC ? 
+122 1 . 11 ? MET HB3  H 1  1.821   0.020 ? 2 ? ? . A 15 MET HB3  A 15 MET HB3  . 6SVC ? 
+123 1 . 11 ? MET CG   C 13 31.838  0.400 ? 1 ? ? . A 15 MET CG   A 15 MET CG   . 6SVC ? 
+124 1 . 11 ? MET HG2  H 1  2.379   0.020 ? 2 ? ? . A 15 MET HG2  A 15 MET HG2  . 6SVC ? 
+125 1 . 11 ? MET HG3  H 1  2.278   0.020 ? 2 ? ? . A 15 MET HG3  A 15 MET HG3  . 6SVC ? 
+126 1 . 12 ? SER N    N 15 121.904 0.400 ? 1 ? ? . A 16 SER N    A 16 SER N    . 6SVC ? 
+127 1 . 12 ? SER H    H 1  8.982   0.020 ? 1 ? ? . A 16 SER H    A 16 SER H    . 6SVC ? 
+128 1 . 12 ? SER CA   C 13 58.442  0.400 ? 1 ? ? . A 16 SER CA   A 16 SER CA   . 6SVC ? 
+129 1 . 12 ? SER HA   H 1  4.647   0.020 ? 1 ? ? . A 16 SER HA   A 16 SER HA   . 6SVC ? 
+130 1 . 12 ? SER CB   C 13 63.671  0.400 ? 1 ? ? . A 16 SER CB   A 16 SER CB   . 6SVC ? 
+131 1 . 12 ? SER HB2  H 1  4.050   0.020 ? 1 ? ? . A 16 SER HB2  A 16 SER HB2  . 6SVC ? 
+132 1 . 12 ? SER HB3  H 1  4.113   0.020 ? 1 ? ? . A 16 SER HB3  A 16 SER HB3  . 6SVC ? 
+133 1 . 13 ? ARG N    N 15 128.523 0.400 ? 1 ? ? . A 17 ARG N    A 17 ARG N    . 6SVC ? 
+134 1 . 13 ? ARG H    H 1  9.276   0.020 ? 1 ? ? . A 17 ARG H    A 17 ARG H    . 6SVC ? 
+135 1 . 13 ? ARG CA   C 13 58.468  0.400 ? 1 ? ? . A 17 ARG CA   A 17 ARG CA   . 6SVC ? 
+136 1 . 13 ? ARG HA   H 1  4.080   0.020 ? 1 ? ? . A 17 ARG HA   A 17 ARG HA   . 6SVC ? 
+137 1 . 13 ? ARG CB   C 13 30.193  0.400 ? 1 ? ? . A 17 ARG CB   A 17 ARG CB   . 6SVC ? 
+138 1 . 13 ? ARG HB2  H 1  1.847   0.020 ? 2 ? ? . A 17 ARG HB2  A 17 ARG HB2  . 6SVC ? 
+139 1 . 13 ? ARG HB3  H 1  1.847   0.020 ? 2 ? ? . A 17 ARG HB3  A 17 ARG HB3  . 6SVC ? 
+140 1 . 13 ? ARG CG   C 13 27.350  0.400 ? 1 ? ? . A 17 ARG CG   A 17 ARG CG   . 6SVC ? 
+141 1 . 13 ? ARG HG2  H 1  1.665   0.020 ? 2 ? ? . A 17 ARG HG2  A 17 ARG HG2  . 6SVC ? 
+142 1 . 13 ? ARG HG3  H 1  1.710   0.020 ? 2 ? ? . A 17 ARG HG3  A 17 ARG HG3  . 6SVC ? 
+143 1 . 13 ? ARG CD   C 13 43.271  0.400 ? 1 ? ? . A 17 ARG CD   A 17 ARG CD   . 6SVC ? 
+144 1 . 13 ? ARG HD2  H 1  3.195   0.020 ? 2 ? ? . A 17 ARG HD2  A 17 ARG HD2  . 6SVC ? 
+145 1 . 13 ? ARG HD3  H 1  3.195   0.020 ? 2 ? ? . A 17 ARG HD3  A 17 ARG HD3  . 6SVC ? 
+146 1 . 14 ? ASN N    N 15 116.322 0.400 ? 1 ? ? . A 18 ASN N    A 18 ASN N    . 6SVC ? 
+147 1 . 14 ? ASN H    H 1  8.606   0.020 ? 1 ? ? . A 18 ASN H    A 18 ASN H    . 6SVC ? 
+148 1 . 14 ? ASN CA   C 13 55.303  0.400 ? 1 ? ? . A 18 ASN CA   A 18 ASN CA   . 6SVC ? 
+149 1 . 14 ? ASN HA   H 1  4.583   0.020 ? 1 ? ? . A 18 ASN HA   A 18 ASN HA   . 6SVC ? 
+150 1 . 14 ? ASN CB   C 13 38.697  0.400 ? 1 ? ? . A 18 ASN CB   A 18 ASN CB   . 6SVC ? 
+151 1 . 14 ? ASN HB2  H 1  2.814   0.020 ? 2 ? ? . A 18 ASN HB2  A 18 ASN HB2  . 6SVC ? 
+152 1 . 14 ? ASN HB3  H 1  2.814   0.020 ? 2 ? ? . A 18 ASN HB3  A 18 ASN HB3  . 6SVC ? 
+153 1 . 14 ? ASN ND2  N 15 114.156 0.400 ? 1 ? ? . A 18 ASN ND2  A 18 ASN ND2  . 6SVC ? 
+154 1 . 14 ? ASN HD21 H 1  7.825   0.020 ? 1 ? ? . A 18 ASN HD21 A 18 ASN HD21 . 6SVC ? 
+155 1 . 14 ? ASN HD22 H 1  7.026   0.020 ? 1 ? ? . A 18 ASN HD22 A 18 ASN HD22 . 6SVC ? 
+156 1 . 15 ? SER CA   C 13 58.357  0.400 ? 1 ? ? . A 19 SER CA   A 19 SER CA   . 6SVC ? 
+157 1 . 15 ? SER HA   H 1  4.509   0.020 ? 1 ? ? . A 19 SER HA   A 19 SER HA   . 6SVC ? 
+158 1 . 15 ? SER CB   C 13 65.094  0.400 ? 1 ? ? . A 19 SER CB   A 19 SER CB   . 6SVC ? 
+159 1 . 15 ? SER HB2  H 1  3.829   0.020 ? 2 ? ? . A 19 SER HB2  A 19 SER HB2  . 6SVC ? 
+160 1 . 15 ? SER HB3  H 1  3.966   0.020 ? 2 ? ? . A 19 SER HB3  A 19 SER HB3  . 6SVC ? 
+161 1 . 16 ? GLY N    N 15 111.905 0.400 ? 1 ? ? . A 20 GLY N    A 20 GLY N    . 6SVC ? 
+162 1 . 16 ? GLY H    H 1  8.019   0.020 ? 1 ? ? . A 20 GLY H    A 20 GLY H    . 6SVC ? 
+163 1 . 16 ? GLY CA   C 13 46.198  0.400 ? 1 ? ? . A 20 GLY CA   A 20 GLY CA   . 6SVC ? 
+164 1 . 16 ? GLY HA2  H 1  4.029   0.020 ? 2 ? ? . A 20 GLY HA2  A 20 GLY HA2  . 6SVC ? 
+165 1 . 16 ? GLY HA3  H 1  3.930   0.020 ? 2 ? ? . A 20 GLY HA3  A 20 GLY HA3  . 6SVC ? 
+166 1 . 17 ? ARG N    N 15 119.770 0.400 ? 1 ? ? . A 21 ARG N    A 21 ARG N    . 6SVC ? 
+167 1 . 17 ? ARG H    H 1  7.820   0.020 ? 1 ? ? . A 21 ARG H    A 21 ARG H    . 6SVC ? 
+168 1 . 17 ? ARG CA   C 13 56.555  0.400 ? 1 ? ? . A 21 ARG CA   A 21 ARG CA   . 6SVC ? 
+169 1 . 17 ? ARG HA   H 1  4.358   0.020 ? 1 ? ? . A 21 ARG HA   A 21 ARG HA   . 6SVC ? 
+170 1 . 17 ? ARG CB   C 13 31.960  0.400 ? 1 ? ? . A 21 ARG CB   A 21 ARG CB   . 6SVC ? 
+171 1 . 17 ? ARG HB2  H 1  1.723   0.020 ? 1 ? ? . A 21 ARG HB2  A 21 ARG HB2  . 6SVC ? 
+172 1 . 17 ? ARG HB3  H 1  1.920   0.020 ? 1 ? ? . A 21 ARG HB3  A 21 ARG HB3  . 6SVC ? 
+173 1 . 17 ? ARG CD   C 13 43.700  0.400 ? 1 ? ? . A 21 ARG CD   A 21 ARG CD   . 6SVC ? 
+174 1 . 17 ? ARG HD2  H 1  2.982   0.020 ? 1 ? ? . A 21 ARG HD2  A 21 ARG HD2  . 6SVC ? 
+175 1 . 17 ? ARG HD3  H 1  2.827   0.020 ? 1 ? ? . A 21 ARG HD3  A 21 ARG HD3  . 6SVC ? 
+176 1 . 17 ? ARG HE   H 1  6.946   0.020 ? 1 ? ? . A 21 ARG HE   A 21 ARG HE   . 6SVC ? 
+177 1 . 17 ? ARG NH2  N 15 69.934  0.400 ? 1 ? ? . A 21 ARG NH2  A 21 ARG NH2  . 6SVC ? 
+178 1 . 17 ? ARG HH21 H 1  6.357   0.020 ? 2 ? ? . A 21 ARG HH21 A 21 ARG HH21 . 6SVC ? 
+179 1 . 17 ? ARG HH22 H 1  6.133   0.020 ? 2 ? ? . A 21 ARG HH22 A 21 ARG HH22 . 6SVC ? 
+180 1 . 18 ? VAL N    N 15 126.887 0.400 ? 1 ? ? . A 22 VAL N    A 22 VAL N    . 6SVC ? 
+181 1 . 18 ? VAL H    H 1  8.652   0.020 ? 1 ? ? . A 22 VAL H    A 22 VAL H    . 6SVC ? 
+182 1 . 18 ? VAL CA   C 13 62.703  0.400 ? 1 ? ? . A 22 VAL CA   A 22 VAL CA   . 6SVC ? 
+183 1 . 18 ? VAL HA   H 1  4.557   0.020 ? 1 ? ? . A 22 VAL HA   A 22 VAL HA   . 6SVC ? 
+184 1 . 18 ? VAL CB   C 13 32.954  0.400 ? 1 ? ? . A 22 VAL CB   A 22 VAL CB   . 6SVC ? 
+185 1 . 18 ? VAL HB   H 1  1.944   0.020 ? 1 ? ? . A 22 VAL HB   A 22 VAL HB   . 6SVC ? 
+186 1 . 18 ? VAL CG1  C 13 21.687  0.400 ? 2 ? ? . A 22 VAL CG1  A 22 VAL CG1  . 6SVC ? 
+187 1 . 18 ? VAL HG11 H 1  0.752   0.020 ? 2 ? ? . A 22 VAL HG11 A 22 VAL HG11 . 6SVC ? 
+188 1 . 18 ? VAL HG12 H 1  0.752   0.020 ? 2 ? ? . A 22 VAL HG12 A 22 VAL HG12 . 6SVC ? 
+189 1 . 18 ? VAL HG13 H 1  0.752   0.020 ? 2 ? ? . A 22 VAL HG13 A 22 VAL HG13 . 6SVC ? 
+190 1 . 18 ? VAL CG2  C 13 22.494  0.400 ? 2 ? ? . A 22 VAL CG2  A 22 VAL CG2  . 6SVC ? 
+191 1 . 18 ? VAL HG21 H 1  1.030   0.020 ? 2 ? ? . A 22 VAL HG21 A 22 VAL HG21 . 6SVC ? 
+192 1 . 18 ? VAL HG22 H 1  1.030   0.020 ? 2 ? ? . A 22 VAL HG22 A 22 VAL HG22 . 6SVC ? 
+193 1 . 18 ? VAL HG23 H 1  1.030   0.020 ? 2 ? ? . A 22 VAL HG23 A 22 VAL HG23 . 6SVC ? 
+194 1 . 19 ? TYR N    N 15 123.244 0.400 ? 1 ? ? . A 23 TYR N    A 23 TYR N    . 6SVC ? 
+195 1 . 19 ? TYR H    H 1  8.715   0.020 ? 1 ? ? . A 23 TYR H    A 23 TYR H    . 6SVC ? 
+196 1 . 19 ? TYR CA   C 13 55.873  0.400 ? 1 ? ? . A 23 TYR CA   A 23 TYR CA   . 6SVC ? 
+197 1 . 19 ? TYR HA   H 1  4.797   0.020 ? 1 ? ? . A 23 TYR HA   A 23 TYR HA   . 6SVC ? 
+198 1 . 19 ? TYR CB   C 13 40.221  0.400 ? 1 ? ? . A 23 TYR CB   A 23 TYR CB   . 6SVC ? 
+199 1 . 19 ? TYR HB2  H 1  2.558   0.020 ? 1 ? ? . A 23 TYR HB2  A 23 TYR HB2  . 6SVC ? 
+200 1 . 19 ? TYR HB3  H 1  2.872   0.020 ? 1 ? ? . A 23 TYR HB3  A 23 TYR HB3  . 6SVC ? 
+201 1 . 19 ? TYR CD1  C 13 134.204 0.400 ? 3 ? ? . A 23 TYR CD1  A 23 TYR CD1  . 6SVC ? 
+202 1 . 19 ? TYR HD1  H 1  6.929   0.020 ? 1 ? ? . A 23 TYR HD1  A 23 TYR HD1  . 6SVC ? 
+203 1 . 19 ? TYR CE1  C 13 117.581 0.400 ? 3 ? ? . A 23 TYR CE1  A 23 TYR CE1  . 6SVC ? 
+204 1 . 19 ? TYR HE1  H 1  6.438   0.020 ? 1 ? ? . A 23 TYR HE1  A 23 TYR HE1  . 6SVC ? 
+205 1 . 19 ? TYR HE2  H 1  6.438   0.020 ? 1 ? ? . A 23 TYR HE2  A 23 TYR HE2  . 6SVC ? 
+206 1 . 19 ? TYR HD2  H 1  6.929   0.020 ? 1 ? ? . A 23 TYR HD2  A 23 TYR HD2  . 6SVC ? 
+207 1 . 20 ? TYR N    N 15 117.336 0.400 ? 1 ? ? . A 24 TYR N    A 24 TYR N    . 6SVC ? 
+208 1 . 20 ? TYR H    H 1  9.158   0.020 ? 1 ? ? . A 24 TYR H    A 24 TYR H    . 6SVC ? 
+209 1 . 20 ? TYR CA   C 13 57.113  0.400 ? 1 ? ? . A 24 TYR CA   A 24 TYR CA   . 6SVC ? 
+210 1 . 20 ? TYR HA   H 1  5.283   0.020 ? 1 ? ? . A 24 TYR HA   A 24 TYR HA   . 6SVC ? 
+211 1 . 20 ? TYR CB   C 13 41.444  0.400 ? 1 ? ? . A 24 TYR CB   A 24 TYR CB   . 6SVC ? 
+212 1 . 20 ? TYR HB2  H 1  2.624   0.020 ? 1 ? ? . A 24 TYR HB2  A 24 TYR HB2  . 6SVC ? 
+213 1 . 20 ? TYR HB3  H 1  2.882   0.020 ? 1 ? ? . A 24 TYR HB3  A 24 TYR HB3  . 6SVC ? 
+214 1 . 20 ? TYR CD1  C 13 133.760 0.400 ? 3 ? ? . A 24 TYR CD1  A 24 TYR CD1  . 6SVC ? 
+215 1 . 20 ? TYR HD1  H 1  6.790   0.020 ? 1 ? ? . A 24 TYR HD1  A 24 TYR HD1  . 6SVC ? 
+216 1 . 20 ? TYR CE1  C 13 117.149 0.400 ? 3 ? ? . A 24 TYR CE1  A 24 TYR CE1  . 6SVC ? 
+217 1 . 20 ? TYR HE1  H 1  6.703   0.020 ? 1 ? ? . A 24 TYR HE1  A 24 TYR HE1  . 6SVC ? 
+218 1 . 20 ? TYR HE2  H 1  6.703   0.020 ? 1 ? ? . A 24 TYR HE2  A 24 TYR HE2  . 6SVC ? 
+219 1 . 20 ? TYR HD2  H 1  6.790   0.020 ? 1 ? ? . A 24 TYR HD2  A 24 TYR HD2  . 6SVC ? 
+220 1 . 21 ? PHE N    N 15 124.521 0.400 ? 1 ? ? . A 25 PHE N    A 25 PHE N    . 6SVC ? 
+221 1 . 21 ? PHE H    H 1  9.357   0.020 ? 1 ? ? . A 25 PHE H    A 25 PHE H    . 6SVC ? 
+222 1 . 21 ? PHE CA   C 13 55.947  0.400 ? 1 ? ? . A 25 PHE CA   A 25 PHE CA   . 6SVC ? 
+223 1 . 21 ? PHE HA   H 1  5.648   0.020 ? 1 ? ? . A 25 PHE HA   A 25 PHE HA   . 6SVC ? 
+224 1 . 21 ? PHE CB   C 13 44.597  0.400 ? 1 ? ? . A 25 PHE CB   A 25 PHE CB   . 6SVC ? 
+225 1 . 21 ? PHE HB2  H 1  2.918   0.020 ? 1 ? ? . A 25 PHE HB2  A 25 PHE HB2  . 6SVC ? 
+226 1 . 21 ? PHE HB3  H 1  2.531   0.020 ? 1 ? ? . A 25 PHE HB3  A 25 PHE HB3  . 6SVC ? 
+227 1 . 21 ? PHE CD1  C 13 131.648 0.400 ? 3 ? ? . A 25 PHE CD1  A 25 PHE CD1  . 6SVC ? 
+228 1 . 21 ? PHE HD1  H 1  6.918   0.020 ? 1 ? ? . A 25 PHE HD1  A 25 PHE HD1  . 6SVC ? 
+229 1 . 21 ? PHE CE1  C 13 130.824 0.400 ? 3 ? ? . A 25 PHE CE1  A 25 PHE CE1  . 6SVC ? 
+230 1 . 21 ? PHE HE1  H 1  6.997   0.020 ? 1 ? ? . A 25 PHE HE1  A 25 PHE HE1  . 6SVC ? 
+231 1 . 21 ? PHE CZ   C 13 130.560 0.400 ? 1 ? ? . A 25 PHE CZ   A 25 PHE CZ   . 6SVC ? 
+232 1 . 21 ? PHE HZ   H 1  7.292   0.020 ? 1 ? ? . A 25 PHE HZ   A 25 PHE HZ   . 6SVC ? 
+233 1 . 21 ? PHE HE2  H 1  6.997   0.020 ? 1 ? ? . A 25 PHE HE2  A 25 PHE HE2  . 6SVC ? 
+234 1 . 21 ? PHE HD2  H 1  6.918   0.020 ? 1 ? ? . A 25 PHE HD2  A 25 PHE HD2  . 6SVC ? 
+235 1 . 22 ? ASN N    N 15 129.608 0.400 ? 1 ? ? . A 26 ASN N    A 26 ASN N    . 6SVC ? 
+236 1 . 22 ? ASN H    H 1  8.229   0.020 ? 1 ? ? . A 26 ASN H    A 26 ASN H    . 6SVC ? 
+237 1 . 22 ? ASN CA   C 13 50.690  0.400 ? 1 ? ? . A 26 ASN CA   A 26 ASN CA   . 6SVC ? 
+238 1 . 22 ? ASN HA   H 1  4.349   0.020 ? 1 ? ? . A 26 ASN HA   A 26 ASN HA   . 6SVC ? 
+239 1 . 22 ? ASN CB   C 13 38.016  0.400 ? 1 ? ? . A 26 ASN CB   A 26 ASN CB   . 6SVC ? 
+240 1 . 22 ? ASN HB2  H 1  -0.763  0.020 ? 1 ? ? . A 26 ASN HB2  A 26 ASN HB2  . 6SVC ? 
+241 1 . 22 ? ASN HB3  H 1  1.953   0.020 ? 1 ? ? . A 26 ASN HB3  A 26 ASN HB3  . 6SVC ? 
+242 1 . 22 ? ASN ND2  N 15 110.126 0.400 ? 1 ? ? . A 26 ASN ND2  A 26 ASN ND2  . 6SVC ? 
+243 1 . 22 ? ASN HD21 H 1  4.123   0.020 ? 1 ? ? . A 26 ASN HD21 A 26 ASN HD21 . 6SVC ? 
+244 1 . 22 ? ASN HD22 H 1  6.600   0.020 ? 1 ? ? . A 26 ASN HD22 A 26 ASN HD22 . 6SVC ? 
+245 1 . 23 ? HIS N    N 15 120.552 0.400 ? 1 ? ? . A 27 HIS N    A 27 HIS N    . 6SVC ? 
+246 1 . 23 ? HIS H    H 1  8.156   0.020 ? 1 ? ? . A 27 HIS H    A 27 HIS H    . 6SVC ? 
+247 1 . 23 ? HIS CA   C 13 57.447  0.400 ? 1 ? ? . A 27 HIS CA   A 27 HIS CA   . 6SVC ? 
+248 1 . 23 ? HIS HA   H 1  4.114   0.020 ? 1 ? ? . A 27 HIS HA   A 27 HIS HA   . 6SVC ? 
+249 1 . 23 ? HIS CB   C 13 29.082  0.400 ? 1 ? ? . A 27 HIS CB   A 27 HIS CB   . 6SVC ? 
+250 1 . 23 ? HIS HB2  H 1  3.115   0.020 ? 2 ? ? . A 27 HIS HB2  A 27 HIS HB2  . 6SVC ? 
+251 1 . 23 ? HIS HB3  H 1  3.367   0.020 ? 2 ? ? . A 27 HIS HB3  A 27 HIS HB3  . 6SVC ? 
+252 1 . 23 ? HIS CD2  C 13 120.564 0.400 ? 1 ? ? . A 27 HIS CD2  A 27 HIS CD2  . 6SVC ? 
+253 1 . 23 ? HIS HD2  H 1  7.130   0.020 ? 1 ? ? . A 27 HIS HD2  A 27 HIS HD2  . 6SVC ? 
+254 1 . 24 ? ILE N    N 15 122.265 0.400 ? 1 ? ? . A 28 ILE N    A 28 ILE N    . 6SVC ? 
+255 1 . 24 ? ILE H    H 1  8.368   0.020 ? 1 ? ? . A 28 ILE H    A 28 ILE H    . 6SVC ? 
+256 1 . 24 ? ILE CA   C 13 63.543  0.400 ? 1 ? ? . A 28 ILE CA   A 28 ILE CA   . 6SVC ? 
+257 1 . 24 ? ILE HA   H 1  3.804   0.020 ? 1 ? ? . A 28 ILE HA   A 28 ILE HA   . 6SVC ? 
+258 1 . 24 ? ILE CB   C 13 37.323  0.400 ? 1 ? ? . A 28 ILE CB   A 28 ILE CB   . 6SVC ? 
+259 1 . 24 ? ILE HB   H 1  1.959   0.020 ? 1 ? ? . A 28 ILE HB   A 28 ILE HB   . 6SVC ? 
+260 1 . 24 ? ILE CG2  C 13 17.111  0.400 ? 1 ? ? . A 28 ILE CG2  A 28 ILE CG2  . 6SVC ? 
+261 1 . 24 ? ILE HG21 H 1  0.734   0.020 ? 1 ? ? . A 28 ILE HG21 A 28 ILE HG21 . 6SVC ? 
+262 1 . 24 ? ILE HG22 H 1  0.734   0.020 ? 1 ? ? . A 28 ILE HG22 A 28 ILE HG22 . 6SVC ? 
+263 1 . 24 ? ILE HG23 H 1  0.734   0.020 ? 1 ? ? . A 28 ILE HG23 A 28 ILE HG23 . 6SVC ? 
+264 1 . 24 ? ILE CG1  C 13 28.031  0.400 ? 1 ? ? . A 28 ILE CG1  A 28 ILE CG1  . 6SVC ? 
+265 1 . 24 ? ILE HG12 H 1  0.912   0.020 ? 1 ? ? . A 28 ILE HG12 A 28 ILE HG12 . 6SVC ? 
+266 1 . 24 ? ILE HG13 H 1  1.208   0.020 ? 1 ? ? . A 28 ILE HG13 A 28 ILE HG13 . 6SVC ? 
+267 1 . 24 ? ILE CD1  C 13 12.280  0.400 ? 1 ? ? . A 28 ILE CD1  A 28 ILE CD1  . 6SVC ? 
+268 1 . 24 ? ILE HD11 H 1  0.692   0.020 ? 1 ? ? . A 28 ILE HD11 A 28 ILE HD11 . 6SVC ? 
+269 1 . 24 ? ILE HD12 H 1  0.692   0.020 ? 1 ? ? . A 28 ILE HD12 A 28 ILE HD12 . 6SVC ? 
+270 1 . 24 ? ILE HD13 H 1  0.692   0.020 ? 1 ? ? . A 28 ILE HD13 A 28 ILE HD13 . 6SVC ? 
+271 1 . 25 ? THR N    N 15 108.150 0.400 ? 1 ? ? . A 29 THR N    A 29 THR N    . 6SVC ? 
+272 1 . 25 ? THR H    H 1  7.304   0.020 ? 1 ? ? . A 29 THR H    A 29 THR H    . 6SVC ? 
+273 1 . 25 ? THR CA   C 13 61.386  0.400 ? 1 ? ? . A 29 THR CA   A 29 THR CA   . 6SVC ? 
+274 1 . 25 ? THR HA   H 1  4.058   0.020 ? 1 ? ? . A 29 THR HA   A 29 THR HA   . 6SVC ? 
+275 1 . 25 ? THR CB   C 13 70.234  0.400 ? 1 ? ? . A 29 THR CB   A 29 THR CB   . 6SVC ? 
+276 1 . 25 ? THR HB   H 1  4.201   0.020 ? 1 ? ? . A 29 THR HB   A 29 THR HB   . 6SVC ? 
+277 1 . 25 ? THR HG1  H 1  5.104   0.020 ? 1 ? ? . A 29 THR HG1  A 29 THR HG1  . 6SVC ? 
+278 1 . 25 ? THR CG2  C 13 21.240  0.400 ? 1 ? ? . A 29 THR CG2  A 29 THR CG2  . 6SVC ? 
+279 1 . 25 ? THR HG21 H 1  0.899   0.020 ? 1 ? ? . A 29 THR HG21 A 29 THR HG21 . 6SVC ? 
+280 1 . 25 ? THR HG22 H 1  0.899   0.020 ? 1 ? ? . A 29 THR HG22 A 29 THR HG22 . 6SVC ? 
+281 1 . 25 ? THR HG23 H 1  0.899   0.020 ? 1 ? ? . A 29 THR HG23 A 29 THR HG23 . 6SVC ? 
+282 1 . 26 ? ASN N    N 15 118.273 0.400 ? 1 ? ? . A 30 ASN N    A 30 ASN N    . 6SVC ? 
+283 1 . 26 ? ASN H    H 1  8.043   0.020 ? 1 ? ? . A 30 ASN H    A 30 ASN H    . 6SVC ? 
+284 1 . 26 ? ASN CA   C 13 55.256  0.400 ? 1 ? ? . A 30 ASN CA   A 30 ASN CA   . 6SVC ? 
+285 1 . 26 ? ASN HA   H 1  4.102   0.020 ? 1 ? ? . A 30 ASN HA   A 30 ASN HA   . 6SVC ? 
+286 1 . 26 ? ASN CB   C 13 37.640  0.400 ? 1 ? ? . A 30 ASN CB   A 30 ASN CB   . 6SVC ? 
+287 1 . 26 ? ASN HB2  H 1  3.097   0.020 ? 1 ? ? . A 30 ASN HB2  A 30 ASN HB2  . 6SVC ? 
+288 1 . 26 ? ASN HB3  H 1  2.897   0.020 ? 1 ? ? . A 30 ASN HB3  A 30 ASN HB3  . 6SVC ? 
+289 1 . 26 ? ASN ND2  N 15 113.682 0.400 ? 1 ? ? . A 30 ASN ND2  A 30 ASN ND2  . 6SVC ? 
+290 1 . 26 ? ASN HD21 H 1  7.503   0.020 ? 2 ? ? . A 30 ASN HD21 A 30 ASN HD21 . 6SVC ? 
+291 1 . 26 ? ASN HD22 H 1  6.885   0.020 ? 2 ? ? . A 30 ASN HD22 A 30 ASN HD22 . 6SVC ? 
+292 1 . 27 ? ALA N    N 15 122.285 0.400 ? 1 ? ? . A 31 ALA N    A 31 ALA N    . 6SVC ? 
+293 1 . 27 ? ALA H    H 1  7.120   0.020 ? 1 ? ? . A 31 ALA H    A 31 ALA H    . 6SVC ? 
+294 1 . 27 ? ALA CA   C 13 52.342  0.400 ? 1 ? ? . A 31 ALA CA   A 31 ALA CA   . 6SVC ? 
+295 1 . 27 ? ALA HA   H 1  4.392   0.020 ? 1 ? ? . A 31 ALA HA   A 31 ALA HA   . 6SVC ? 
+296 1 . 27 ? ALA CB   C 13 20.990  0.400 ? 1 ? ? . A 31 ALA CB   A 31 ALA CB   . 6SVC ? 
+297 1 . 27 ? ALA HB1  H 1  1.221   0.020 ? 1 ? ? . A 31 ALA HB1  A 31 ALA HB1  . 6SVC ? 
+298 1 . 27 ? ALA HB2  H 1  1.221   0.020 ? 1 ? ? . A 31 ALA HB2  A 31 ALA HB2  . 6SVC ? 
+299 1 . 27 ? ALA HB3  H 1  1.221   0.020 ? 1 ? ? . A 31 ALA HB3  A 31 ALA HB3  . 6SVC ? 
+300 1 . 28 ? SER N    N 15 112.605 0.400 ? 1 ? ? . A 32 SER N    A 32 SER N    . 6SVC ? 
+301 1 . 28 ? SER H    H 1  8.395   0.020 ? 1 ? ? . A 32 SER H    A 32 SER H    . 6SVC ? 
+302 1 . 28 ? SER CA   C 13 57.193  0.400 ? 1 ? ? . A 32 SER CA   A 32 SER CA   . 6SVC ? 
+303 1 . 28 ? SER HA   H 1  6.063   0.020 ? 1 ? ? . A 32 SER HA   A 32 SER HA   . 6SVC ? 
+304 1 . 28 ? SER CB   C 13 66.775  0.400 ? 1 ? ? . A 32 SER CB   A 32 SER CB   . 6SVC ? 
+305 1 . 28 ? SER HB2  H 1  3.870   0.020 ? 2 ? ? . A 32 SER HB2  A 32 SER HB2  . 6SVC ? 
+306 1 . 28 ? SER HB3  H 1  3.777   0.020 ? 2 ? ? . A 32 SER HB3  A 32 SER HB3  . 6SVC ? 
+307 1 . 29 ? GLN N    N 15 117.286 0.400 ? 1 ? ? . A 33 GLN N    A 33 GLN N    . 6SVC ? 
+308 1 . 29 ? GLN H    H 1  9.381   0.020 ? 1 ? ? . A 33 GLN H    A 33 GLN H    . 6SVC ? 
+309 1 . 29 ? GLN CA   C 13 54.987  0.400 ? 1 ? ? . A 33 GLN CA   A 33 GLN CA   . 6SVC ? 
+310 1 . 29 ? GLN HA   H 1  4.849   0.020 ? 1 ? ? . A 33 GLN HA   A 33 GLN HA   . 6SVC ? 
+311 1 . 29 ? GLN CB   C 13 31.949  0.400 ? 1 ? ? . A 33 GLN CB   A 33 GLN CB   . 6SVC ? 
+312 1 . 29 ? GLN HB2  H 1  2.527   0.020 ? 2 ? ? . A 33 GLN HB2  A 33 GLN HB2  . 6SVC ? 
+313 1 . 29 ? GLN HB3  H 1  2.173   0.020 ? 2 ? ? . A 33 GLN HB3  A 33 GLN HB3  . 6SVC ? 
+314 1 . 29 ? GLN NE2  N 15 113.492 0.400 ? 1 ? ? . A 33 GLN NE2  A 33 GLN NE2  . 6SVC ? 
+315 1 . 29 ? GLN HE21 H 1  7.427   0.020 ? 2 ? ? . A 33 GLN HE21 A 33 GLN HE21 . 6SVC ? 
+316 1 . 29 ? GLN HE22 H 1  6.754   0.020 ? 2 ? ? . A 33 GLN HE22 A 33 GLN HE22 . 6SVC ? 
+317 1 . 30 ? PHE N    N 15 119.431 0.400 ? 1 ? ? . A 34 PHE N    A 34 PHE N    . 6SVC ? 
+318 1 . 30 ? PHE H    H 1  8.993   0.020 ? 1 ? ? . A 34 PHE H    A 34 PHE H    . 6SVC ? 
+319 1 . 30 ? PHE CA   C 13 61.178  0.400 ? 1 ? ? . A 34 PHE CA   A 34 PHE CA   . 6SVC ? 
+320 1 . 30 ? PHE HA   H 1  4.787   0.020 ? 1 ? ? . A 34 PHE HA   A 34 PHE HA   . 6SVC ? 
+321 1 . 30 ? PHE CB   C 13 39.879  0.400 ? 1 ? ? . A 34 PHE CB   A 34 PHE CB   . 6SVC ? 
+322 1 . 30 ? PHE HB2  H 1  2.928   0.020 ? 1 ? ? . A 34 PHE HB2  A 34 PHE HB2  . 6SVC ? 
+323 1 . 30 ? PHE HB3  H 1  3.399   0.020 ? 1 ? ? . A 34 PHE HB3  A 34 PHE HB3  . 6SVC ? 
+324 1 . 30 ? PHE CD1  C 13 131.952 0.400 ? 3 ? ? . A 34 PHE CD1  A 34 PHE CD1  . 6SVC ? 
+325 1 . 30 ? PHE HD1  H 1  7.612   0.020 ? 1 ? ? . A 34 PHE HD1  A 34 PHE HD1  . 6SVC ? 
+326 1 . 30 ? PHE CE1  C 13 131.607 0.400 ? 3 ? ? . A 34 PHE CE1  A 34 PHE CE1  . 6SVC ? 
+327 1 . 30 ? PHE HE1  H 1  7.232   0.020 ? 1 ? ? . A 34 PHE HE1  A 34 PHE HE1  . 6SVC ? 
+328 1 . 30 ? PHE CZ   C 13 130.138 0.400 ? 1 ? ? . A 34 PHE CZ   A 34 PHE CZ   . 6SVC ? 
+329 1 . 30 ? PHE HZ   H 1  7.171   0.020 ? 1 ? ? . A 34 PHE HZ   A 34 PHE HZ   . 6SVC ? 
+330 1 . 30 ? PHE HE2  H 1  7.232   0.020 ? 1 ? ? . A 34 PHE HE2  A 34 PHE HE2  . 6SVC ? 
+331 1 . 30 ? PHE HD2  H 1  7.612   0.020 ? 1 ? ? . A 34 PHE HD2  A 34 PHE HD2  . 6SVC ? 
+332 1 . 31 ? GLU N    N 15 119.112 0.400 ? 1 ? ? . A 35 GLU N    A 35 GLU N    . 6SVC ? 
+333 1 . 31 ? GLU H    H 1  8.106   0.020 ? 1 ? ? . A 35 GLU H    A 35 GLU H    . 6SVC ? 
+334 1 . 31 ? GLU CA   C 13 56.293  0.400 ? 1 ? ? . A 35 GLU CA   A 35 GLU CA   . 6SVC ? 
+335 1 . 31 ? GLU HA   H 1  4.284   0.020 ? 1 ? ? . A 35 GLU HA   A 35 GLU HA   . 6SVC ? 
+336 1 . 31 ? GLU CB   C 13 29.898  0.400 ? 1 ? ? . A 35 GLU CB   A 35 GLU CB   . 6SVC ? 
+337 1 . 31 ? GLU HB2  H 1  1.863   0.020 ? 1 ? ? . A 35 GLU HB2  A 35 GLU HB2  . 6SVC ? 
+338 1 . 31 ? GLU HB3  H 1  1.788   0.020 ? 1 ? ? . A 35 GLU HB3  A 35 GLU HB3  . 6SVC ? 
+339 1 . 31 ? GLU CG   C 13 36.508  0.400 ? 1 ? ? . A 35 GLU CG   A 35 GLU CG   . 6SVC ? 
+340 1 . 31 ? GLU HG2  H 1  2.291   0.020 ? 1 ? ? . A 35 GLU HG2  A 35 GLU HG2  . 6SVC ? 
+341 1 . 31 ? GLU HG3  H 1  2.209   0.020 ? 1 ? ? . A 35 GLU HG3  A 35 GLU HG3  . 6SVC ? 
+342 1 . 32 ? ARG N    N 15 126.536 0.400 ? 1 ? ? . A 36 ARG N    A 36 ARG N    . 6SVC ? 
+343 1 . 32 ? ARG H    H 1  8.631   0.020 ? 1 ? ? . A 36 ARG H    A 36 ARG H    . 6SVC ? 
+344 1 . 32 ? ARG CA   C 13 54.393  0.400 ? 1 ? ? . A 36 ARG CA   A 36 ARG CA   . 6SVC ? 
+345 1 . 32 ? ARG HA   H 1  2.707   0.020 ? 1 ? ? . A 36 ARG HA   A 36 ARG HA   . 6SVC ? 
+346 1 . 32 ? ARG CB   C 13 30.048  0.400 ? 1 ? ? . A 36 ARG CB   A 36 ARG CB   . 6SVC ? 
+347 1 . 32 ? ARG HB2  H 1  1.346   0.020 ? 2 ? ? . A 36 ARG HB2  A 36 ARG HB2  . 6SVC ? 
+348 1 . 32 ? ARG HB3  H 1  1.346   0.020 ? 2 ? ? . A 36 ARG HB3  A 36 ARG HB3  . 6SVC ? 
+349 1 . 32 ? ARG CG   C 13 27.235  0.400 ? 1 ? ? . A 36 ARG CG   A 36 ARG CG   . 6SVC ? 
+350 1 . 32 ? ARG HG2  H 1  1.140   0.020 ? 2 ? ? . A 36 ARG HG2  A 36 ARG HG2  . 6SVC ? 
+351 1 . 32 ? ARG HG3  H 1  0.845   0.020 ? 2 ? ? . A 36 ARG HG3  A 36 ARG HG3  . 6SVC ? 
+352 1 . 33 ? PRO CA   C 13 62.190  0.400 ? 1 ? ? . A 37 PRO CA   A 37 PRO CA   . 6SVC ? 
+353 1 . 33 ? PRO HA   H 1  3.846   0.020 ? 1 ? ? . A 37 PRO HA   A 37 PRO HA   . 6SVC ? 
+354 1 . 33 ? PRO CB   C 13 31.457  0.400 ? 1 ? ? . A 37 PRO CB   A 37 PRO CB   . 6SVC ? 
+355 1 . 33 ? PRO HB2  H 1  0.778   0.020 ? 1 ? ? . A 37 PRO HB2  A 37 PRO HB2  . 6SVC ? 
+356 1 . 33 ? PRO HB3  H 1  0.724   0.020 ? 1 ? ? . A 37 PRO HB3  A 37 PRO HB3  . 6SVC ? 
+357 1 . 33 ? PRO CG   C 13 25.752  0.400 ? 1 ? ? . A 37 PRO CG   A 37 PRO CG   . 6SVC ? 
+358 1 . 33 ? PRO HG2  H 1  0.450   0.020 ? 1 ? ? . A 37 PRO HG2  A 37 PRO HG2  . 6SVC ? 
+359 1 . 33 ? PRO HG3  H 1  -0.157  0.020 ? 1 ? ? . A 37 PRO HG3  A 37 PRO HG3  . 6SVC ? 
+360 1 . 33 ? PRO CD   C 13 50.131  0.400 ? 1 ? ? . A 37 PRO CD   A 37 PRO CD   . 6SVC ? 
+361 1 . 33 ? PRO HD2  H 1  2.155   0.020 ? 1 ? ? . A 37 PRO HD2  A 37 PRO HD2  . 6SVC ? 
+362 1 . 33 ? PRO HD3  H 1  2.453   0.020 ? 1 ? ? . A 37 PRO HD3  A 37 PRO HD3  . 6SVC ? 
+363 1 . 34 ? SER N    N 15 116.029 0.400 ? 1 ? ? . A 38 SER N    A 38 SER N    . 6SVC ? 
+364 1 . 34 ? SER H    H 1  8.243   0.020 ? 1 ? ? . A 38 SER H    A 38 SER H    . 6SVC ? 
+365 1 . 34 ? SER CA   C 13 57.990  0.400 ? 1 ? ? . A 38 SER CA   A 38 SER CA   . 6SVC ? 
+366 1 . 34 ? SER HA   H 1  4.254   0.020 ? 1 ? ? . A 38 SER HA   A 38 SER HA   . 6SVC ? 
+367 1 . 34 ? SER CB   C 13 64.589  0.400 ? 1 ? ? . A 38 SER CB   A 38 SER CB   . 6SVC ? 
+368 1 . 34 ? SER HB2  H 1  3.754   0.020 ? 2 ? ? . A 38 SER HB2  A 38 SER HB2  . 6SVC ? 
+369 1 . 34 ? SER HB3  H 1  3.674   0.020 ? 2 ? ? . A 38 SER HB3  A 38 SER HB3  . 6SVC ? 
+370 1 . 35 ? GLY N    N 15 117.079 0.400 ? 1 ? ? . A 39 GLY N    A 39 GLY N    . 6SVC ? 
+371 1 . 35 ? GLY H    H 1  7.981   0.020 ? 1 ? ? . A 39 GLY H    A 39 GLY H    . 6SVC ? 
+372 1 . 35 ? GLY CA   C 13 46.203  0.400 ? 1 ? ? . A 39 GLY CA   A 39 GLY CA   . 6SVC ? 
+373 1 . 35 ? GLY HA2  H 1  3.734   0.020 ? 2 ? ? . A 39 GLY HA2  A 39 GLY HA2  . 6SVC ? 
+374 1 . 35 ? GLY HA3  H 1  3.707   0.020 ? 2 ? ? . A 39 GLY HA3  A 39 GLY HA3  . 6SVC ? 
+stop_
+save_

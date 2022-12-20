@@ -1,0 +1,23 @@
+set yrange [0:1]
+set xrange [1:109]
+unset key
+set bar 0.0
+set lmargin 17.0
+set term post portr enhan color solid
+set out '2kbn.pdb_OrderParam.ps'
+set multiplot
+set size 0.9,0.27
+set xtics nomirror 10
+set mxtics 10
+set grid
+set origin 0,0.65
+set ylabel 'S({/=16 {/Symbol f}})' rotate by 0
+plot 'Order_phi_psi' using 3:4 with impulses lt 7 lw 4.5
+set origin 0,0.38
+set ylabel 'S({/=18 {/Symbol y}})' rotate by 0
+plot 'Order_phi_psi' using 3:5 with impulses lt 7 lw 4.5
+set origin 0,0.10
+set label 'Residue Number' at graph 0.5,-0.30 center
+set ylabel 'S({/=12 {/Symbol c}}_{1})' rotate by 0
+plot 'Order_phi_psi' using 3:6 with impulses lt 7 lw 4.5
+set nomulti

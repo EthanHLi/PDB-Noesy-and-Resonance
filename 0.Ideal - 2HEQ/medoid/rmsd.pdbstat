@@ -1,0 +1,9 @@
+ > Kabsch RMSD of all atoms in res. *[1..84],for model  1 is: nan
+ > Kabsch RMSD of all atoms in res. *[1..84],for model  2 is: nan
+ > Kabsch RMSD of all atoms in res. *[1..84],for model  3 is: nan
+ > Kabsch RMSD of all atoms in res. *[1..84],for model  4 is: nan
+ > Kabsch RMSD of all atoms in res. *[1..84],for model  5 is: nan
+ >
+ > Kabsch RMSD statistics for 5 structures: 
+ > Mean RMSD using reference struct. 1 for res.[1..84], is: nan, StdDev: nan 
+ > Range of RMSD values to reference struct. is nan to nan 

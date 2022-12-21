@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in ?
+  File "/farm/software/pymol-1.1r1-x64/modules/pymol/__init__.py", line 125, in ?
+    import threading 
+  File "/farm/software/pymol-1.1r1-x64/ext/lib/python2.4/threading.py", line 11, in ?
+    from time import time as _time, sleep as _sleep
+KeyboardInterrupt
+PyMOL-ERROR: can't find module 'invocation'

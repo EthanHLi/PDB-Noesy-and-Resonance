@@ -1,0 +1,53 @@
+ > 
+ > Kabsch RMSD data for family `2MA6_NMR.pdb' 
+ > 
+ > Kabsch RMSD of backbone atoms in res. A[10..17],A[20..44],A[49..59],for model  1 is: 0.479
+ > Kabsch RMSD of backbone atoms in res. A[10..17],A[20..44],A[49..59],for model  2 is: 0.546
+ > Kabsch RMSD of backbone atoms in res. A[10..17],A[20..44],A[49..59],for model  3 is: 0.453
+ > Kabsch RMSD of backbone atoms in res. A[10..17],A[20..44],A[49..59],for model  4 is: 0.388
+ > Kabsch RMSD of backbone atoms in res. A[10..17],A[20..44],A[49..59],for model  5 is: 0.474
+ > Kabsch RMSD of backbone atoms in res. A[10..17],A[20..44],A[49..59],for model  6 is: 0.495
+ > Kabsch RMSD of backbone atoms in res. A[10..17],A[20..44],A[49..59],for model  7 is: 0.333 (*)
+ > Kabsch RMSD of backbone atoms in res. A[10..17],A[20..44],A[49..59],for model  8 is: 0.528
+ > Kabsch RMSD of backbone atoms in res. A[10..17],A[20..44],A[49..59],for model  9 is: 0.350
+ > Kabsch RMSD of backbone atoms in res. A[10..17],A[20..44],A[49..59],for model 10 is: 0.493
+ > Kabsch RMSD of backbone atoms in res. A[10..17],A[20..44],A[49..59],for model 11 is: 0.475
+ > Kabsch RMSD of backbone atoms in res. A[10..17],A[20..44],A[49..59],for model 12 is: 0.440
+ > Kabsch RMSD of backbone atoms in res. A[10..17],A[20..44],A[49..59],for model 13 is: 0.415
+ > Kabsch RMSD of backbone atoms in res. A[10..17],A[20..44],A[49..59],for model 14 is: 0.480
+ > Kabsch RMSD of backbone atoms in res. A[10..17],A[20..44],A[49..59],for model 15 is: 0.406
+ > Kabsch RMSD of backbone atoms in res. A[10..17],A[20..44],A[49..59],for model 16 is: 0.577
+ > Kabsch RMSD of backbone atoms in res. A[10..17],A[20..44],A[49..59],for model 17 is: 0.368
+ > Kabsch RMSD of backbone atoms in res. A[10..17],A[20..44],A[49..59],for model 18 is: 0.502
+ > Kabsch RMSD of backbone atoms in res. A[10..17],A[20..44],A[49..59],for model 19 is: 0.456
+ > Kabsch RMSD of backbone atoms in res. A[10..17],A[20..44],A[49..59],for model 20 is: 0.474
+ >
+ > Kabsch RMSD statistics for 20 structures: 
+ > Mean RMSD using as refer. str. `average' for res.[10..17],[20..44],[49..59], is: 0.457, StdDev: 0.062 
+ > Range of RMSD values to reference struct. is 0.333 to 0.577 
+
+
+ > Kabsch RMSD of heavy atoms in res. A[10..17],A[20..44],A[49..59],for model  1 is: 0.914
+ > Kabsch RMSD of heavy atoms in res. A[10..17],A[20..44],A[49..59],for model  2 is: 1.021
+ > Kabsch RMSD of heavy atoms in res. A[10..17],A[20..44],A[49..59],for model  3 is: 0.918
+ > Kabsch RMSD of heavy atoms in res. A[10..17],A[20..44],A[49..59],for model  4 is: 0.945
+ > Kabsch RMSD of heavy atoms in res. A[10..17],A[20..44],A[49..59],for model  5 is: 1.026
+ > Kabsch RMSD of heavy atoms in res. A[10..17],A[20..44],A[49..59],for model  6 is: 1.063
+ > Kabsch RMSD of heavy atoms in res. A[10..17],A[20..44],A[49..59],for model  7 is: 0.825
+ > Kabsch RMSD of heavy atoms in res. A[10..17],A[20..44],A[49..59],for model  8 is: 1.098
+ > Kabsch RMSD of heavy atoms in res. A[10..17],A[20..44],A[49..59],for model  9 is: 0.801
+ > Kabsch RMSD of heavy atoms in res. A[10..17],A[20..44],A[49..59],for model 10 is: 0.836
+ > Kabsch RMSD of heavy atoms in res. A[10..17],A[20..44],A[49..59],for model 11 is: 0.852
+ > Kabsch RMSD of heavy atoms in res. A[10..17],A[20..44],A[49..59],for model 12 is: 0.874
+ > Kabsch RMSD of heavy atoms in res. A[10..17],A[20..44],A[49..59],for model 13 is: 0.757 (*)
+ > Kabsch RMSD of heavy atoms in res. A[10..17],A[20..44],A[49..59],for model 14 is: 1.137
+ > Kabsch RMSD of heavy atoms in res. A[10..17],A[20..44],A[49..59],for model 15 is: 0.911
+ > Kabsch RMSD of heavy atoms in res. A[10..17],A[20..44],A[49..59],for model 16 is: 0.917
+ > Kabsch RMSD of heavy atoms in res. A[10..17],A[20..44],A[49..59],for model 17 is: 0.805
+ > Kabsch RMSD of heavy atoms in res. A[10..17],A[20..44],A[49..59],for model 18 is: 0.930
+ > Kabsch RMSD of heavy atoms in res. A[10..17],A[20..44],A[49..59],for model 19 is: 0.914
+ > Kabsch RMSD of heavy atoms in res. A[10..17],A[20..44],A[49..59],for model 20 is: 0.984
+ >
+ > Kabsch RMSD statistics for 20 structures: 
+ > Mean RMSD using as refer. str. `average' for res.[10..17],[20..44],[49..59], is: 0.926, StdDev: 0.100 
+ > Range of RMSD values to reference struct. is 0.757 to 1.137 

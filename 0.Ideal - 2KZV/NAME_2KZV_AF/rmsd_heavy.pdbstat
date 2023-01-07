@@ -1,0 +1,9 @@
+ > Kabsch RMSD of heavy atoms in res. *[1..92],for model  1 is: 2.163
+ > Kabsch RMSD of heavy atoms in res. *[1..92],for model  2 is: 3.603
+ > Kabsch RMSD of heavy atoms in res. *[1..92],for model  3 is: 2.834
+ > Kabsch RMSD of heavy atoms in res. *[1..92],for model  4 is: 3.382
+ > Kabsch RMSD of heavy atoms in res. *[1..92],for model  5 is: 1.739 (*)
+ >
+ > Kabsch RMSD statistics for 5 structures: 
+ > Mean RMSD using as refer. str. `average' for res.[1..92], is: 2.744, StdDev: 0.707 
+ > Range of RMSD values to reference struct. is 1.739 to 3.603 

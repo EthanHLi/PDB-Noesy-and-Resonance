@@ -1,0 +1,8 @@
+#Ramachandran statistics from Richardson Lab's Molprobity
+Model	Favored	Allowed	Outlier	Outlier_res
+1	87	9	2	8:GLU,20:GLU,24:ILE
+2	91	6	1	21:ILE
+3	92	6	0
+4	89	9	0
+5	86	12	0	4:GLN
+Overall	445	42	3

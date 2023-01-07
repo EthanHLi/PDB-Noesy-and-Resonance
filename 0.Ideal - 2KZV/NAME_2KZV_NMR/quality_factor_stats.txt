@@ -1,0 +1,6 @@
+Procheck G-factor (phi / psi only):	Mean	0.20	SD	N/A
+Procheck G-factor (all dihedral angles):	Mean	0.20	SD	N/A
+Verify3D:	Mean	0.18	SD	0.0245
+ProsaII (-ve):	Mean	0.41	SD	0.0818
+MAGE VdW clashscore:	Mean	16.85	SD	3.3279
+Selected residue ranges: 8 - 21, 27 - 39, 45 - 48, 53 - 59, 63 - 80

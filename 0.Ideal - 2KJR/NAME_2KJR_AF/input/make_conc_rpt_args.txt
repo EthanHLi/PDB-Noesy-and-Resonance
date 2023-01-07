@@ -1,0 +1,10 @@
+pdb_id= 
+pdb_date= 
+common_name= 
+swissprot_id= 
+organism= 
+molc_class= 
+bmrb_id= 
+bmrb_date= 
+fids_in_bmrb=no
+name_of_user=Ethan Li

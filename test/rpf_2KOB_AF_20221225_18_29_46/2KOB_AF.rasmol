@@ -1,0 +1,137 @@
+#!rasmol -script
+# File: 1
+# Creator: RasMol Version 2.7.1
+
+zap
+load pdb "" background white
+set ambient 40
+set specular off
+
+reset
+slab off
+
+set bonds off
+set axes off
+set boundingbox off
+set unitcell off
+set bondmode and
+dots off
+
+
+# Avoid Colour Problems!
+select all
+colour bonds none
+colour backbone none
+colour hbonds none
+colour ssbonds none
+colour ribbons none
+colour cpk
+
+# Atoms
+select *
+color [0,0,255]
+wireframe off
+select *
+cartoons
+select 62
+color [255, 201, 0]
+wireframe 80
+select 62 and *.ca
+label 62
+select 62 and *.ca
+set fontsize 10
+center 1
+select 63
+color [255, 0, 0]
+wireframe 80
+select 63 and *.ca
+label 63
+select 63 and *.ca
+set fontsize 10
+center 1
+select 64
+color [255, 249, 0]
+wireframe 80
+select 64 and *.ca
+label 64
+select 64 and *.ca
+set fontsize 10
+center 1
+select 65
+color [0, 255, 156]
+select 66
+color [255, 158, 0]
+wireframe 80
+select 66 and *.ca
+label 66
+select 66 and *.ca
+set fontsize 10
+center 1
+select 67
+color [0, 255, 1]
+select 70
+color [0, 239, 255]
+select 71
+color [0, 131, 255]
+select 73
+color [0, 255, 70]
+select 74
+color [255, 30, 0]
+wireframe 80
+select 74 and *.ca
+label 74
+select 74 and *.ca
+set fontsize 10
+center 1
+select 77
+color [0, 255, 102]
+select 81
+color [0, 72, 255]
+select 88
+color [27, 255, 0]
+select 89
+color [0, 255, 10]
+select 90
+color [0, 255, 118]
+select 91
+color [255, 0, 0]
+wireframe 80
+select 91 and *.ca
+label 91
+select 91 and *.ca
+set fontsize 10
+center 1
+select 92
+color [0, 107, 255]
+select 93
+color [0, 91, 255]
+select 94
+color [0, 103, 255]
+select 96
+color [180, 255, 0]
+select 97
+color [0, 59, 255]
+select 99
+color [0, 48, 255]
+select 100
+color [255, 0, 0]
+wireframe 80
+select 100 and *.ca
+label 100
+select 100 and *.ca
+set fontsize 10
+center 1
+select 101
+color [255, 210, 0]
+wireframe 80
+select 101 and *.ca
+label 101
+select 101 and *.ca
+set fontsize 10
+center 1
+select 103
+color [16, 255, 0]
+restrict */1
+colour label black
+background white
+zoom 150

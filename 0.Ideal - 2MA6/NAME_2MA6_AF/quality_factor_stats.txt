@@ -1,0 +1,4 @@
+Procheck G-factor (phi / psi only):	Mean	-0.61	SD	N/A
+Procheck G-factor (all dihedral angles):	Mean	-0.37	SD	N/A
+Verify3D:	Mean	0.07	SD	0.0114
+Selected residue ranges: 4 - 60

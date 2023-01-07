@@ -1,0 +1,24 @@
+ > Kabsch RMSD of heavy atoms in res. *[64..174],for model  1 is: 5.266
+ > Kabsch RMSD of heavy atoms in res. *[64..174],for model  2 is: 5.657
+ > Kabsch RMSD of heavy atoms in res. *[64..174],for model  3 is: 5.656
+ > Kabsch RMSD of heavy atoms in res. *[64..174],for model  4 is: 6.256
+ > Kabsch RMSD of heavy atoms in res. *[64..174],for model  5 is: 6.921
+ > Kabsch RMSD of heavy atoms in res. *[64..174],for model  6 is: 5.741
+ > Kabsch RMSD of heavy atoms in res. *[64..174],for model  7 is: 6.667
+ > Kabsch RMSD of heavy atoms in res. *[64..174],for model  8 is: 8.657
+ > Kabsch RMSD of heavy atoms in res. *[64..174],for model  9 is: 4.915
+ > Kabsch RMSD of heavy atoms in res. *[64..174],for model 10 is: 6.910
+ > Kabsch RMSD of heavy atoms in res. *[64..174],for model 11 is: 6.291
+ > Kabsch RMSD of heavy atoms in res. *[64..174],for model 12 is: 5.599
+ > Kabsch RMSD of heavy atoms in res. *[64..174],for model 13 is: 5.326
+ > Kabsch RMSD of heavy atoms in res. *[64..174],for model 14 is: 5.417
+ > Kabsch RMSD of heavy atoms in res. *[64..174],for model 15 is: 8.158
+ > Kabsch RMSD of heavy atoms in res. *[64..174],for model 16 is: 6.096
+ > Kabsch RMSD of heavy atoms in res. *[64..174],for model 17 is: 6.555
+ > Kabsch RMSD of heavy atoms in res. *[64..174],for model 18 is: 7.002
+ > Kabsch RMSD of heavy atoms in res. *[64..174],for model 19 is: 3.930 (*)
+ > Kabsch RMSD of heavy atoms in res. *[64..174],for model 20 is: 4.299
+ >
+ > Kabsch RMSD statistics for 20 structures: 
+ > Mean RMSD using as refer. str. `average' for res.[64..174], is: 6.066, StdDev: 1.126 
+ > Range of RMSD values to reference struct. is 3.930 to 8.657 

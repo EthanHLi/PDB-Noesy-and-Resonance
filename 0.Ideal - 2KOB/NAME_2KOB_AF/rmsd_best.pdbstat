@@ -1,0 +1,23 @@
+ > 
+ > Kabsch RMSD data for family `2KOB_AF.pdb' 
+ > 
+ > Kabsch RMSD of backbone atoms in res. A[2..98],A[100..102],for model  1 is: 0.236
+ > Kabsch RMSD of backbone atoms in res. A[2..98],A[100..102],for model  2 is: 0.120 (*)
+ > Kabsch RMSD of backbone atoms in res. A[2..98],A[100..102],for model  3 is: 0.151
+ > Kabsch RMSD of backbone atoms in res. A[2..98],A[100..102],for model  4 is: 0.171
+ > Kabsch RMSD of backbone atoms in res. A[2..98],A[100..102],for model  5 is: 0.195
+ >
+ > Kabsch RMSD statistics for 5 structures: 
+ > Mean RMSD using as refer. str. `average' for res.[2..98],[100..102], is: 0.174, StdDev: 0.039 
+ > Range of RMSD values to reference struct. is 0.120 to 0.236 
+
+
+ > Kabsch RMSD of heavy atoms in res. A[2..98],A[100..102],for model  1 is: 0.417
+ > Kabsch RMSD of heavy atoms in res. A[2..98],A[100..102],for model  2 is: 0.342 (*)
+ > Kabsch RMSD of heavy atoms in res. A[2..98],A[100..102],for model  3 is: 0.403
+ > Kabsch RMSD of heavy atoms in res. A[2..98],A[100..102],for model  4 is: 0.376
+ > Kabsch RMSD of heavy atoms in res. A[2..98],A[100..102],for model  5 is: 0.407
+ >
+ > Kabsch RMSD statistics for 5 structures: 
+ > Mean RMSD using as refer. str. `average' for res.[2..98],[100..102], is: 0.389, StdDev: 0.027 
+ > Range of RMSD values to reference struct. is 0.342 to 0.417 

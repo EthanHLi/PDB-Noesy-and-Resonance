@@ -1,0 +1,396 @@
+                                                       Aug. 3, 16:44:05 2022
+
+[ Text modified to reflect that this was run under PSVS - Aneerban Bhattacharya: Dec 2005 ]
+
+
+The following checks were made on :
+-----------------------------------------
+
+CLOSE CONTACTS
+
+==> Distances smaller than 2.2 Angstroms are considered as close contacts
+    for heavy atoms, 1.6 Angstroms for hydrogens.
+
+      none
+
+
+
+DISTANCES AND ANGLES 
+
+We have checked your intra and intermolecular distances and angles with the
+procedures currently in place at PDB:
+
+==> Bond and angle checks are performed by first computing the average rms
+    error for all bonds and angles relative to standard values for nucleotide
+    units [L. Clowney et al., Geometric Parameters in Nucleic Acids: Nitrogenous
+    Bases, J.Am.Chem.Soc. 1996, 118, 509-518; A. Gelbin et al., Geometric
+    Parameters in Nucleic Acids: Sugar and Phosphate Constituents, J.Am.Chem.Soc.
+    1996, 118, 519-529] and amino acid units [R.A. Engh and R. Huber, Accurate
+    Bond and Angle Parameters for X-ray protein structure refinement, Acta
+    Crystallogr. 1991, A47, 392-400]. Any bond or angle which deviates from the
+    dictionary values by more than six times this computed rms error is 
+    identified as an outlier.
+
+
+
+    *** Covalent Bond Lengths:
+
+
+The RMS deviation for covalent bonds relative to the standard 
+dictionary is   0.012 Angstroms
+
+All covalent bonds lie within a 6.0*RMSD range about the 
+standard dictionary values.
+
+    *** Covalent Angle Values:
+
+
+The RMS deviation for covalent angles relative to the standard 
+dictionary is    1.7 degrees.
+
+The following table contains a list of the covalent bond angles
+greater than 6.0*RMSD.
+
+
+ Deviation  Residue  Chain  Sequence  Model  AT1  -  AT2  -  AT3    Bond    Dictionary
+             Name     ID     Number                                 Angle      Value
+--------------------------------------------------------------------------------
+    10.9    HIS       A      106         5   C    -  N    -  CA     132.6     121.7
+
+
+TORSION ANGLES
+ 
+The torsion angle distributions have been checked.  The postscript file of the
+conformation rings showing the torsion angle distributions will be sent in a
+separate E-mail message.
+
+
+CHIRALITY
+
+The chirality has been checked. O1P, O2P, and hydrogen atoms which do not
+follow the convention defined in the IUBMB (Liebecq, C. Compendium of
+Biochemical Nomenclature and Related Documents, 2nd ed.; Portland Press:
+London and Chapel Hill, 1992) and IUPAC nomenclature (J.L. Markley, A. Bax,
+Y. Arata, C.W. Hilbers, R. Kaptein, B.D. Sykes, P.E. Wright and K. Wüthrich,
+Recommendations for the Presentation of NMR Structures of Proteins and
+Nucleic Acids, Pure & Appl. Chem., Vol. 70, pp. 117-142, 1998) have been
+standardized.  Any other stereochemical violations are listed below.
+
+
+E/Z NOMENCLATURE
+
+E/Z nomenclature of hydrogens and/or nitrogens on Arg, Asn or Gln residues needs
+to be corrected to conform with the standard for E/Z orientation presented in
+[J.L. Markley, et al., Recommendations for the Presentation of NMR Structures of
+Proteins and Nucleic Acids, Pure & Appl. Chem., 1998, 70, 117-142]. 
+
+Model  Chain  Residue  Residue  Atom Name  Original
+               Name    Number              Atom Name
+-----  -----  -------  -------  --------   ---------
+  1    A       ARG        1      1HH1
+  1    A       ARG        1      2HH1
+  1    A       ARG        1      1HH2
+  1    A       ARG        1      2HH2
+  1    A       GLN       24      1HE2
+  1    A       GLN       24      2HE2
+  1    A       ASN       26      1HD2
+  1    A       ASN       26      2HD2
+  1    A       ASN       30      1HD2
+  1    A       ASN       30      2HD2
+  1    A       ARG       33      1HH1
+  1    A       ARG       33      2HH1
+  1    A       ASN       34      1HD2
+  1    A       ASN       34      2HD2
+  1    A       GLN       53      1HE2
+  1    A       GLN       53      2HE2
+  1    A       ASN       57      1HD2
+  1    A       ASN       57      2HD2
+  1    A       ASN       64      1HD2
+  1    A       ASN       64      2HD2
+  1    A       ARG       70      1HH2
+  1    A       ARG       70      2HH2
+  1    A       ASN       71      1HD2
+  1    A       ASN       71      2HD2
+  1    A       GLN       75      1HE2
+  1    A       GLN       75      2HE2
+  1    A       ASN       83      1HD2
+  1    A       ASN       83      2HD2
+  1    A       ARG       84      1HH1
+  1    A       ARG       84      2HH1
+  1    A       ARG       84      1HH2
+  1    A       ARG       84      2HH2
+  1    A       ASN       89      1HD2
+  1    A       ASN       89      2HD2
+  1    A       ARG       95      1HH2
+  1    A       ARG       95      2HH2
+  2    A       ARG        1      1HH1
+  2    A       ARG        1      2HH1
+  2    A       ARG        1      1HH2
+  2    A       ARG        1      2HH2
+  2    A       GLN       24      1HE2
+  2    A       GLN       24      2HE2
+  2    A       ASN       26      1HD2
+  2    A       ASN       26      2HD2
+  2    A       ASN       30      1HD2
+  2    A       ASN       30      2HD2
+  2    A       ARG       33      1HH1
+  2    A       ARG       33      2HH1
+  2    A       ASN       34      1HD2
+  2    A       ASN       34      2HD2
+  2    A       GLN       53      1HE2
+  2    A       GLN       53      2HE2
+  2    A       ASN       57      1HD2
+  2    A       ASN       57      2HD2
+  2    A       ASN       64      1HD2
+  2    A       ASN       64      2HD2
+  2    A       ARG       70      1HH1
+  2    A       ARG       70      2HH1
+  2    A       ARG       70      1HH2
+  2    A       ARG       70      2HH2
+  2    A       ASN       71      1HD2
+  2    A       ASN       71      2HD2
+  2    A       GLN       75      1HE2
+  2    A       GLN       75      2HE2
+  2    A       ARG       78      1HH1
+  2    A       ARG       78      2HH1
+  2    A       ASN       83      1HD2
+  2    A       ASN       83      2HD2
+  2    A       ARG       84      1HH2
+  2    A       ARG       84      2HH2
+  2    A       ASN       89      1HD2
+  2    A       ASN       89      2HD2
+  2    A       ARG       95      1HH2
+  2    A       ARG       95      2HH2
+  3    A       ARG        1      1HH2
+  3    A       ARG        1      2HH2
+  3    A       GLN       24      1HE2
+  3    A       GLN       24      2HE2
+  3    A       ASN       26      1HD2
+  3    A       ASN       26      2HD2
+  3    A       ASN       30      1HD2
+  3    A       ASN       30      2HD2
+  3    A       ARG       33      1HH1
+  3    A       ARG       33      2HH1
+  3    A       ARG       33      1HH2
+  3    A       ARG       33      2HH2
+  3    A       ASN       34      1HD2
+  3    A       ASN       34      2HD2
+  3    A       GLN       53      1HE2
+  3    A       GLN       53      2HE2
+  3    A       ASN       57      1HD2
+  3    A       ASN       57      2HD2
+  3    A       ASN       64      1HD2
+  3    A       ASN       64      2HD2
+  3    A       ARG       70      1HH2
+  3    A       ARG       70      2HH2
+  3    A       ASN       71      1HD2
+  3    A       ASN       71      2HD2
+  3    A       GLN       75      1HE2
+  3    A       GLN       75      2HE2
+  3    A       ARG       78      1HH2
+  3    A       ARG       78      2HH2
+  3    A       ASN       83      1HD2
+  3    A       ASN       83      2HD2
+  3    A       ASN       89      1HD2
+  3    A       ASN       89      2HD2
+  3    A       ARG       95      1HH1
+  3    A       ARG       95      2HH1
+  3    A       ARG       95      1HH2
+  3    A       ARG       95      2HH2
+  4    A       ARG        1      1HH1
+  4    A       ARG        1      2HH1
+  4    A       ARG        1      1HH2
+  4    A       ARG        1      2HH2
+  4    A       GLN       24      1HE2
+  4    A       GLN       24      2HE2
+  4    A       ASN       26      1HD2
+  4    A       ASN       26      2HD2
+  4    A       ASN       30      1HD2
+  4    A       ASN       30      2HD2
+  4    A       ARG       33      1HH2
+  4    A       ARG       33      2HH2
+  4    A       ASN       34      1HD2
+  4    A       ASN       34      2HD2
+  4    A       GLN       53      1HE2
+  4    A       GLN       53      2HE2
+  4    A       ASN       57      1HD2
+  4    A       ASN       57      2HD2
+  4    A       ASN       64      1HD2
+  4    A       ASN       64      2HD2
+  4    A       ARG       70      1HH1
+  4    A       ARG       70      2HH1
+  4    A       ASN       71      1HD2
+  4    A       ASN       71      2HD2
+  4    A       GLN       75      1HE2
+  4    A       GLN       75      2HE2
+  4    A       ARG       78      1HH1
+  4    A       ARG       78      2HH1
+  4    A       ASN       83      1HD2
+  4    A       ASN       83      2HD2
+  4    A       ARG       84      1HH2
+  4    A       ARG       84      2HH2
+  4    A       ASN       89      1HD2
+  4    A       ASN       89      2HD2
+  5    A       GLN       24      1HE2
+  5    A       GLN       24      2HE2
+  5    A       ASN       26      1HD2
+  5    A       ASN       26      2HD2
+  5    A       ASN       30      1HD2
+  5    A       ASN       30      2HD2
+  5    A       ARG       33      1HH1
+  5    A       ARG       33      2HH1
+  5    A       ARG       33      1HH2
+  5    A       ARG       33      2HH2
+  5    A       ASN       34      1HD2
+  5    A       ASN       34      2HD2
+  5    A       GLN       53      1HE2
+  5    A       GLN       53      2HE2
+  5    A       ASN       57      1HD2
+  5    A       ASN       57      2HD2
+  5    A       ASN       64      1HD2
+  5    A       ASN       64      2HD2
+  5    A       ARG       70      1HH1
+  5    A       ARG       70      2HH1
+  5    A       ARG       70      1HH2
+  5    A       ARG       70      2HH2
+  5    A       ASN       71      1HD2
+  5    A       ASN       71      2HD2
+  5    A       GLN       75      1HE2
+  5    A       GLN       75      2HE2
+  5    A       ASN       83      1HD2
+  5    A       ASN       83      2HD2
+  5    A       ASN       89      1HD2
+  5    A       ASN       89      2HD2
+  5    A       ARG       95      1HH1
+  5    A       ARG       95      2HH1
+  5    A       ARG       95      1HH2
+  5    A       ARG       95      2HH2
+
+OTHER IMPORTANT ISSUES
+
+
+
+==> The following residues have missing atoms:                        
+
+     RES MOD#C SEQ          ATOMS
+
+     ARG(  1 A   1)           N 
+     ASP(  1 A   2)         HD2 
+     ASP(  1 A   6)         HD2 
+     GLU(  1 A   9)         HE2 
+     GLU(  1 A  16)         HE2 
+     ASP(  1 A  18)         HD2 
+     HIS(  1 A  35)         HE2 
+     GLU(  1 A  46)         HE2 
+     ASP(  1 A  51)         HD2 
+     GLU(  1 A  58)         HE2 
+     GLU(  1 A  82)         HE2 
+     ASP(  1 A  87)         HD2 
+     ASP(  1 A  92)         HD2 
+     GLU(  1 A 102)         HE2 
+     HIS(  1 A 103)         HE2 
+     HIS(  1 A 104)         HE2 
+     HIS(  1 A 105)         HE2 
+     HIS(  1 A 106)         HE2 
+     HIS(  1 A 107)         HE2 
+     HIS(  1 A 108)         HE2 
+     ARG(  2 A   1)           N 
+     ASP(  2 A   2)         HD2 
+     ASP(  2 A   6)         HD2 
+     GLU(  2 A   9)         HE2 
+     GLU(  2 A  16)         HE2 
+     ASP(  2 A  18)         HD2 
+     HIS(  2 A  35)         HE2 
+     GLU(  2 A  46)         HE2 
+     ASP(  2 A  51)         HD2 
+     GLU(  2 A  58)         HE2 
+     GLU(  2 A  82)         HE2 
+     ASP(  2 A  87)         HD2 
+     ASP(  2 A  92)         HD2 
+     GLU(  2 A 102)         HE2 
+     HIS(  2 A 103)         HE2 
+     HIS(  2 A 104)         HE2 
+     HIS(  2 A 105)         HE2 
+     HIS(  2 A 106)         HE2 
+     HIS(  2 A 107)         HE2 
+     HIS(  2 A 108)         HE2 
+     ARG(  3 A   1)           N 
+     ASP(  3 A   2)         HD2 
+     ASP(  3 A   6)         HD2 
+     GLU(  3 A   9)         HE2 
+     GLU(  3 A  16)         HE2 
+     ASP(  3 A  18)         HD2 
+     HIS(  3 A  35)         HE2 
+     GLU(  3 A  46)         HE2 
+     ASP(  3 A  51)         HD2 
+     GLU(  3 A  58)         HE2 
+     GLU(  3 A  82)         HE2 
+     ASP(  3 A  87)         HD2 
+     ASP(  3 A  92)         HD2 
+     GLU(  3 A 102)         HE2 
+     HIS(  3 A 103)         HE2 
+     HIS(  3 A 104)         HE2 
+     HIS(  3 A 105)         HE2 
+     HIS(  3 A 106)         HE2 
+     HIS(  3 A 107)         HE2 
+     HIS(  3 A 108)         HE2 
+     ARG(  4 A   1)           N 
+     ASP(  4 A   2)         HD2 
+     ASP(  4 A   6)         HD2 
+     GLU(  4 A   9)         HE2 
+     GLU(  4 A  16)         HE2 
+     ASP(  4 A  18)         HD2 
+     HIS(  4 A  35)         HE2 
+     GLU(  4 A  46)         HE2 
+     ASP(  4 A  51)         HD2 
+     GLU(  4 A  58)         HE2 
+     GLU(  4 A  82)         HE2 
+     ASP(  4 A  87)         HD2 
+     ASP(  4 A  92)         HD2 
+     GLU(  4 A 102)         HE2 
+     HIS(  4 A 103)         HE2 
+     HIS(  4 A 104)         HE2 
+     HIS(  4 A 105)         HE2 
+     HIS(  4 A 106)         HE2 
+     HIS(  4 A 107)         HE2 
+     HIS(  4 A 108)         HE2 
+     ARG(  5 A   1)           N 
+     ASP(  5 A   2)         HD2 
+     ASP(  5 A   6)         HD2 
+     GLU(  5 A   9)         HE2 
+     GLU(  5 A  16)         HE2 
+     ASP(  5 A  18)         HD2 
+     HIS(  5 A  35)         HE2 
+     GLU(  5 A  46)         HE2 
+     ASP(  5 A  51)         HD2 
+     GLU(  5 A  58)         HE2 
+     GLU(  5 A  82)         HE2 
+     ASP(  5 A  87)         HD2 
+     ASP(  5 A  92)         HD2 
+     GLU(  5 A 102)         HE2 
+     HIS(  5 A 103)         HE2 
+     HIS(  5 A 104)         HE2 
+     HIS(  5 A 105)         HE2 
+     HIS(  5 A 106)         HE2 
+     HIS(  5 A 107)         HE2 
+     HIS(  5 A 108)         HE2 
+==> The following residues have extra atoms:                         
+    
+     RES MOD#C SEQ          ATOMS
+    
+     ARG(  1 A   1)           H   is extra (2H,   3H already exist) 
+     HIS(  1 A 108)          O2 
+     ARG(  2 A   1)           H   is extra (2H,   3H already exist) 
+     HIS(  2 A 108)          O2 
+     ARG(  3 A   1)           H   is extra (2H,   3H already exist) 
+     HIS(  3 A 108)          O2 
+     ARG(  4 A   1)           H   is extra (2H,   3H already exist) 
+     HIS(  4 A 108)          O2 
+     ARG(  5 A   1)           H   is extra (2H,   3H already exist) 
+     HIS(  5 A 108)          O2 
+
+
+2KOB_AF.pdb: Missing KEYWDS records
+
+2KOB_AF.pdb: Missing TITLE record
+

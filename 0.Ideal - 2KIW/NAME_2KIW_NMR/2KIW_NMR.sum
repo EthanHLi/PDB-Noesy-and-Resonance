@@ -1,0 +1,9 @@
+
+ +----------<<<  P  R  O  C  H  E  C  K     S  U  M  M  A  R  Y  >>>----------+
+ |                                                                            |
+ | 2KIW_NMR_020.rin   0.0                                       1620 residues |
+ |                                                                            |
++| Ramachandran plot:   97.3% core    2.6% allow    0.1% gener    0.0% disall |
+ |                                                                            |
++| All Ramachandrans:   12 labelled residues (out of1620)                     |
++| Chi1-chi2 plots:      9 labelled residues (out of1120)                     |

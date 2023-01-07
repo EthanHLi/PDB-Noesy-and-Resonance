@@ -1,0 +1,8 @@
+#Ramachandran statistics from Richardson Lab's Molprobity
+Model	Favored	Allowed	Outlier	Outlier_res
+1	77	1	0	4:HIS,6:HIS
+2	77	1	0	6:HIS,7:HIS,8:HIS
+3	77	1	0	10:HIS
+4	77	1	0	10:HIS
+5	75	3	0	3:HIS,4:HIS,5:HIS,6:HIS,7:HIS,8:HIS,9:SER,10:HIS
+Overall	383	7	0

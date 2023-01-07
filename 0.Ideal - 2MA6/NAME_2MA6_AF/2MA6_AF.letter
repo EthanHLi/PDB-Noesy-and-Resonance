@@ -1,0 +1,226 @@
+                                                       Sep. 11, 02:31:58 2022
+
+[ Text modified to reflect that this was run under PSVS - Aneerban Bhattacharya: Dec 2005 ]
+
+
+The following checks were made on :
+-----------------------------------------
+
+CLOSE CONTACTS
+
+==> Distances smaller than 2.2 Angstroms are considered as close contacts
+    for heavy atoms, 1.6 Angstroms for hydrogens.
+
+   Chain Atom    Res  Seq   Chain Atom    Res  Seq   Mol_ID            Distance
+   -------------------------------------------------------------------------
+       A  HD2    PHE   23 -     A  HG     CYS   45        4            Dist = 1.60
+
+
+DISTANCES AND ANGLES 
+
+We have checked your intra and intermolecular distances and angles with the
+procedures currently in place at PDB:
+
+==> Bond and angle checks are performed by first computing the average rms
+    error for all bonds and angles relative to standard values for nucleotide
+    units [L. Clowney et al., Geometric Parameters in Nucleic Acids: Nitrogenous
+    Bases, J.Am.Chem.Soc. 1996, 118, 509-518; A. Gelbin et al., Geometric
+    Parameters in Nucleic Acids: Sugar and Phosphate Constituents, J.Am.Chem.Soc.
+    1996, 118, 519-529] and amino acid units [R.A. Engh and R. Huber, Accurate
+    Bond and Angle Parameters for X-ray protein structure refinement, Acta
+    Crystallogr. 1991, A47, 392-400]. Any bond or angle which deviates from the
+    dictionary values by more than six times this computed rms error is 
+    identified as an outlier.
+
+
+
+    *** Covalent Bond Lengths:
+
+
+The RMS deviation for covalent bonds relative to the standard 
+dictionary is   0.011 Angstroms
+
+All covalent bonds lie within a 6.0*RMSD range about the 
+standard dictionary values.
+
+    *** Covalent Angle Values:
+
+
+The RMS deviation for covalent angles relative to the standard 
+dictionary is    2.0 degrees.
+
+
+All covalent bond angles lie within a 6.0*RMSD range about the 
+standard dictionary values.
+
+
+TORSION ANGLES
+ 
+The torsion angle distributions have been checked.  The postscript file of the
+conformation rings showing the torsion angle distributions will be sent in a
+separate E-mail message.
+
+
+CHIRALITY
+
+The chirality has been checked. O1P, O2P, and hydrogen atoms which do not
+follow the convention defined in the IUBMB (Liebecq, C. Compendium of
+Biochemical Nomenclature and Related Documents, 2nd ed.; Portland Press:
+London and Chapel Hill, 1992) and IUPAC nomenclature (J.L. Markley, A. Bax,
+Y. Arata, C.W. Hilbers, R. Kaptein, B.D. Sykes, P.E. Wright and K. Wüthrich,
+Recommendations for the Presentation of NMR Structures of Proteins and
+Nucleic Acids, Pure & Appl. Chem., Vol. 70, pp. 117-142, 1998) have been
+standardized.  Any other stereochemical violations are listed below.
+
+
+E/Z NOMENCLATURE
+
+E/Z nomenclature of hydrogens and/or nitrogens on Arg, Asn or Gln residues needs
+to be corrected to conform with the standard for E/Z orientation presented in
+[J.L. Markley, et al., Recommendations for the Presentation of NMR Structures of
+Proteins and Nucleic Acids, Pure & Appl. Chem., 1998, 70, 117-142]. 
+
+Model  Chain  Residue  Residue  Atom Name  Original
+               Name    Number              Atom Name
+-----  -----  -------  -------  --------   ---------
+  1    A       GLN       24      1HE2
+  1    A       GLN       24      2HE2
+  1    A       ASN       36      1HD2
+  1    A       ASN       36      2HD2
+  1    A       GLN       37      1HE2
+  1    A       GLN       37      2HE2
+  1    A       ASN       41      1HD2
+  1    A       ASN       41      2HD2
+  1    A       ASN       42      1HD2
+  1    A       ASN       42      2HD2
+  2    A       GLN       24      1HE2
+  2    A       GLN       24      2HE2
+  2    A       ASN       36      1HD2
+  2    A       ASN       36      2HD2
+  2    A       GLN       37      1HE2
+  2    A       GLN       37      2HE2
+  2    A       ASN       41      1HD2
+  2    A       ASN       41      2HD2
+  2    A       ASN       42      1HD2
+  2    A       ASN       42      2HD2
+  3    A       GLN       24      1HE2
+  3    A       GLN       24      2HE2
+  3    A       ASN       36      1HD2
+  3    A       ASN       36      2HD2
+  3    A       GLN       37      1HE2
+  3    A       GLN       37      2HE2
+  3    A       ASN       41      1HD2
+  3    A       ASN       41      2HD2
+  3    A       ASN       42      1HD2
+  3    A       ASN       42      2HD2
+  4    A       GLN       24      1HE2
+  4    A       GLN       24      2HE2
+  4    A       ASN       36      1HD2
+  4    A       ASN       36      2HD2
+  4    A       GLN       37      1HE2
+  4    A       GLN       37      2HE2
+  4    A       ASN       41      1HD2
+  4    A       ASN       41      2HD2
+  4    A       ASN       42      1HD2
+  4    A       ASN       42      2HD2
+  5    A       GLN       24      1HE2
+  5    A       GLN       24      2HE2
+  5    A       ASN       36      1HD2
+  5    A       ASN       36      2HD2
+  5    A       GLN       37      1HE2
+  5    A       GLN       37      2HE2
+  5    A       ASN       41      1HD2
+  5    A       ASN       41      2HD2
+  5    A       ASN       42      1HD2
+  5    A       ASN       42      2HD2
+
+OTHER IMPORTANT ISSUES
+
+
+
+==> The following residues have missing atoms:                        
+
+     RES MOD#C SEQ          ATOMS
+
+     SER(  1 A   1)           N 
+     HIS(  1 A   2)         HE2 
+     GLU(  1 A   7)         HE2 
+     GLU(  1 A   8)         HE2 
+     ASP(  1 A   9)         HD2 
+     HIS(  1 A  17)         HE2 
+     HIS(  1 A  28)         HE2 
+     HIS(  1 A  38)         HE2 
+     ASP(  1 A  44)         HD2 
+     GLU(  1 A  56)         HE2 
+     ASP(  1 A  57)         HD2 
+     GLU(  1 A  59)         HE2 
+     SER(  2 A   1)           N 
+     HIS(  2 A   2)         HE2 
+     GLU(  2 A   7)         HE2 
+     GLU(  2 A   8)         HE2 
+     ASP(  2 A   9)         HD2 
+     HIS(  2 A  17)         HE2 
+     HIS(  2 A  28)         HE2 
+     HIS(  2 A  38)         HE2 
+     ASP(  2 A  44)         HD2 
+     GLU(  2 A  56)         HE2 
+     ASP(  2 A  57)         HD2 
+     GLU(  2 A  59)         HE2 
+     SER(  3 A   1)           N 
+     HIS(  3 A   2)         HE2 
+     GLU(  3 A   7)         HE2 
+     GLU(  3 A   8)         HE2 
+     ASP(  3 A   9)         HD2 
+     HIS(  3 A  17)         HE2 
+     HIS(  3 A  28)         HE2 
+     CYS(  3 A  31)          HG 
+     CYS(  3 A  34)          HG 
+     HIS(  3 A  38)         HE2 
+     ASP(  3 A  44)         HD2 
+     GLU(  3 A  56)         HE2 
+     ASP(  3 A  57)         HD2 
+     GLU(  3 A  59)         HE2 
+     SER(  4 A   1)           N 
+     HIS(  4 A   2)         HE2 
+     GLU(  4 A   7)         HE2 
+     GLU(  4 A   8)         HE2 
+     ASP(  4 A   9)         HD2 
+     HIS(  4 A  17)         HE2 
+     HIS(  4 A  28)         HE2 
+     HIS(  4 A  38)         HD1 
+     ASP(  4 A  44)         HD2 
+     GLU(  4 A  56)         HE2 
+     ASP(  4 A  57)         HD2 
+     GLU(  4 A  59)         HE2 
+     SER(  5 A   1)           N 
+     HIS(  5 A   2)         HE2 
+     GLU(  5 A   7)         HE2 
+     GLU(  5 A   8)         HE2 
+     ASP(  5 A   9)         HD2 
+     HIS(  5 A  17)         HE2 
+     HIS(  5 A  28)         HE2 
+     HIS(  5 A  38)         HE2 
+     ASP(  5 A  44)         HD2 
+     GLU(  5 A  56)         HE2 
+     ASP(  5 A  57)         HD2 
+     GLU(  5 A  59)         HE2 
+==> The following residues have extra atoms:                         
+    
+     RES MOD#C SEQ          ATOMS
+    
+     SER(  1 A   1)           H   is extra (2H,   3H already exist) 
+     GLY(  1 A  61)          O2 
+     SER(  2 A   1)           H   is extra (2H,   3H already exist) 
+     GLY(  2 A  61)          O2 
+     SER(  3 A   1)           H   is extra (2H,   3H already exist) 
+     GLY(  3 A  61)          O2 
+     SER(  4 A   1)           H   is extra (2H,   3H already exist) 
+     GLY(  4 A  61)          O2 
+     SER(  5 A   1)           H   is extra (2H,   3H already exist) 
+     GLY(  5 A  61)          O2 
+
+
+2MA6_AF.pdb: Missing KEYWDS records
+
+2MA6_AF.pdb: Missing TITLE record
+

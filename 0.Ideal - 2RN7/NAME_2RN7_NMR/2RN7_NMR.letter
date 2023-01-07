@@ -1,0 +1,826 @@
+                                                       Aug. 3, 20:29:57 2022
+
+[ Text modified to reflect that this was run under PSVS - Aneerban Bhattacharya: Dec 2005 ]
+
+
+The following checks were made on :
+-----------------------------------------
+
+CLOSE CONTACTS
+
+==> Distances smaller than 2.2 Angstroms are considered as close contacts
+    for heavy atoms, 1.6 Angstroms for hydrogens.
+
+   Chain Atom    Res  Seq   Chain Atom    Res  Seq   Mol_ID            Distance
+   -------------------------------------------------------------------------
+       A  HE2    TYR   96 -     A  HA     LYS   99       16            Dist = 1.41
+       A 2HB     ASN   80 -     A 1HH2    ARG   84        2            Dist = 1.42
+       A  HG     CYS   42 -     A  HZ3    TRP   50       19            Dist = 1.43
+       A 2HE2    GLN   23 -     A 2HB     GLN   29       13            Dist = 1.45
+       A 1HB     ARG  104 -     A 1HB     LYS  108       20            Dist = 1.48
+       A 1HG2    ILE   33 -     A 1HD2    LEU   47       18            Dist = 1.51
+       A 2HG2    THR   58 -     A 1HB     ASP   61        5            Dist = 1.51
+       A 1HE2    GLN   23 -     A 1HB     GLN   29       18            Dist = 1.51
+       A  HG     SER   28 -     A  HE3    TRP   30       16            Dist = 1.53
+       A 1HG2    ILE   33 -     A 2HD2    LEU   47       13            Dist = 1.53
+       A 1HG     PRO   76 -     A 2HB     GLU   79       12            Dist = 1.55
+       A  HG1    THR   43 -     A  OE2    GLU   45       11            Dist = 1.57
+       A 2HG1    VAL   49 -     A 2HE2    GLN   53       10            Dist = 1.57
+       A  HD2    PHE  102 -     A  HA     LEU  105       19            Dist = 1.59
+
+
+DISTANCES AND ANGLES 
+
+We have checked your intra and intermolecular distances and angles with the
+procedures currently in place at PDB:
+
+==> Bond and angle checks are performed by first computing the average rms
+    error for all bonds and angles relative to standard values for nucleotide
+    units [L. Clowney et al., Geometric Parameters in Nucleic Acids: Nitrogenous
+    Bases, J.Am.Chem.Soc. 1996, 118, 509-518; A. Gelbin et al., Geometric
+    Parameters in Nucleic Acids: Sugar and Phosphate Constituents, J.Am.Chem.Soc.
+    1996, 118, 519-529] and amino acid units [R.A. Engh and R. Huber, Accurate
+    Bond and Angle Parameters for X-ray protein structure refinement, Acta
+    Crystallogr. 1991, A47, 392-400]. Any bond or angle which deviates from the
+    dictionary values by more than six times this computed rms error is 
+    identified as an outlier.
+
+
+
+    *** Covalent Bond Lengths:
+
+
+The RMS deviation for covalent bonds relative to the standard 
+dictionary is   0.004 Angstroms
+
+All covalent bonds lie within a 6.0*RMSD range about the 
+standard dictionary values.
+
+    *** Covalent Angle Values:
+
+
+The RMS deviation for covalent angles relative to the standard 
+dictionary is    0.6 degrees.
+
+The following table contains a list of the covalent bond angles
+greater than 6.0*RMSD.
+
+
+ Deviation  Residue  Chain  Sequence  Model  AT1  -  AT2  -  AT3    Bond    Dictionary
+             Name     ID     Number                                 Angle      Value
+--------------------------------------------------------------------------------
+    -3.6    PHE       A        7         3   N    -  CA   -  C      107.6     111.2
+    -3.9    ASN       A       80         4   N    -  CA   -  C      107.3     111.2
+    -3.6    ARG       A       85         7   N    -  CA   -  C      107.6     111.2
+    -3.5    ARG       A       70         9   N    -  CA   -  C      107.7     111.2
+    -3.5    ASN       A        4        11   N    -  CA   -  C      107.7     111.2
+
+
+TORSION ANGLES
+ 
+The torsion angle distributions have been checked.  The postscript file of the
+conformation rings showing the torsion angle distributions will be sent in a
+separate E-mail message.
+
+
+CHIRALITY
+
+The chirality has been checked. O1P, O2P, and hydrogen atoms which do not
+follow the convention defined in the IUBMB (Liebecq, C. Compendium of
+Biochemical Nomenclature and Related Documents, 2nd ed.; Portland Press:
+London and Chapel Hill, 1992) and IUPAC nomenclature (J.L. Markley, A. Bax,
+Y. Arata, C.W. Hilbers, R. Kaptein, B.D. Sykes, P.E. Wright and K. Wüthrich,
+Recommendations for the Presentation of NMR Structures of Proteins and
+Nucleic Acids, Pure & Appl. Chem., Vol. 70, pp. 117-142, 1998) have been
+standardized.  Any other stereochemical violations are listed below.
+
+
+E/Z NOMENCLATURE
+
+E/Z nomenclature of hydrogens and/or nitrogens on Arg, Asn or Gln residues needs
+to be corrected to conform with the standard for E/Z orientation presented in
+[J.L. Markley, et al., Recommendations for the Presentation of NMR Structures of
+Proteins and Nucleic Acids, Pure & Appl. Chem., 1998, 70, 117-142]. 
+
+Model  Chain  Residue  Residue  Atom Name  Original
+               Name    Number              Atom Name
+-----  -----  -------  -------  --------   ---------
+  1    A       ASN        4      1HD2
+  1    A       ASN        4      2HD2
+  1    A       GLN       13      1HE2
+  1    A       GLN       13      2HE2
+  1    A       GLN       23      1HE2
+  1    A       GLN       23      2HE2
+  1    A       GLN       29      1HE2
+  1    A       GLN       29      2HE2
+  1    A       GLN       53      1HE2
+  1    A       GLN       53      2HE2
+  1    A       GLN       71      1HE2
+  1    A       GLN       71      2HE2
+  1    A       ASN       80      1HD2
+  1    A       ASN       80      2HD2
+  1    A       ASN       87      1HD2
+  1    A       ASN       87      2HD2
+  2    A       ASN        4      1HD2
+  2    A       ASN        4      2HD2
+  2    A       GLN       13      1HE2
+  2    A       GLN       13      2HE2
+  2    A       GLN       23      1HE2
+  2    A       GLN       23      2HE2
+  2    A       GLN       29      1HE2
+  2    A       GLN       29      2HE2
+  2    A       GLN       53      1HE2
+  2    A       GLN       53      2HE2
+  2    A       GLN       71      1HE2
+  2    A       GLN       71      2HE2
+  2    A       ASN       80      1HD2
+  2    A       ASN       80      2HD2
+  2    A       ASN       87      1HD2
+  2    A       ASN       87      2HD2
+  3    A       ASN        4      1HD2
+  3    A       ASN        4      2HD2
+  3    A       GLN       13      1HE2
+  3    A       GLN       13      2HE2
+  3    A       GLN       23      1HE2
+  3    A       GLN       23      2HE2
+  3    A       GLN       29      1HE2
+  3    A       GLN       29      2HE2
+  3    A       GLN       53      1HE2
+  3    A       GLN       53      2HE2
+  3    A       GLN       71      1HE2
+  3    A       GLN       71      2HE2
+  3    A       ASN       80      1HD2
+  3    A       ASN       80      2HD2
+  3    A       ASN       87      1HD2
+  3    A       ASN       87      2HD2
+  4    A       ASN        4      1HD2
+  4    A       ASN        4      2HD2
+  4    A       GLN       13      1HE2
+  4    A       GLN       13      2HE2
+  4    A       GLN       23      1HE2
+  4    A       GLN       23      2HE2
+  4    A       GLN       29      1HE2
+  4    A       GLN       29      2HE2
+  4    A       GLN       53      1HE2
+  4    A       GLN       53      2HE2
+  4    A       GLN       71      1HE2
+  4    A       GLN       71      2HE2
+  4    A       ASN       80      1HD2
+  4    A       ASN       80      2HD2
+  4    A       ASN       87      1HD2
+  4    A       ASN       87      2HD2
+  5    A       ASN        4      1HD2
+  5    A       ASN        4      2HD2
+  5    A       GLN       13      1HE2
+  5    A       GLN       13      2HE2
+  5    A       GLN       23      1HE2
+  5    A       GLN       23      2HE2
+  5    A       GLN       29      1HE2
+  5    A       GLN       29      2HE2
+  5    A       GLN       53      1HE2
+  5    A       GLN       53      2HE2
+  5    A       GLN       71      1HE2
+  5    A       GLN       71      2HE2
+  5    A       ASN       80      1HD2
+  5    A       ASN       80      2HD2
+  5    A       ASN       87      1HD2
+  5    A       ASN       87      2HD2
+  6    A       ASN        4      1HD2
+  6    A       ASN        4      2HD2
+  6    A       GLN       13      1HE2
+  6    A       GLN       13      2HE2
+  6    A       GLN       23      1HE2
+  6    A       GLN       23      2HE2
+  6    A       GLN       29      1HE2
+  6    A       GLN       29      2HE2
+  6    A       GLN       53      1HE2
+  6    A       GLN       53      2HE2
+  6    A       GLN       71      1HE2
+  6    A       GLN       71      2HE2
+  6    A       ASN       80      1HD2
+  6    A       ASN       80      2HD2
+  6    A       ASN       87      1HD2
+  6    A       ASN       87      2HD2
+  7    A       ASN        4      1HD2
+  7    A       ASN        4      2HD2
+  7    A       GLN       13      1HE2
+  7    A       GLN       13      2HE2
+  7    A       GLN       23      1HE2
+  7    A       GLN       23      2HE2
+  7    A       GLN       29      1HE2
+  7    A       GLN       29      2HE2
+  7    A       GLN       53      1HE2
+  7    A       GLN       53      2HE2
+  7    A       GLN       71      1HE2
+  7    A       GLN       71      2HE2
+  7    A       ASN       80      1HD2
+  7    A       ASN       80      2HD2
+  7    A       ASN       87      1HD2
+  7    A       ASN       87      2HD2
+  8    A       ASN        4      1HD2
+  8    A       ASN        4      2HD2
+  8    A       GLN       13      1HE2
+  8    A       GLN       13      2HE2
+  8    A       GLN       23      1HE2
+  8    A       GLN       23      2HE2
+  8    A       GLN       29      1HE2
+  8    A       GLN       29      2HE2
+  8    A       GLN       53      1HE2
+  8    A       GLN       53      2HE2
+  8    A       GLN       71      1HE2
+  8    A       GLN       71      2HE2
+  8    A       ASN       80      1HD2
+  8    A       ASN       80      2HD2
+  8    A       ASN       87      1HD2
+  8    A       ASN       87      2HD2
+  9    A       ASN        4      1HD2
+  9    A       ASN        4      2HD2
+  9    A       GLN       13      1HE2
+  9    A       GLN       13      2HE2
+  9    A       GLN       23      1HE2
+  9    A       GLN       23      2HE2
+  9    A       GLN       29      1HE2
+  9    A       GLN       29      2HE2
+  9    A       GLN       53      1HE2
+  9    A       GLN       53      2HE2
+  9    A       GLN       71      1HE2
+  9    A       GLN       71      2HE2
+  9    A       ASN       80      1HD2
+  9    A       ASN       80      2HD2
+  9    A       ASN       87      1HD2
+  9    A       ASN       87      2HD2
+ 10    A       ASN        4      1HD2
+ 10    A       ASN        4      2HD2
+ 10    A       GLN       13      1HE2
+ 10    A       GLN       13      2HE2
+ 10    A       GLN       23      1HE2
+ 10    A       GLN       23      2HE2
+ 10    A       GLN       29      1HE2
+ 10    A       GLN       29      2HE2
+ 10    A       GLN       53      1HE2
+ 10    A       GLN       53      2HE2
+ 10    A       GLN       71      1HE2
+ 10    A       GLN       71      2HE2
+ 10    A       ASN       80      1HD2
+ 10    A       ASN       80      2HD2
+ 10    A       ASN       87      1HD2
+ 10    A       ASN       87      2HD2
+ 11    A       ASN        4      1HD2
+ 11    A       ASN        4      2HD2
+ 11    A       GLN       13      1HE2
+ 11    A       GLN       13      2HE2
+ 11    A       GLN       23      1HE2
+ 11    A       GLN       23      2HE2
+ 11    A       GLN       29      1HE2
+ 11    A       GLN       29      2HE2
+ 11    A       GLN       53      1HE2
+ 11    A       GLN       53      2HE2
+ 11    A       GLN       71      1HE2
+ 11    A       GLN       71      2HE2
+ 11    A       ASN       80      1HD2
+ 11    A       ASN       80      2HD2
+ 11    A       ASN       87      1HD2
+ 11    A       ASN       87      2HD2
+ 12    A       ASN        4      1HD2
+ 12    A       ASN        4      2HD2
+ 12    A       GLN       13      1HE2
+ 12    A       GLN       13      2HE2
+ 12    A       GLN       23      1HE2
+ 12    A       GLN       23      2HE2
+ 12    A       GLN       29      1HE2
+ 12    A       GLN       29      2HE2
+ 12    A       GLN       53      1HE2
+ 12    A       GLN       53      2HE2
+ 12    A       GLN       71      1HE2
+ 12    A       GLN       71      2HE2
+ 12    A       ASN       80      1HD2
+ 12    A       ASN       80      2HD2
+ 12    A       ASN       87      1HD2
+ 12    A       ASN       87      2HD2
+ 13    A       ASN        4      1HD2
+ 13    A       ASN        4      2HD2
+ 13    A       GLN       13      1HE2
+ 13    A       GLN       13      2HE2
+ 13    A       GLN       23      1HE2
+ 13    A       GLN       23      2HE2
+ 13    A       GLN       29      1HE2
+ 13    A       GLN       29      2HE2
+ 13    A       GLN       53      1HE2
+ 13    A       GLN       53      2HE2
+ 13    A       GLN       71      1HE2
+ 13    A       GLN       71      2HE2
+ 13    A       ASN       80      1HD2
+ 13    A       ASN       80      2HD2
+ 13    A       ASN       87      1HD2
+ 13    A       ASN       87      2HD2
+ 14    A       ASN        4      1HD2
+ 14    A       ASN        4      2HD2
+ 14    A       GLN       13      1HE2
+ 14    A       GLN       13      2HE2
+ 14    A       GLN       23      1HE2
+ 14    A       GLN       23      2HE2
+ 14    A       GLN       29      1HE2
+ 14    A       GLN       29      2HE2
+ 14    A       GLN       53      1HE2
+ 14    A       GLN       53      2HE2
+ 14    A       GLN       71      1HE2
+ 14    A       GLN       71      2HE2
+ 14    A       ASN       80      1HD2
+ 14    A       ASN       80      2HD2
+ 14    A       ASN       87      1HD2
+ 14    A       ASN       87      2HD2
+ 15    A       ASN        4      1HD2
+ 15    A       ASN        4      2HD2
+ 15    A       GLN       13      1HE2
+ 15    A       GLN       13      2HE2
+ 15    A       GLN       23      1HE2
+ 15    A       GLN       23      2HE2
+ 15    A       GLN       29      1HE2
+ 15    A       GLN       29      2HE2
+ 15    A       GLN       53      1HE2
+ 15    A       GLN       53      2HE2
+ 15    A       GLN       71      1HE2
+ 15    A       GLN       71      2HE2
+ 15    A       ASN       80      1HD2
+ 15    A       ASN       80      2HD2
+ 15    A       ASN       87      1HD2
+ 15    A       ASN       87      2HD2
+ 16    A       ASN        4      1HD2
+ 16    A       ASN        4      2HD2
+ 16    A       GLN       13      1HE2
+ 16    A       GLN       13      2HE2
+ 16    A       GLN       23      1HE2
+ 16    A       GLN       23      2HE2
+ 16    A       GLN       29      1HE2
+ 16    A       GLN       29      2HE2
+ 16    A       GLN       53      1HE2
+ 16    A       GLN       53      2HE2
+ 16    A       GLN       71      1HE2
+ 16    A       GLN       71      2HE2
+ 16    A       ASN       80      1HD2
+ 16    A       ASN       80      2HD2
+ 16    A       ASN       87      1HD2
+ 16    A       ASN       87      2HD2
+ 17    A       ASN        4      1HD2
+ 17    A       ASN        4      2HD2
+ 17    A       GLN       13      1HE2
+ 17    A       GLN       13      2HE2
+ 17    A       GLN       23      1HE2
+ 17    A       GLN       23      2HE2
+ 17    A       GLN       29      1HE2
+ 17    A       GLN       29      2HE2
+ 17    A       GLN       53      1HE2
+ 17    A       GLN       53      2HE2
+ 17    A       GLN       71      1HE2
+ 17    A       GLN       71      2HE2
+ 17    A       ASN       80      1HD2
+ 17    A       ASN       80      2HD2
+ 17    A       ASN       87      1HD2
+ 17    A       ASN       87      2HD2
+ 18    A       ASN        4      1HD2
+ 18    A       ASN        4      2HD2
+ 18    A       GLN       13      1HE2
+ 18    A       GLN       13      2HE2
+ 18    A       GLN       23      1HE2
+ 18    A       GLN       23      2HE2
+ 18    A       GLN       29      1HE2
+ 18    A       GLN       29      2HE2
+ 18    A       GLN       53      1HE2
+ 18    A       GLN       53      2HE2
+ 18    A       GLN       71      1HE2
+ 18    A       GLN       71      2HE2
+ 18    A       ASN       80      1HD2
+ 18    A       ASN       80      2HD2
+ 18    A       ASN       87      1HD2
+ 18    A       ASN       87      2HD2
+ 19    A       ASN        4      1HD2
+ 19    A       ASN        4      2HD2
+ 19    A       GLN       13      1HE2
+ 19    A       GLN       13      2HE2
+ 19    A       GLN       23      1HE2
+ 19    A       GLN       23      2HE2
+ 19    A       GLN       29      1HE2
+ 19    A       GLN       29      2HE2
+ 19    A       GLN       53      1HE2
+ 19    A       GLN       53      2HE2
+ 19    A       GLN       71      1HE2
+ 19    A       GLN       71      2HE2
+ 19    A       ASN       80      1HD2
+ 19    A       ASN       80      2HD2
+ 19    A       ASN       87      1HD2
+ 19    A       ASN       87      2HD2
+ 20    A       ASN        4      1HD2
+ 20    A       ASN        4      2HD2
+ 20    A       GLN       13      1HE2
+ 20    A       GLN       13      2HE2
+ 20    A       GLN       23      1HE2
+ 20    A       GLN       23      2HE2
+ 20    A       GLN       29      1HE2
+ 20    A       GLN       29      2HE2
+ 20    A       GLN       53      1HE2
+ 20    A       GLN       53      2HE2
+ 20    A       GLN       71      1HE2
+ 20    A       GLN       71      2HE2
+ 20    A       ASN       80      1HD2
+ 20    A       ASN       80      2HD2
+ 20    A       ASN       87      1HD2
+ 20    A       ASN       87      2HD2
+
+OTHER IMPORTANT ISSUES
+
+
+
+==> The following residues have missing atoms:                        
+
+     RES MOD#C SEQ          ATOMS
+
+     GLU(  1 A  10)         HE2 
+     GLU(  1 A  21)         HE2 
+     GLU(  1 A  25)         HE2 
+     ASP(  1 A  27)         HD2 
+     GLU(  1 A  45)         HE2 
+     GLU(  1 A  55)         HE2 
+     ASP(  1 A  57)         HD2 
+     ASP(  1 A  61)         HD2 
+     ASP(  1 A  62)         HD2 
+     GLU(  1 A  69)         HE2 
+     GLU(  1 A  75)         HE2 
+     GLU(  1 A  77)         HE2 
+     GLU(  1 A  79)         HE2 
+     GLU(  1 A  82)         HE2 
+     ASP(  1 A  88)         HD2 
+     GLU(  1 A 101)         HE2 
+     ASP(  1 A 103)         HD2 
+     GLU(  2 A  10)         HE2 
+     GLU(  2 A  21)         HE2 
+     GLU(  2 A  25)         HE2 
+     ASP(  2 A  27)         HD2 
+     GLU(  2 A  45)         HE2 
+     GLU(  2 A  55)         HE2 
+     ASP(  2 A  57)         HD2 
+     ASP(  2 A  61)         HD2 
+     ASP(  2 A  62)         HD2 
+     GLU(  2 A  69)         HE2 
+     GLU(  2 A  75)         HE2 
+     GLU(  2 A  77)         HE2 
+     GLU(  2 A  79)         HE2 
+     GLU(  2 A  82)         HE2 
+     ASP(  2 A  88)         HD2 
+     GLU(  2 A 101)         HE2 
+     ASP(  2 A 103)         HD2 
+     GLU(  3 A  10)         HE2 
+     GLU(  3 A  21)         HE2 
+     GLU(  3 A  25)         HE2 
+     ASP(  3 A  27)         HD2 
+     GLU(  3 A  45)         HE2 
+     GLU(  3 A  55)         HE2 
+     ASP(  3 A  57)         HD2 
+     ASP(  3 A  61)         HD2 
+     ASP(  3 A  62)         HD2 
+     GLU(  3 A  69)         HE2 
+     GLU(  3 A  75)         HE2 
+     GLU(  3 A  77)         HE2 
+     GLU(  3 A  79)         HE2 
+     GLU(  3 A  82)         HE2 
+     ASP(  3 A  88)         HD2 
+     GLU(  3 A 101)         HE2 
+     ASP(  3 A 103)         HD2 
+     GLU(  4 A  10)         HE2 
+     GLU(  4 A  21)         HE2 
+     GLU(  4 A  25)         HE2 
+     ASP(  4 A  27)         HD2 
+     GLU(  4 A  45)         HE2 
+     GLU(  4 A  55)         HE2 
+     ASP(  4 A  57)         HD2 
+     ASP(  4 A  61)         HD2 
+     ASP(  4 A  62)         HD2 
+     GLU(  4 A  69)         HE2 
+     GLU(  4 A  75)         HE2 
+     GLU(  4 A  77)         HE2 
+     GLU(  4 A  79)         HE2 
+     GLU(  4 A  82)         HE2 
+     ASP(  4 A  88)         HD2 
+     GLU(  4 A 101)         HE2 
+     ASP(  4 A 103)         HD2 
+     GLU(  5 A  10)         HE2 
+     GLU(  5 A  21)         HE2 
+     GLU(  5 A  25)         HE2 
+     ASP(  5 A  27)         HD2 
+     GLU(  5 A  45)         HE2 
+     GLU(  5 A  55)         HE2 
+     ASP(  5 A  57)         HD2 
+     ASP(  5 A  61)         HD2 
+     ASP(  5 A  62)         HD2 
+     GLU(  5 A  69)         HE2 
+     GLU(  5 A  75)         HE2 
+     GLU(  5 A  77)         HE2 
+     GLU(  5 A  79)         HE2 
+     GLU(  5 A  82)         HE2 
+     ASP(  5 A  88)         HD2 
+     GLU(  5 A 101)         HE2 
+     ASP(  5 A 103)         HD2 
+     GLU(  6 A  10)         HE2 
+     GLU(  6 A  21)         HE2 
+     GLU(  6 A  25)         HE2 
+     ASP(  6 A  27)         HD2 
+     GLU(  6 A  45)         HE2 
+     GLU(  6 A  55)         HE2 
+     ASP(  6 A  57)         HD2 
+     ASP(  6 A  61)         HD2 
+     ASP(  6 A  62)         HD2 
+     GLU(  6 A  69)         HE2 
+     GLU(  6 A  75)         HE2 
+     GLU(  6 A  77)         HE2 
+     GLU(  6 A  79)         HE2 
+     GLU(  6 A  82)         HE2 
+     ASP(  6 A  88)         HD2 
+     GLU(  6 A 101)         HE2 
+     ASP(  6 A 103)         HD2 
+     GLU(  7 A  10)         HE2 
+     GLU(  7 A  21)         HE2 
+     GLU(  7 A  25)         HE2 
+     ASP(  7 A  27)         HD2 
+     GLU(  7 A  45)         HE2 
+     GLU(  7 A  55)         HE2 
+     ASP(  7 A  57)         HD2 
+     ASP(  7 A  61)         HD2 
+     ASP(  7 A  62)         HD2 
+     GLU(  7 A  69)         HE2 
+     GLU(  7 A  75)         HE2 
+     GLU(  7 A  77)         HE2 
+     GLU(  7 A  79)         HE2 
+     GLU(  7 A  82)         HE2 
+     ASP(  7 A  88)         HD2 
+     GLU(  7 A 101)         HE2 
+     ASP(  7 A 103)         HD2 
+     GLU(  8 A  10)         HE2 
+     GLU(  8 A  21)         HE2 
+     GLU(  8 A  25)         HE2 
+     ASP(  8 A  27)         HD2 
+     GLU(  8 A  45)         HE2 
+     GLU(  8 A  55)         HE2 
+     ASP(  8 A  57)         HD2 
+     ASP(  8 A  61)         HD2 
+     ASP(  8 A  62)         HD2 
+     GLU(  8 A  69)         HE2 
+     GLU(  8 A  75)         HE2 
+     GLU(  8 A  77)         HE2 
+     GLU(  8 A  79)         HE2 
+     GLU(  8 A  82)         HE2 
+     ASP(  8 A  88)         HD2 
+     GLU(  8 A 101)         HE2 
+     ASP(  8 A 103)         HD2 
+     GLU(  9 A  10)         HE2 
+     GLU(  9 A  21)         HE2 
+     GLU(  9 A  25)         HE2 
+     ASP(  9 A  27)         HD2 
+     GLU(  9 A  45)         HE2 
+     GLU(  9 A  55)         HE2 
+     ASP(  9 A  57)         HD2 
+     ASP(  9 A  61)         HD2 
+     ASP(  9 A  62)         HD2 
+     GLU(  9 A  69)         HE2 
+     GLU(  9 A  75)         HE2 
+     GLU(  9 A  77)         HE2 
+     GLU(  9 A  79)         HE2 
+     GLU(  9 A  82)         HE2 
+     ASP(  9 A  88)         HD2 
+     GLU(  9 A 101)         HE2 
+     ASP(  9 A 103)         HD2 
+     GLU( 10 A  10)         HE2 
+     GLU( 10 A  21)         HE2 
+     GLU( 10 A  25)         HE2 
+     ASP( 10 A  27)         HD2 
+     GLU( 10 A  45)         HE2 
+     GLU( 10 A  55)         HE2 
+     ASP( 10 A  57)         HD2 
+     ASP( 10 A  61)         HD2 
+     ASP( 10 A  62)         HD2 
+     GLU( 10 A  69)         HE2 
+     GLU( 10 A  75)         HE2 
+     GLU( 10 A  77)         HE2 
+     GLU( 10 A  79)         HE2 
+     GLU( 10 A  82)         HE2 
+     ASP( 10 A  88)         HD2 
+     GLU( 10 A 101)         HE2 
+     ASP( 10 A 103)         HD2 
+     GLU( 11 A  10)         HE2 
+     GLU( 11 A  21)         HE2 
+     GLU( 11 A  25)         HE2 
+     ASP( 11 A  27)         HD2 
+     GLU( 11 A  45)         HE2 
+     GLU( 11 A  55)         HE2 
+     ASP( 11 A  57)         HD2 
+     ASP( 11 A  61)         HD2 
+     ASP( 11 A  62)         HD2 
+     GLU( 11 A  69)         HE2 
+     GLU( 11 A  75)         HE2 
+     GLU( 11 A  77)         HE2 
+     GLU( 11 A  79)         HE2 
+     GLU( 11 A  82)         HE2 
+     ASP( 11 A  88)         HD2 
+     GLU( 11 A 101)         HE2 
+     ASP( 11 A 103)         HD2 
+     GLU( 12 A  10)         HE2 
+     GLU( 12 A  21)         HE2 
+     GLU( 12 A  25)         HE2 
+     ASP( 12 A  27)         HD2 
+     GLU( 12 A  45)         HE2 
+     GLU( 12 A  55)         HE2 
+     ASP( 12 A  57)         HD2 
+     ASP( 12 A  61)         HD2 
+     ASP( 12 A  62)         HD2 
+     GLU( 12 A  69)         HE2 
+     GLU( 12 A  75)         HE2 
+     GLU( 12 A  77)         HE2 
+     GLU( 12 A  79)         HE2 
+     GLU( 12 A  82)         HE2 
+     ASP( 12 A  88)         HD2 
+     GLU( 12 A 101)         HE2 
+     ASP( 12 A 103)         HD2 
+     GLU( 13 A  10)         HE2 
+     GLU( 13 A  21)         HE2 
+     GLU( 13 A  25)         HE2 
+     ASP( 13 A  27)         HD2 
+     GLU( 13 A  45)         HE2 
+     GLU( 13 A  55)         HE2 
+     ASP( 13 A  57)         HD2 
+     ASP( 13 A  61)         HD2 
+     ASP( 13 A  62)         HD2 
+     GLU( 13 A  69)         HE2 
+     GLU( 13 A  75)         HE2 
+     GLU( 13 A  77)         HE2 
+     GLU( 13 A  79)         HE2 
+     GLU( 13 A  82)         HE2 
+     ASP( 13 A  88)         HD2 
+     GLU( 13 A 101)         HE2 
+     ASP( 13 A 103)         HD2 
+     GLU( 14 A  10)         HE2 
+     GLU( 14 A  21)         HE2 
+     GLU( 14 A  25)         HE2 
+     ASP( 14 A  27)         HD2 
+     GLU( 14 A  45)         HE2 
+     GLU( 14 A  55)         HE2 
+     ASP( 14 A  57)         HD2 
+     ASP( 14 A  61)         HD2 
+     ASP( 14 A  62)         HD2 
+     GLU( 14 A  69)         HE2 
+     GLU( 14 A  75)         HE2 
+     GLU( 14 A  77)         HE2 
+     GLU( 14 A  79)         HE2 
+     GLU( 14 A  82)         HE2 
+     ASP( 14 A  88)         HD2 
+     GLU( 14 A 101)         HE2 
+     ASP( 14 A 103)         HD2 
+     GLU( 15 A  10)         HE2 
+     GLU( 15 A  21)         HE2 
+     GLU( 15 A  25)         HE2 
+     ASP( 15 A  27)         HD2 
+     GLU( 15 A  45)         HE2 
+     GLU( 15 A  55)         HE2 
+     ASP( 15 A  57)         HD2 
+     ASP( 15 A  61)         HD2 
+     ASP( 15 A  62)         HD2 
+     GLU( 15 A  69)         HE2 
+     GLU( 15 A  75)         HE2 
+     GLU( 15 A  77)         HE2 
+     GLU( 15 A  79)         HE2 
+     GLU( 15 A  82)         HE2 
+     ASP( 15 A  88)         HD2 
+     GLU( 15 A 101)         HE2 
+     ASP( 15 A 103)         HD2 
+     GLU( 16 A  10)         HE2 
+     GLU( 16 A  21)         HE2 
+     GLU( 16 A  25)         HE2 
+     ASP( 16 A  27)         HD2 
+     GLU( 16 A  45)         HE2 
+     GLU( 16 A  55)         HE2 
+     ASP( 16 A  57)         HD2 
+     ASP( 16 A  61)         HD2 
+     ASP( 16 A  62)         HD2 
+     GLU( 16 A  69)         HE2 
+     GLU( 16 A  75)         HE2 
+     GLU( 16 A  77)         HE2 
+     GLU( 16 A  79)         HE2 
+     GLU( 16 A  82)         HE2 
+     ASP( 16 A  88)         HD2 
+     GLU( 16 A 101)         HE2 
+     ASP( 16 A 103)         HD2 
+     GLU( 17 A  10)         HE2 
+     GLU( 17 A  21)         HE2 
+     GLU( 17 A  25)         HE2 
+     ASP( 17 A  27)         HD2 
+     GLU( 17 A  45)         HE2 
+     GLU( 17 A  55)         HE2 
+     ASP( 17 A  57)         HD2 
+     ASP( 17 A  61)         HD2 
+     ASP( 17 A  62)         HD2 
+     GLU( 17 A  69)         HE2 
+     GLU( 17 A  75)         HE2 
+     GLU( 17 A  77)         HE2 
+     GLU( 17 A  79)         HE2 
+     GLU( 17 A  82)         HE2 
+     ASP( 17 A  88)         HD2 
+     GLU( 17 A 101)         HE2 
+     ASP( 17 A 103)         HD2 
+     GLU( 18 A  10)         HE2 
+     GLU( 18 A  21)         HE2 
+     GLU( 18 A  25)         HE2 
+     ASP( 18 A  27)         HD2 
+     GLU( 18 A  45)         HE2 
+     GLU( 18 A  55)         HE2 
+     ASP( 18 A  57)         HD2 
+     ASP( 18 A  61)         HD2 
+     ASP( 18 A  62)         HD2 
+     GLU( 18 A  69)         HE2 
+     GLU( 18 A  75)         HE2 
+     GLU( 18 A  77)         HE2 
+     GLU( 18 A  79)         HE2 
+     GLU( 18 A  82)         HE2 
+     ASP( 18 A  88)         HD2 
+     GLU( 18 A 101)         HE2 
+     ASP( 18 A 103)         HD2 
+     GLU( 19 A  10)         HE2 
+     GLU( 19 A  21)         HE2 
+     GLU( 19 A  25)         HE2 
+     ASP( 19 A  27)         HD2 
+     GLU( 19 A  45)         HE2 
+     GLU( 19 A  55)         HE2 
+     ASP( 19 A  57)         HD2 
+     ASP( 19 A  61)         HD2 
+     ASP( 19 A  62)         HD2 
+     GLU( 19 A  69)         HE2 
+     GLU( 19 A  75)         HE2 
+     GLU( 19 A  77)         HE2 
+     GLU( 19 A  79)         HE2 
+     GLU( 19 A  82)         HE2 
+     ASP( 19 A  88)         HD2 
+     GLU( 19 A 101)         HE2 
+     ASP( 19 A 103)         HD2 
+     GLU( 20 A  10)         HE2 
+     GLU( 20 A  21)         HE2 
+     GLU( 20 A  25)         HE2 
+     ASP( 20 A  27)         HD2 
+     GLU( 20 A  45)         HE2 
+     GLU( 20 A  55)         HE2 
+     ASP( 20 A  57)         HD2 
+     ASP( 20 A  61)         HD2 
+     ASP( 20 A  62)         HD2 
+     GLU( 20 A  69)         HE2 
+     GLU( 20 A  75)         HE2 
+     GLU( 20 A  77)         HE2 
+     GLU( 20 A  79)         HE2 
+     GLU( 20 A  82)         HE2 
+     ASP( 20 A  88)         HD2 
+     GLU( 20 A 101)         HE2 
+     ASP( 20 A 103)         HD2 
+==> The following residues have extra atoms:                         
+    
+     RES MOD#C SEQ          ATOMS
+    
+     MET(  1 A   1)           H   is extra (2H,   3H already exist) 
+     LYS(  1 A 108)          O2 
+     MET(  2 A   1)           H   is extra (2H,   3H already exist) 
+     LYS(  2 A 108)          O2 
+     MET(  3 A   1)           H   is extra (2H,   3H already exist) 
+     LYS(  3 A 108)          O2 
+     MET(  4 A   1)           H   is extra (2H,   3H already exist) 
+     LYS(  4 A 108)          O2 
+     MET(  5 A   1)           H   is extra (2H,   3H already exist) 
+     LYS(  5 A 108)          O2 
+     MET(  6 A   1)           H   is extra (2H,   3H already exist) 
+     LYS(  6 A 108)          O2 
+     MET(  7 A   1)           H   is extra (2H,   3H already exist) 
+     LYS(  7 A 108)          O2 
+     MET(  8 A   1)           H   is extra (2H,   3H already exist) 
+     LYS(  8 A 108)          O2 
+     MET(  9 A   1)           H   is extra (2H,   3H already exist) 
+     LYS(  9 A 108)          O2 
+     MET( 10 A   1)           H   is extra (2H,   3H already exist) 
+     LYS( 10 A 108)          O2 
+     MET( 11 A   1)           H   is extra (2H,   3H already exist) 
+     LYS( 11 A 108)          O2 
+     MET( 12 A   1)           H   is extra (2H,   3H already exist) 
+     LYS( 12 A 108)          O2 
+     MET( 13 A   1)           H   is extra (2H,   3H already exist) 
+     LYS( 13 A 108)          O2 
+     MET( 14 A   1)           H   is extra (2H,   3H already exist) 
+     LYS( 14 A 108)          O2 
+     MET( 15 A   1)           H   is extra (2H,   3H already exist) 
+     LYS( 15 A 108)          O2 
+     MET( 16 A   1)           H   is extra (2H,   3H already exist) 
+     LYS( 16 A 108)          O2 
+     MET( 17 A   1)           H   is extra (2H,   3H already exist) 
+     LYS( 17 A 108)          O2 
+     MET( 18 A   1)           H   is extra (2H,   3H already exist) 
+     LYS( 18 A 108)          O2 
+     MET( 19 A   1)           H   is extra (2H,   3H already exist) 
+     LYS( 19 A 108)          O2 
+     MET( 20 A   1)           H   is extra (2H,   3H already exist) 
+     LYS( 20 A 108)          O2 
+
+
+2RN7_NMR.pdb: Missing KEYWDS records
+
+2RN7_NMR.pdb: Missing TITLE record
+

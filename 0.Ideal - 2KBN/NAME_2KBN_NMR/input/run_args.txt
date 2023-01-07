@@ -1,0 +1,17 @@
+2KBN_NMR
+nmr
+7
+PDB
+-nesg
+NAME
+-calc_sse
+calculate
+-res_sel
+daop
+-res_sel_option
+0.9
+-res_sel_desc
+DAOP with S(phi)+S(psi)>=1.8
+-sp_comm
+ Analyses performed for DAOP well-defined residues. <br>
+ethan.h.li@gmail.com

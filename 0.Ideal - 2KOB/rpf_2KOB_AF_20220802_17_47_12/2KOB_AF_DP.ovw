@@ -1,0 +1,237 @@
+# created by  ASDP Version 2.3 Copyright(C) 2020 Janet Huang and Gaetano T. Montelione
+# Tue Aug  2 17:47:14 2022
+
+
+# Command: /data/software/asdp/asdp-2.3_LINUX/NOESYASSIGN/Release/noesyassign 
+#		-c /var/www/html/projects/anonymous/2KOB_AF-Jiym/rpf_2KOB_AF_20220802_17_47_12/input1/control_2KOB_AF 
+#		-o /var/www/html/projects/anonymous/2KOB_AF-Jiym/rpf_2KOB_AF_20220802_17_47_12 
+#		-q /var/www/html/projects/anonymous/2KOB_AF-Jiym/2KOB_9bc9e_relaxed_rank_1_model_5.pdb 
+
+
+# Summary for c13ali
+Total simulated peaks: 771 Number of peaks NOT matched in the Peak List: 150
+M score = 0.19
+
+Average shift in HX: -0.0019 Average ab-shift in HX: 0.0054(Assignment used: 328)
+Average shift in X: -0.013 Average ab-shift in X: 0.052(Assignment used: 268)
+Average shift in HX2: 0.0059 Average ab-shift in HX2: 0.012(Assignment used: 375)
+
+#For peaklist c13ali:
+ Rmax: 5
+Model ave Inconsistent score: 0.0362(85/2349) 
+Model   1 Inconsistent score: 0.0362(85/2349) 
+Model ave  Missing interactions: 0.485 (2.41e+03/4968)
+              weighted: 0.172 (2.47e+06/1.44e+07)
+                    <3: 0.124 (77/619)
+                   <3w: 0.118 (8.19e+05/6.95e+06)
+Model   1  Missing interactions: 0.485 (2.41e+03/4968)
+              weighted: 0.172 (2.47e+06/1.44e+07)
+                    <3: 0.124 (77/619)
+                   <3w: 0.118 (8.19e+05/6.95e+06)
+
+Model ave
+ Recall: 0.964
+ Precision: 
+       all: 0.515  allw: 0.828
+        <3: 0.876  <3w: 0.882
+
+ F-measure:(Recall,Precision)  0.671
+ F-measure:(Recall,PrecisionW) 0.891
+
+ F-measure:(0,PrecisionIdeal)  0.934
+ F-measure:(0,PrecisionIdealW) 0.937
+
+Model 1
+ Recall: 0.964
+ Precision: 
+       all: 0.515  allw: 0.828
+        <3: 0.876  <3w: 0.882
+
+ F-measure:(Recall,Precision)  0.671
+ F-measure:(Recall,PrecisionW) 0.891
+
+ F-measure:(0,PrecisionIdeal)  0.934
+ F-measure:(0,PrecisionIdealW) 0.937
+
+For freely-rotating-chain model:
+Model ave Inconsistent score: 0.364(856/2349) 
+Model ave  Missing interactions: 0.363 (689/1899)
+              weighted: 0.183 (2.96e+05/1.62e+06)
+                    <3: 0.126 (77/613)
+                   <3w: 0.126 (1.49e+05/1.19e+06)
+
+ Recall: 0.636
+ Precision: 
+       all: 0.637  allw: 0.817
+
+ F-measure:(RecallFree,PrecisionFree)  0.636
+ F-measure:(ReallFree,PrecisionFreeW) 0.715
+
+# Summary for n15noesy
+Total simulated peaks: 140 Number of peaks NOT matched in the Peak List: 3
+M score = 0.021
+
+Average shift in HX: -0.00088 Average ab-shift in HX: 0.004(Assignment used: 109)
+Average shift in X: -0.00074 Average ab-shift in X: 0.036(Assignment used: 103)
+Average shift in HX2: 0.0056 Average ab-shift in HX2: 0.01(Assignment used: 127)
+
+#For peaklist n15noesy:
+ Rmax: 5
+Model ave Inconsistent score: 0.0415(40/965) 
+Model   1 Inconsistent score: 0.0415(40/965) 
+Model ave  Missing interactions: 0.403 (688/1709)
+              weighted: 0.0845 (3.44e+05/4.07e+06)
+                    <3: 0.00637 (1/157)
+                   <3w: 0.00498 (4.2e+03/8.42e+05)
+Model   1  Missing interactions: 0.403 (688/1709)
+              weighted: 0.0845 (3.44e+05/4.07e+06)
+                    <3: 0.00637 (1/157)
+                   <3w: 0.00498 (4.2e+03/8.42e+05)
+
+Model ave
+ Recall: 0.959
+ Precision: 
+       all: 0.597  allw: 0.915
+        <3: 0.994  <3w: 0.995
+
+ F-measure:(Recall,Precision)  0.736
+ F-measure:(Recall,PrecisionW) 0.937
+
+ F-measure:(0,PrecisionIdeal)  0.997
+ F-measure:(0,PrecisionIdealW) 0.998
+
+Model 1
+ Recall: 0.959
+ Precision: 
+       all: 0.597  allw: 0.915
+        <3: 0.994  <3w: 0.995
+
+ F-measure:(Recall,Precision)  0.736
+ F-measure:(Recall,PrecisionW) 0.937
+
+ F-measure:(0,PrecisionIdeal)  0.997
+ F-measure:(0,PrecisionIdealW) 0.998
+
+For freely-rotating-chain model:
+Model ave Inconsistent score: 0.255(246/965) 
+Model ave  Missing interactions: 0.215 (179/833)
+              weighted: 0.0905 (4.27e+04/4.73e+05)
+                    <3: 0.0263 (4/152)
+                   <3w: 0.0269 (6.8e+03/2.52e+05)
+
+ Recall: 0.745
+ Precision: 
+       all: 0.785  allw: 0.91
+
+ F-measure:(RecallFree,PrecisionFree)  0.765
+ F-measure:(ReallFree,PrecisionFreeW) 0.819
+
+# Summary for c13aro
+Total simulated peaks: 21 Number of peaks NOT matched in the Peak List: 5
+M score = 0.24
+
+Average shift in HX: -0.0017 Average ab-shift in HX: 0.005(Assignment used: 9)
+Average shift in X: 0.0033 Average ab-shift in X: 0.03(Assignment used: 9)
+Average shift in HX2: -0.0039 Average ab-shift in HX2: 0.0084(Assignment used: 14)
+
+#For peaklist c13aro:
+ Rmax: 5
+Model ave Inconsistent score: 0.027(3/111) 
+Model   1 Inconsistent score: 0.027(3/111) 
+Model ave  Missing interactions: 0.649 (287/442)
+              weighted: 0.405 (2.1e+05/5.18e+05)
+                    <3: 0.222 (4/18)
+                   <3w: 0.14 (9.46e+03/6.74e+04)
+Model   1  Missing interactions: 0.649 (287/442)
+              weighted: 0.405 (2.1e+05/5.18e+05)
+                    <3: 0.222 (4/18)
+                   <3w: 0.14 (9.46e+03/6.74e+04)
+
+Model ave
+ Recall: 0.973
+ Precision: 
+       all: 0.351  allw: 0.595
+        <3: 0.778  <3w: 0.86
+
+ F-measure:(Recall,Precision)  0.516
+ F-measure:(Recall,PrecisionW) 0.738
+
+ F-measure:(0,PrecisionIdeal)  0.875
+ F-measure:(0,PrecisionIdealW) 0.925
+
+Model 1
+ Recall: 0.973
+ Precision: 
+       all: 0.351  allw: 0.595
+        <3: 0.778  <3w: 0.86
+
+ F-measure:(Recall,Precision)  0.516
+ F-measure:(Recall,PrecisionW) 0.738
+
+ F-measure:(0,PrecisionIdeal)  0.875
+ F-measure:(0,PrecisionIdealW) 0.925
+
+For freely-rotating-chain model:
+Model ave Inconsistent score: 0.631(70/111) 
+Model ave  Missing interactions: 0.552 (37/67)
+              weighted: 0.592 (2.04e+04/3.44e+04)
+                    <3: 0.429 (9/21)
+                   <3w: 0.618 (1.7e+04/2.75e+04)
+
+ Recall: 0.369
+ Precision: 
+       all: 0.448  allw: 0.408
+
+ F-measure:(RecallFree,PrecisionFree)  0.405
+ F-measure:(ReallFree,PrecisionFreeW) 0.388
+
+
+ Final M-score 0.17 158.00/932.00
+
+Model ave
+
+ Final Recall-score for input query structures: 0.96
+ Final Precision-score for input query structures: 0.84
+
+ Final Recall-score for ideal true structures: 1.00
+ Final Precision-score for ideal true structures: 0.89
+
+ Final Recall-score for freely-rotating-chain model: 0.66
+ Final Precision-score for freely-rotating-chain model: 0.83
+
+ Summary:
+ F-score of input query structures:      0.90
+ F-score of ideal true structures:       0.94
+ F-score of freely-rotating-chain model: 0.73
+
+ DP-Score: 0.78
+
+Model 1
+
+ Final Recall-score for input query structures: 0.96
+ Final Precision-score for input query structures: 0.84
+
+ Final Recall-score for ideal true structures: 1.00
+ Final Precision-score for ideal true structures: 0.89
+
+ Final Recall-score for freely-rotating-chain model: 0.66
+ Final Precision-score for freely-rotating-chain model: 0.83
+
+ Summary:
+ F-score of input query structures:      0.90
+ F-score of ideal true structures:       0.94
+ F-score of freely-rotating-chain model: 0.73
+
+ DP-Score: 0.78
+
+Statistics: 
+=========== 
+
+NOESY_Assign:
+      User CPU Time:      0.930 sec.
+      Syst CPU Time:      0.130 sec.
+Other Processes:
+      User CPU Time:      0.200 sec.
+      Syst CPU Time:      0.010 sec.
+
+Total Elapsed Time:      1.370 sec. 

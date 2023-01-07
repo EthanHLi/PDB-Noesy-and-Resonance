@@ -1,0 +1,211 @@
+#!rasmol -script
+# File: 1
+# Creator: RasMol Version 2.7.1
+
+zap
+load pdb "" background white
+set ambient 40
+set specular off
+
+reset
+slab off
+
+set bonds off
+set axes off
+set boundingbox off
+set unitcell off
+set bondmode and
+dots off
+
+
+# Avoid Colour Problems!
+select all
+colour bonds none
+colour backbone none
+colour hbonds none
+colour ssbonds none
+colour ribbons none
+colour cpk
+
+# Atoms
+select *
+color [0,0,255]
+wireframe off
+select *
+cartoons
+select 62
+color [0, 36, 255]
+select 63
+color [0, 255, 225]
+select 64
+color [255, 8, 0]
+wireframe 80
+select 64 and *.ca
+label 64
+select 64 and *.ca
+set fontsize 10
+center 1
+select 65
+color [0, 255, 4]
+select 66
+color [0, 255, 102]
+select 67
+color [255, 232, 0]
+wireframe 80
+select 67 and *.ca
+label 67
+select 67 and *.ca
+set fontsize 10
+center 1
+select 68
+color [0, 212, 255]
+select 69
+color [0, 199, 255]
+select 70
+color [0, 255, 105]
+select 71
+color [255, 199, 0]
+wireframe 80
+select 71 and *.ca
+label 71
+select 71 and *.ca
+set fontsize 10
+center 1
+select 72
+color [255, 247, 0]
+wireframe 80
+select 72 and *.ca
+label 72
+select 72 and *.ca
+set fontsize 10
+center 1
+select 73
+color [0, 29, 255]
+select 74
+color [0, 36, 255]
+select 75
+color [0, 255, 244]
+select 80
+color [0, 71, 255]
+select 85
+color [0, 255, 93]
+select 87
+color [0, 185, 255]
+select 88
+color [1, 255, 0]
+select 89
+color [0, 255, 234]
+select 90
+color [0, 255, 132]
+select 91
+color [0, 255, 65]
+select 92
+color [0, 255, 233]
+select 93
+color [0, 255, 49]
+select 94
+color [0, 255, 132]
+select 95
+color [0, 68, 255]
+select 96
+color [255, 152, 0]
+wireframe 80
+select 96 and *.ca
+label 96
+select 96 and *.ca
+set fontsize 10
+center 1
+select 97
+color [7, 255, 0]
+select 98
+color [0, 255, 183]
+select 99
+color [255, 240, 0]
+wireframe 80
+select 99 and *.ca
+label 99
+select 99 and *.ca
+set fontsize 10
+center 1
+select 100
+color [255, 162, 0]
+wireframe 80
+select 100 and *.ca
+label 100
+select 100 and *.ca
+set fontsize 10
+center 1
+select 101
+color [0, 145, 255]
+select 102
+color [0, 123, 255]
+select 104
+color [0, 255, 185]
+select 107
+color [99, 255, 0]
+select 109
+color [0, 255, 25]
+select 110
+color [0, 154, 255]
+select 112
+color [0, 255, 147]
+select 113
+color [0, 255, 246]
+select 115
+color [0, 255, 107]
+select 116
+color [0, 239, 255]
+select 117
+color [0, 10, 255]
+select 119
+color [0, 58, 255]
+select 121
+color [0, 102, 255]
+select 125
+color [0, 35, 255]
+select 126
+color [0, 255, 245]
+select 129
+color [2, 255, 0]
+select 130
+color [0, 107, 255]
+select 132
+color [125, 255, 0]
+select 133
+color [0, 255, 220]
+select 135
+color [0, 247, 255]
+select 136
+color [90, 255, 0]
+select 137
+color [97, 255, 0]
+select 139
+color [0, 196, 255]
+select 140
+color [0, 108, 255]
+select 141
+color [7, 255, 0]
+select 146
+color [226, 255, 0]
+select 148
+color [0, 47, 255]
+select 149
+color [0, 107, 255]
+select 150
+color [0, 255, 125]
+select 151
+color [0, 23, 255]
+select 152
+color [0, 9, 255]
+select 153
+color [0, 255, 70]
+select 154
+color [0, 179, 255]
+select 156
+color [0, 49, 255]
+select 162
+color [0, 2, 255]
+restrict */1
+colour label black
+background white
+zoom 150

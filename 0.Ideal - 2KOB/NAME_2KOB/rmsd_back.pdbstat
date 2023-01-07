@@ -1,0 +1,24 @@
+ > Kabsch RMSD of backb atoms in res. *[61..168],for model  1 is: 2.242
+ > Kabsch RMSD of backb atoms in res. *[61..168],for model  2 is: 3.617
+ > Kabsch RMSD of backb atoms in res. *[61..168],for model  3 is: 2.508
+ > Kabsch RMSD of backb atoms in res. *[61..168],for model  4 is: 3.448
+ > Kabsch RMSD of backb atoms in res. *[61..168],for model  5 is: 2.593
+ > Kabsch RMSD of backb atoms in res. *[61..168],for model  6 is: 2.773
+ > Kabsch RMSD of backb atoms in res. *[61..168],for model  7 is: 3.934
+ > Kabsch RMSD of backb atoms in res. *[61..168],for model  8 is: 3.473
+ > Kabsch RMSD of backb atoms in res. *[61..168],for model  9 is: 2.322
+ > Kabsch RMSD of backb atoms in res. *[61..168],for model 10 is: 3.353
+ > Kabsch RMSD of backb atoms in res. *[61..168],for model 11 is: 2.819
+ > Kabsch RMSD of backb atoms in res. *[61..168],for model 12 is: 1.760
+ > Kabsch RMSD of backb atoms in res. *[61..168],for model 13 is: 2.809
+ > Kabsch RMSD of backb atoms in res. *[61..168],for model 14 is: 2.901
+ > Kabsch RMSD of backb atoms in res. *[61..168],for model 15 is: 3.724
+ > Kabsch RMSD of backb atoms in res. *[61..168],for model 16 is: 2.439
+ > Kabsch RMSD of backb atoms in res. *[61..168],for model 17 is: 1.671 (*)
+ > Kabsch RMSD of backb atoms in res. *[61..168],for model 18 is: 3.203
+ > Kabsch RMSD of backb atoms in res. *[61..168],for model 19 is: 2.751
+ > Kabsch RMSD of backb atoms in res. *[61..168],for model 20 is: 2.677
+ >
+ > Kabsch RMSD statistics for 20 structures: 
+ > Mean RMSD using as refer. str. `average' for res.[61..168], is: 2.851, StdDev: 0.603 
+ > Range of RMSD values to reference struct. is 1.671 to 3.934 

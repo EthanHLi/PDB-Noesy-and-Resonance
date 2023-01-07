@@ -1,0 +1,53 @@
+ > 
+ > Kabsch RMSD data for family `2KOB.pdb' 
+ > 
+ > Kabsch RMSD of backbone atoms in res. A[63..157],for model  1 is: 0.513
+ > Kabsch RMSD of backbone atoms in res. A[63..157],for model  2 is: 0.466
+ > Kabsch RMSD of backbone atoms in res. A[63..157],for model  3 is: 0.491
+ > Kabsch RMSD of backbone atoms in res. A[63..157],for model  4 is: 0.499
+ > Kabsch RMSD of backbone atoms in res. A[63..157],for model  5 is: 0.410 (*)
+ > Kabsch RMSD of backbone atoms in res. A[63..157],for model  6 is: 0.525
+ > Kabsch RMSD of backbone atoms in res. A[63..157],for model  7 is: 0.639
+ > Kabsch RMSD of backbone atoms in res. A[63..157],for model  8 is: 0.468
+ > Kabsch RMSD of backbone atoms in res. A[63..157],for model  9 is: 0.517
+ > Kabsch RMSD of backbone atoms in res. A[63..157],for model 10 is: 0.506
+ > Kabsch RMSD of backbone atoms in res. A[63..157],for model 11 is: 0.549
+ > Kabsch RMSD of backbone atoms in res. A[63..157],for model 12 is: 0.522
+ > Kabsch RMSD of backbone atoms in res. A[63..157],for model 13 is: 0.475
+ > Kabsch RMSD of backbone atoms in res. A[63..157],for model 14 is: 0.498
+ > Kabsch RMSD of backbone atoms in res. A[63..157],for model 15 is: 0.458
+ > Kabsch RMSD of backbone atoms in res. A[63..157],for model 16 is: 0.591
+ > Kabsch RMSD of backbone atoms in res. A[63..157],for model 17 is: 0.426
+ > Kabsch RMSD of backbone atoms in res. A[63..157],for model 18 is: 0.695
+ > Kabsch RMSD of backbone atoms in res. A[63..157],for model 19 is: 0.552
+ > Kabsch RMSD of backbone atoms in res. A[63..157],for model 20 is: 0.541
+ >
+ > Kabsch RMSD statistics for 20 structures: 
+ > Mean RMSD using as refer. str. `average' for res.[63..157], is: 0.517, StdDev: 0.066 
+ > Range of RMSD values to reference struct. is 0.410 to 0.695 
+
+
+ > Kabsch RMSD of heavy atoms in res. A[63..157],for model  1 is: 1.065
+ > Kabsch RMSD of heavy atoms in res. A[63..157],for model  2 is: 1.006
+ > Kabsch RMSD of heavy atoms in res. A[63..157],for model  3 is: 0.990
+ > Kabsch RMSD of heavy atoms in res. A[63..157],for model  4 is: 1.192
+ > Kabsch RMSD of heavy atoms in res. A[63..157],for model  5 is: 0.901
+ > Kabsch RMSD of heavy atoms in res. A[63..157],for model  6 is: 1.042
+ > Kabsch RMSD of heavy atoms in res. A[63..157],for model  7 is: 1.065
+ > Kabsch RMSD of heavy atoms in res. A[63..157],for model  8 is: 1.092
+ > Kabsch RMSD of heavy atoms in res. A[63..157],for model  9 is: 1.077
+ > Kabsch RMSD of heavy atoms in res. A[63..157],for model 10 is: 1.030
+ > Kabsch RMSD of heavy atoms in res. A[63..157],for model 11 is: 0.977
+ > Kabsch RMSD of heavy atoms in res. A[63..157],for model 12 is: 1.019
+ > Kabsch RMSD of heavy atoms in res. A[63..157],for model 13 is: 0.858 (*)
+ > Kabsch RMSD of heavy atoms in res. A[63..157],for model 14 is: 1.024
+ > Kabsch RMSD of heavy atoms in res. A[63..157],for model 15 is: 0.951
+ > Kabsch RMSD of heavy atoms in res. A[63..157],for model 16 is: 1.006
+ > Kabsch RMSD of heavy atoms in res. A[63..157],for model 17 is: 0.983
+ > Kabsch RMSD of heavy atoms in res. A[63..157],for model 18 is: 1.037
+ > Kabsch RMSD of heavy atoms in res. A[63..157],for model 19 is: 1.053
+ > Kabsch RMSD of heavy atoms in res. A[63..157],for model 20 is: 1.090
+ >
+ > Kabsch RMSD statistics for 20 structures: 
+ > Mean RMSD using as refer. str. `average' for res.[63..157], is: 1.023, StdDev: 0.070 
+ > Range of RMSD values to reference struct. is 0.858 to 1.192 

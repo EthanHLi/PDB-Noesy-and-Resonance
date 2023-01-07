@@ -1,0 +1,4 @@
+RMSD Values
+                    all residues  ordered residues   selected residues
+All backbone atoms      0.9            0.4             0.4
+All heavy atoms         1.2            0.6             0.6

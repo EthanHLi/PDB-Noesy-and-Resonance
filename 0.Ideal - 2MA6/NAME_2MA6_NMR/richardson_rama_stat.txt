@@ -1,0 +1,23 @@
+#Ramachandran statistics from Richardson Lab's Molprobity
+Model	Favored	Allowed	Outlier	Outlier_res
+1	41	6	0	46:PHE
+2	39	7	1	25:PRO,46:PHE
+3	43	4	0	46:PHE
+4	41	6	0	46:PHE
+5	42	5	0	46:PHE
+6	41	6	0	4:PRO,19:ILE,46:PHE
+7	41	6	0	46:PHE
+8	42	5	0
+9	41	6	0	5:THR,6:SER,46:PHE
+10	40	6	1	3:MET,46:PHE,48:CYS
+11	40	7	0	46:PHE
+12	40	7	0	2:HIS,46:PHE
+13	41	6	0	46:PHE
+14	40	7	0	46:PHE
+15	39	8	0	2:HIS,46:PHE
+16	40	7	0
+17	43	4	0	18:PRO,46:PHE
+18	42	5	0	46:PHE
+19	36	11	0	3:MET,19:ILE
+20	40	7	0	46:PHE
+Overall	812	126	2

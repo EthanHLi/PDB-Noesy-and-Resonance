@@ -1,0 +1,53 @@
+ > 
+ > Kabsch RMSD data for family `2KBN_NMR.pdb' 
+ > 
+ > Kabsch RMSD of backbone atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model  1 is: 0.412
+ > Kabsch RMSD of backbone atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model  2 is: 0.395
+ > Kabsch RMSD of backbone atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model  3 is: 0.385
+ > Kabsch RMSD of backbone atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model  4 is: 0.401
+ > Kabsch RMSD of backbone atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model  5 is: 0.478
+ > Kabsch RMSD of backbone atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model  6 is: 0.427
+ > Kabsch RMSD of backbone atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model  7 is: 0.360
+ > Kabsch RMSD of backbone atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model  8 is: 0.491
+ > Kabsch RMSD of backbone atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model  9 is: 0.367
+ > Kabsch RMSD of backbone atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model 10 is: 0.450
+ > Kabsch RMSD of backbone atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model 11 is: 0.510
+ > Kabsch RMSD of backbone atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model 12 is: 0.437
+ > Kabsch RMSD of backbone atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model 13 is: 0.390
+ > Kabsch RMSD of backbone atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model 14 is: 0.480
+ > Kabsch RMSD of backbone atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model 15 is: 0.389
+ > Kabsch RMSD of backbone atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model 16 is: 0.358
+ > Kabsch RMSD of backbone atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model 17 is: 0.391
+ > Kabsch RMSD of backbone atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model 18 is: 0.293 (*)
+ > Kabsch RMSD of backbone atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model 19 is: 0.422
+ > Kabsch RMSD of backbone atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model 20 is: 0.440
+ >
+ > Kabsch RMSD statistics for 20 structures: 
+ > Mean RMSD using as refer. str. `average' for res.[3..14],[17..29],[35..53],[58..77],[81..86],[89..97], is: 0.414, StdDev: 0.051 
+ > Range of RMSD values to reference struct. is 0.293 to 0.510 
+
+
+ > Kabsch RMSD of heavy atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model  1 is: 0.826
+ > Kabsch RMSD of heavy atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model  2 is: 0.830
+ > Kabsch RMSD of heavy atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model  3 is: 0.880
+ > Kabsch RMSD of heavy atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model  4 is: 0.953
+ > Kabsch RMSD of heavy atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model  5 is: 0.920
+ > Kabsch RMSD of heavy atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model  6 is: 0.826
+ > Kabsch RMSD of heavy atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model  7 is: 1.002
+ > Kabsch RMSD of heavy atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model  8 is: 0.922
+ > Kabsch RMSD of heavy atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model  9 is: 0.861
+ > Kabsch RMSD of heavy atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model 10 is: 0.954
+ > Kabsch RMSD of heavy atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model 11 is: 1.051
+ > Kabsch RMSD of heavy atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model 12 is: 0.937
+ > Kabsch RMSD of heavy atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model 13 is: 0.820 (*)
+ > Kabsch RMSD of heavy atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model 14 is: 0.979
+ > Kabsch RMSD of heavy atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model 15 is: 0.830
+ > Kabsch RMSD of heavy atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model 16 is: 0.862
+ > Kabsch RMSD of heavy atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model 17 is: 0.941
+ > Kabsch RMSD of heavy atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model 18 is: 0.900
+ > Kabsch RMSD of heavy atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model 19 is: 0.937
+ > Kabsch RMSD of heavy atoms in res. A[3..14],A[17..29],A[35..53],A[58..77],A[81..86],A[89..97],for model 20 is: 0.828
+ >
+ > Kabsch RMSD statistics for 20 structures: 
+ > Mean RMSD using as refer. str. `average' for res.[3..14],[17..29],[35..53],[58..77],[81..86],[89..97], is: 0.903, StdDev: 0.066 
+ > Range of RMSD values to reference struct. is 0.820 to 1.051 
